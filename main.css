@@ -1,0 +1,13 @@
+.header {
+    background-color: rgba(13, 14, 14, 0.75);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    min-width: 1280px;
+    height: 66px;
+}
+
+
