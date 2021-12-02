@@ -8,6 +8,10 @@
     width: 100%;
     min-width: 1280px;
     height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 .icon_navbar:hover {
@@ -28,8 +32,8 @@
     transition: all 0.3s;
 }
 
-body {
-
+.icon_navbar img {
+    width: 85%;
+    height: 85%;
 }
-
 
