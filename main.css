@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding: 0;
 }
 
 .icon_navbar:hover {
@@ -39,27 +40,32 @@
 .icon_navbar img {
     width: 85%;
     height: 85%;
+
 }
 
 .characters {
     display:none;
-    position: absolute;
-    top: 100%;
-    width: 85%;
-    height: 85%;
+    position: relative;
+    top: 110%;
+    width: 40vw;
+    min-width: 200px;
+    height: auto;
     text-align: center;
     align-items: center;
     justify-content: center;
     left:0;
+    background-color: rgba(13, 14, 14, 0.85);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
 }
 
 .char_icon:hover .characters{
-    display: inline-block;
-    /*text-decoration: none;*/
+    display: flex;
+    text-decoration: none;
+
 
 }
 
-a:after {
+a.icon_navbar:after {
     bottom: 0;
     content: "";
     display: block;
@@ -70,7 +76,20 @@ a:after {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
-a:hover:after {
+a.icon_navbar:hover:after {
     width: 100%;
     left: 0;
+}
+
+.icon_navbar a{
+    display: flex;
+    justify-content: center;
+}
+
+.a_icon{
+    position: relative;
+}
+
+.a_icon img {
+    padding: 0 10% 0 10%;
 }
