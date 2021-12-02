@@ -41,3 +41,36 @@
     height: 85%;
 }
 
+.characters {
+    display:none;
+    position: absolute;
+    top: 100%;
+    width: 85%;
+    height: 85%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left:0;
+}
+
+.char_icon:hover .characters{
+    display: inline-block;
+    /*text-decoration: none;*/
+
+}
+
+a:after {
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4%;
+    left: 20%;
+    position: absolute;
+    background: #fff none repeat scroll 0 0;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+a:hover:after {
+    width: 100%;
+    left: 0;
+}
