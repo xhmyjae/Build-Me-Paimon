@@ -10,4 +10,18 @@
     height: 66px;
 }
 
+.icon_navbar:hover {
+    transform: scale(1.04);
+    filter: brightness(1.1);
+}
+
+.icon_navbar {
+    position: absolute;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
 
