@@ -16,6 +16,7 @@
 }
 
 .icon_navbar {
+    filter: brightness(0.6);
     display:inline-block;
     margin: 0 30px;
     list-style: none;
@@ -25,6 +26,10 @@
     background-repeat: no-repeat;
     cursor: pointer;
     transition: all 0.3s;
+}
+
+body {
+
 }
 
 
