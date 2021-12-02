@@ -19,6 +19,10 @@
     filter: brightness(1.1);
 }
 
+.icon_navbar:active {
+    /*ajouter la barre en dessous de icone quand selectionne*/
+}
+
 .icon_navbar {
     filter: brightness(0.6);
     display:inline-block;
