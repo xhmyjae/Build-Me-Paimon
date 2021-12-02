@@ -2,16 +2,28 @@ body {
     background-image: url("../images/wallpaper/global_background.png");
     background-attachment: fixed!important;
     background-size: cover!important;
+    overflow-x: hidden;
 }
 
 .background {
     background-image: url("../images/wallpaper/mid_bar.jpg");
     width: 102vw;
-    height: 76%;
+    height: 35vw;
     position: absolute;
     background-size: cover;
     right: 0;
     left: -1%;
-    top: 12%;
+    top: 9vw;
     border: #efd5a3 0.5vw solid;
+    z-index: 10;
+}
+
+.character img{
+    width: 130%;
+}
+
+.character {
+    position: absolute;
+    z-index: 700;
+    bottom: 0;
 }
