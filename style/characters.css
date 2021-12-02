@@ -7,6 +7,7 @@ body {
 
 .background {
     background-image: url("../images/wallpaper/mid_bar.jpg");
+    filter: brightness(0.7);
     width: 102vw;
     height: 35vw;
     position: absolute;
@@ -19,11 +20,13 @@ body {
 }
 
 .character img{
-    width: 130%;
+    width: 100%;
+    left: -21vw;
+    position: relative;
 }
 
 .character {
     position: absolute;
     z-index: 700;
-    bottom: 0;
+    bottom: -3px;
 }
