@@ -16,7 +16,10 @@
 }
 
 .icon_navbar {
-    position: absolute;
+    display:inline-block;
+    margin: 0 30px;
+    list-style: none;
+    position: relative;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
