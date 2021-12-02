@@ -1,5 +1,17 @@
 body {
-    background-image: url("../images/wallpaper/chara_page.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+    background-image: url("../images/wallpaper/global_background.png");
+    background-attachment: fixed!important;
+    background-size: cover!important;
+}
+
+.background {
+    background-image: url("../images/wallpaper/mid_bar.jpg");
+    width: 102vw;
+    height: 76%;
+    position: absolute;
+    background-size: cover;
+    right: 0;
+    left: -1%;
+    top: 12%;
+    border: #efd5a3 0.5vw solid;
 }
