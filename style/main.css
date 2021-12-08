@@ -118,3 +118,8 @@ a.icon_navbar:hover:after {
     width: 65px;
     height: 65px;
 }
+
+.a_icon img:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
