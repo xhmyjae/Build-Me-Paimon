@@ -1,4 +1,12 @@
-.header {
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
     background-color: rgba(13, 14, 14, 0.75);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
     position: fixed;
@@ -8,9 +16,6 @@
     width: 100%;
     min-width: 1280px;
     height: 66px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0;
     padding: 0;
 }
@@ -18,10 +23,6 @@
 .icon_navbar:hover {
     transform: scale(1.04);
     filter: brightness(1.1);
-}
-
-.icon_navbar:active {
-    /*ajouter la barre en dessous de icone quand selectionne*/
 }
 
 .icon_navbar {
@@ -37,32 +38,38 @@
     transition: all 0.3s;
 }
 
-.icon_navbar img {
-    width: 85%;
-    height: 85%;
-
-}
-
 .characters {
     display:none;
-    position: relative;
-    top: 110%;
-    width: 40vw;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 80vw;
     min-width: 200px;
     height: auto;
     text-align: center;
     align-items: center;
     justify-content: center;
-    left:0;
     background-color: rgba(13, 14, 14, 0.85);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
+
 }
 
-.char_icon:hover .characters{
+.char_icon:hover + .characters{
     display: flex;
+    flex-flow: wrap;
     text-decoration: none;
+}
 
+.characters:hover{
+    display: flex;
+    flex-flow: wrap;
+}
 
+.characters > a {
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a.icon_navbar:after {
@@ -92,4 +99,6 @@ a.icon_navbar:hover:after {
 
 .a_icon img {
     padding: 0 10% 0 10%;
+    width: 65px;
+    height: 65px;
 }
