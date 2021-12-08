@@ -28,7 +28,7 @@
 .icon_navbar {
     filter: brightness(0.6);
     display:inline-block;
-    margin: 0 2vw;
+    margin: 0 30px;
     list-style: none;
     position: relative;
     background-position: center;
@@ -39,8 +39,8 @@
 }
 
 .icon_navbar img {
-    width: 85%;
-    height: 85%;
+    width: 63px;
+    height: 63px;
 }
 
 .characters {
