@@ -16,7 +16,6 @@ body {
     top: 9vw;
     bottom: 5vw;
     border: #efd5a3 0.5vw solid;
-    z-index: 10;
 }
 
 .character img{
@@ -28,7 +27,6 @@ body {
 
 .character {
     position: absolute;
-    z-index: 700;
     bottom: -3px;
 }
 
@@ -41,7 +39,6 @@ body {
     font-family: 'zh-cn';
     filter: opacity(0.3);
     font-size: 5vw;
-    z-index: 900;
     position: absolute;
 }
 
