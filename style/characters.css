@@ -9,20 +9,21 @@ body {
     background-image: url("../images/wallpaper/mid_bar.jpg");
     filter: brightness(0.7);
     width: 102vw;
-    height: 35vw;
     position: absolute;
     background-size: cover;
     right: 0;
     left: -1%;
     top: 9vw;
+    bottom: 5vw;
     border: #efd5a3 0.5vw solid;
     z-index: 10;
 }
 
 .character img{
     width: 100%;
-    left: -21vw;
-    position: relative;
+    left: -23vw;
+    position: fixed;
+    bottom: 0;
 }
 
 .character {

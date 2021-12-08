@@ -1,0 +1,42 @@
+.content {
+    z-index: 999;
+    right: 10vw;
+    top: 15vw;
+    position: absolute;
+}
+
+.header_navchara {
+    position: absolute;
+    top: 10vw;
+    right: 10%;
+    z-index:2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.icon_navchara {
+    filter: brightness(0.6);
+    list-style: none;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 0 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_navchara img {
+    width: 85%;
+    height: 85%;
+}
+
+.icon_navchara:hover {
+    transform: scale(1.04);
+    filter: brightness(1.1);
+}
