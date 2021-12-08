@@ -28,7 +28,7 @@
 .icon_navbar {
     filter: brightness(0.6);
     display:inline-block;
-    margin: 0 30px;
+    margin: 0 2vw;
     list-style: none;
     position: relative;
     background-position: center;
@@ -36,6 +36,11 @@
     background-repeat: no-repeat;
     cursor: pointer;
     transition: all 0.3s;
+}
+
+.icon_navbar img {
+    width: 85%;
+    height: 85%;
 }
 
 .characters {

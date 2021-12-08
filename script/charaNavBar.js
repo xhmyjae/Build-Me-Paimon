@@ -1,0 +1,26 @@
+function charaNavBar() {
+    let nav = document.createElement("ul");
+    nav.setAttribute("class", "header_navchara");
+
+    const charaIcons = ["Weapons", "Artifacts", "Materials", "Talents", "Constellations", "Lore"];
+    const linksIcons = ["Icon_Inventory_Weapons.png", "Icon_Inventory_Artifacts.png", "Icon_Inventory_Materials.png", "Icon_Inventory_Gadget.png", "Icon_Inventory_Precious_Items.png", "Icon_Inventory_Quest.png"];
+
+    for (let i = 0; i < charaIcons.length; i++) {
+        let icons = document.createElement("li");
+        icons.setAttribute("class", "icon_navchara");
+        icons.setAttribute("id", charaIcons[i]);
+
+        let img = document.createElement("img");
+        img.setAttribute("src", "../images/icons/"+linksIcons[i]);
+        img.setAttribute("title", charaIcons[i]);
+        img.setAttribute("alt", charaIcons[i]);
+
+        icons.appendChild(img);
+        nav.appendChild(icons);
+    }
+
+    let content = document.getElementsByClassName("content");
+    document.body.appendChild(nav);
+}
+
+charaNavBar()
