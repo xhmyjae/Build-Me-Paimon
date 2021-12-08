@@ -1,25 +1,22 @@
 #content {
     position: absolute;
-    top: 20vw;
-    right: 10%;
+    top: 10vw;
+    right: 5%;
     z-index: 801;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
     list-style: none;
+    width: 43%;
 }
 
 .header_navchara {
     position: relative;
-    top: -10vw;
-    right: 0;
-    z-index: 800;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;
     padding: 0;
+    z-index: 999;
 }
 
 .icon_navchara {
@@ -49,6 +46,6 @@
 
 #text {
     position: relative;
-    top: -10vw;
-    width: 50%;
+    top: -1vw;
+    padding-top: 3%;
 }

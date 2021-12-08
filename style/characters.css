@@ -31,3 +31,21 @@ body {
     z-index: 700;
     bottom: -3px;
 }
+
+.name {
+    width: 97.5vw;
+    height: 97vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: 'zh-cn';
+    filter: opacity(0.3);
+    font-size: 5vw;
+    z-index: 900;
+    position: absolute;
+}
+
+@font-face {
+    font-family: 'zh-cn';
+    src: url('zh-cn.ttf') format('truetype');
+}
