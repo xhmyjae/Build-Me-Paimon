@@ -20,7 +20,8 @@ function charaNavBar() {
     }
 
     let content = document.getElementById("content");
-    content.appendChild(nav);
+    let text = document.getElementById("text");
+    content.insertBefore(nav, text);
 }
 
 charaNavBar()

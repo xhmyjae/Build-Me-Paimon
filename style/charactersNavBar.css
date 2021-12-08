@@ -5,15 +5,16 @@
     z-index: 801;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     list-style: none;
 }
 
 .header_navchara {
-    position: absolute;
+    position: relative;
     top: -10vw;
     right: 0;
-    z-index:800;
+    z-index: 800;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,4 +45,10 @@
 .icon_navchara:hover {
     transform: scale(1.04);
     filter: brightness(1.1);
+}
+
+#text {
+    position: relative;
+    top: -10vw;
+    width: 50%;
 }
