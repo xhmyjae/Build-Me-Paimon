@@ -75,6 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
 }
 
 a.icon_navbar:after {
