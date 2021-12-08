@@ -2,7 +2,7 @@
     position: absolute;
     top: 10vw;
     right: 5%;
-    z-index: 801;
+    z-index: 2000;
     display: flex;
     flex-direction: column;
     list-style: none;
