@@ -1,19 +1,24 @@
-.content {
-    z-index: 999;
-    right: 10vw;
-    top: 15vw;
+#content {
     position: absolute;
-}
-
-.header_navchara {
-    position: absolute;
-    top: 10vw;
+    top: 20vw;
     right: 10%;
-    z-index:2000;
+    z-index: 801;
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
+}
+
+.header_navchara {
+    position: absolute;
+    top: -10vw;
+    right: 0;
+    z-index:800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
 }
 
 .icon_navchara {
