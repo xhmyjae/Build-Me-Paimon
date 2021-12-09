@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.weaponsContent div , .artifacts div, .materials div{
+.weaponsContent div:not(.page) , .artifacts div:not(.page), .materials div:not(.page){
     display: flex;
     flex-direction: column;
     position: relative;
@@ -99,4 +99,19 @@
 .materials div {
     flex-direction: row;
     align-items: center;
+}
+
+.page {
+    position: absolute;
+    top: 19vw;
+    left: 18vw;
+}
+
+.page img:hover {
+    cursor: pointer;
+}
+
+.page img {
+    height: 1.5vw;
+    margin: 10px;
 }
