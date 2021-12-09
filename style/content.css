@@ -1,28 +1,36 @@
 .lore {
     font-size: 1.25vw;
-    display: none;
 }
 
 /*.weapon {
     width: 6vw;
 }*/
 
-.weaponsContent {
-    top: 4vw;
-    display: flex;
+.weaponsContent , .artifacts{
+    top: 2vw;
+    display: none;
     align-items: center;
     justify-content: space-between;
     position: relative;
 }
 
-.weaponsContent > div {
+.weaponsContent div , .artifacts div, .materials div{
     display: flex;
     flex-direction: column;
     position: relative;
     left: 4%;
 }
 
-.weapons4 {
+.rare2 {
+    background: linear-gradient(rgba(75,96,96,.800), rgba(117,155,131,.800));
+    border-radius: 2vw;
+    border: 0.2vw solid #efd5a3;
+    width: 6vw;
+    height: 6vw;
+    box-shadow: 0 0.1vw 0.8vw seagreen;
+}
+
+.rare4 {
     background: linear-gradient(rgba(89,92,135,.800), rgba(137,113,175,.800));
     border-radius: 2vw;
     border: 0.2vw solid #efd5a3;
@@ -31,7 +39,7 @@
     box-shadow: 0 0.1vw 0.8vw violet;
 }
 
-.weapons5 {
+.rare5 {
     background: linear-gradient(rgba(140,107,53,.800), rgba(179,120,50,.800));
     border-radius: 2vw;
     border: 0.2vw solid #efd5a3;
@@ -40,7 +48,7 @@
     box-shadow: 0 0.1vw 0.8vw darkgoldenrod;
 }
 
-.weaponsName {
+.weaponsName, .artifactsName, .ascension {
     color: #efd5a3;
     font-family: 'zh-cn';
     position: relative;
@@ -48,16 +56,47 @@
     font-size: 1.3vw;
 }
 
-.weaponsText {
+.weaponsText, .artifactsText {
     top: 0.3vw;
+    position: relative;
+    width: 90%;
 }
 
-.littlenavbar {
-    display: flex;
+.artifacts {
+    display: none;
 }
 
-.points {
-    width: 0.1vw;
-    height: 0.1vw;
-    color: white;
+.materials {
+    display: none;
+}
+
+.talents {
+    display: none;
+}
+
+.constellations {
+    display: none;
+}
+
+.w2 {
+    display: none;
+}
+
+.w3 {
+    display: none;
+}
+
+.materialsName {
+    font-size: 1vw;
+}
+
+.material {
+    border-radius: 1.5vw;
+    width: 4vw;
+    height: 4vw;
+}
+
+.materials div {
+    flex-direction: row;
+    align-items: center;
 }

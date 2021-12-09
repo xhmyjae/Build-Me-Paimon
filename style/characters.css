@@ -19,14 +19,14 @@ body {
 }
 
 .character img{
-    width: 100%;
-    left: -29vw;
+    height: 100vh;
+    left: -29%;
     position: fixed;
     bottom: -4%;
 }
 
 .character {
-    position: absolute;
+    position: fixed;
     bottom: -3px;
 }
 

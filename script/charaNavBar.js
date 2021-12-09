@@ -89,4 +89,5 @@ function hideAll() {
 window.onload = function () {
     charaNavBar()
     switchContent()
+    switchInContent()
 }
