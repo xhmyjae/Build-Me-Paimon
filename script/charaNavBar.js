@@ -24,4 +24,69 @@ function charaNavBar() {
     content.insertBefore(nav, text);
 }
 
-charaNavBar()
+
+function switchContent() {
+    let lore = document.getElementById("Lore");
+    let weapons = document.getElementById("Weapons");
+    let artifacts = document.getElementById("Artifacts");
+    let materials = document.getElementById("Materials");
+    let talents = document.getElementById("Talents");
+    let constellations = document.getElementById("Constellations");
+
+    let loreCont = document.getElementsByClassName("lore")[0];
+    let weaponsCont = document.getElementsByClassName("weaponsContent")[0];
+    let artifactsCont = document.getElementsByClassName("artifacts")[0];
+    let materialsCont = document.getElementsByClassName("materials")[0];
+    let talentsCont = document.getElementsByClassName("talents")[0];
+    let constellationsCont = document.getElementsByClassName("constellations")[0];
+
+    console.log(lore)
+
+    lore.onclick = function () {
+        hideAll()
+        loreCont.style.display = "flex";
+    }
+    weapons.onclick = function () {
+        hideAll()
+        weaponsCont.style.display = "flex";
+
+    }
+    artifacts.onclick = function () {
+        hideAll()
+        artifactsCont.style.display = "flex";
+
+    }
+    materials.onclick = function () {
+        hideAll()
+        materialsCont.style.display = "flex";
+    }
+    talents.onclick = function () {
+        hideAll()
+        talentsCont.style.display = "flex";
+    }
+    constellations.onclick = function () {
+        hideAll()
+        constellationsCont.style.display = "flex";
+    }
+}
+
+function hideAll() {
+    let loreCont = document.getElementsByClassName("lore")[0];
+    let weaponsCont = document.getElementsByClassName("weaponsContent")[0];
+    let artifactsCont = document.getElementsByClassName("artifacts")[0];
+    let materialsCont = document.getElementsByClassName("materials")[0];
+    let talentsCont = document.getElementsByClassName("talents")[0];
+    let constellationsCont = document.getElementsByClassName("constellations")[0];
+
+    loreCont.style.display = "none";
+    weaponsCont.style.display = "none";
+    artifactsCont.style.display = "none";
+    materialsCont.style.display = "none";
+    talentsCont.style.display = "none";
+    constellationsCont.style.display = "none";
+}
+
+window.onload = function () {
+    charaNavBar()
+    switchContent()
+}

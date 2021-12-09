@@ -15,7 +15,7 @@
     position: relative;
 }
 
-.weaponsContent div {
+.weaponsContent > div {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -50,4 +50,14 @@
 
 .weaponsText {
     top: 0.3vw;
+}
+
+.littlenavbar {
+    display: flex;
+}
+
+.points {
+    width: 0.1vw;
+    height: 0.1vw;
+    color: white;
 }
