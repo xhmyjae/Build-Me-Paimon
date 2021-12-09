@@ -66,13 +66,13 @@
 /*    transform: scale(1.04);*/
 /*}*/
 
-.navcontent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+/*.navcontent {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*}*/
 
-.materials {
-    display: flex;
-    flex-direction: column;
-}
+/*.materials {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/

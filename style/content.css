@@ -69,6 +69,7 @@
 .materials {
     display: none;
     flex-flow: wrap;
+    flex-direction: column;
 }
 
 .talents {
