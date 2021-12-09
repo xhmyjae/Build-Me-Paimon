@@ -1,6 +1,6 @@
 #content {
     position: absolute;
-    top: 10vw;
+    top: 8.5vw;
     right: 5%;
     display: flex;
     flex-direction: column;
@@ -46,5 +46,5 @@
 #text {
     position: relative;
     top: -1vw;
-    padding-top: 3%;
+    padding-top: 2%;
 }
