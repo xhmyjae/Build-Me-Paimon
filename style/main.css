@@ -153,3 +153,17 @@ a.icon_navbar:hover:after {
     transition: all 0.2s;
 }
 
+.resized img {
+    width: 65%;
+    left:-12%;
+}
+
+.resized_toobig img {
+    width: 55%;
+    left:-10%;
+}
+
+.yanfei_box img {
+    left:-10%; /*yanfei splash not clean, left needed*/
+}
+
