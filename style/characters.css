@@ -20,14 +20,17 @@ body {
 
 .character img{
     height: 100vh;
-    left: -29%;
-    position: fixed;
-    bottom: -4%;
 }
 
 .character {
-    position: fixed;
     bottom: -3px;
+    width: 97.5vw;
+    height: 97vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    left: -29vw;
 }
 
 .name {

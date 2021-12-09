@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.weaponsContent div , .artifacts div, .materials div{
+.weaponsContent div:not(page) , .artifacts div, .materials div{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -68,6 +68,7 @@
 
 .materials {
     display: none;
+    flex-flow: wrap;
 }
 
 .talents {
@@ -88,6 +89,7 @@
 
 .materialsName {
     font-size: 1vw;
+    margin-left: 2%;
 }
 
 .material {
@@ -99,4 +101,5 @@
 .materials div {
     flex-direction: row;
     align-items: center;
+    margin-bottom: 2%;
 }
