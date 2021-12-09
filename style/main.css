@@ -1,11 +1,12 @@
 body {
     color: white;
-    font-size: 2vw;
+    font-size: 1.25vw;
     text-shadow:
             .1vw 0vw .25vw #181817,
             .15vw 0vw .25vw #272726,
             .1vw 0vw .1vw #272726;
     overflow: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{

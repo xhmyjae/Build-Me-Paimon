@@ -1,3 +1,53 @@
 .lore {
     font-size: 1.25vw;
+    display: none;
+}
+
+/*.weapon {
+    width: 6vw;
+}*/
+
+.weaponsContent {
+    top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.weaponsContent div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 4%;
+}
+
+.weapons4 {
+    background: linear-gradient(rgba(89,92,135,.800), rgba(137,113,175,.800));
+    border-radius: 2vw;
+    border: 0.2vw solid #efd5a3;
+    width: 6vw;
+    height: 6vw;
+    box-shadow: 0 0.1vw 0.8vw violet;
+}
+
+.weapons5 {
+    background: linear-gradient(rgba(140,107,53,.800), rgba(179,120,50,.800));
+    border-radius: 2vw;
+    border: 0.2vw solid #efd5a3;
+    width: 6vw;
+    height: 6vw;
+    box-shadow: 0 0.1vw 0.8vw darkgoldenrod;
+}
+
+.weaponsName {
+    color: #efd5a3;
+    font-family: 'zh-cn';
+    position: relative;
+    bottom: 0.3vw;
+    font-size: 1.3vw;
+}
+
+.weaponsText {
+    top: 0.3vw;
 }
