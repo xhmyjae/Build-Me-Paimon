@@ -40,8 +40,6 @@ function switchContent() {
     let talentsCont = document.getElementsByClassName("talents")[0];
     let constellationsCont = document.getElementsByClassName("constellations")[0];
 
-    console.log(lore)
-
     lore.onclick = function () {
         hideAll()
         loreCont.style.display = "flex";
@@ -49,7 +47,6 @@ function switchContent() {
     weapons.onclick = function () {
         hideAll()
         weaponsCont.style.display = "flex";
-
     }
     artifacts.onclick = function () {
         hideAll()
@@ -65,7 +62,6 @@ function switchContent() {
         talentsCont.style.display = "flex";
     }
     constellations.onclick = function () {
-        hideAll()
         constellationsCont.style.display = "flex";
     }
 }
