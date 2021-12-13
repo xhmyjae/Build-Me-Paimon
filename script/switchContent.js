@@ -8,13 +8,24 @@ function switchInContent() {
     let b7 = document.getElementById("b7");
     let b8 = document.getElementById("b8");
 
+    let b1Cont = document.getElementsByClassName("artifacts_set1")[0];
+    let b2Cont = document.getElementsByClassName("artifacts_set2")[0];
+    // let b3Cont = document.getElementsByClassName("artifacts_set1")[0];
+    // let b4Cont = document.getElementsByClassName("artifacts_set2")[0];
+    // let b5Cont = document.getElementsByClassName("artifacts_set1")[0];
+    // let b6Cont = document.getElementsByClassName("artifacts_set2")[0];
+    // let b7Cont = document.getElementsByClassName("artifacts_set1")[0];
+    // let b8Cont = document.getElementsByClassName("artifacts_set2")[0];
+
     b1.onclick = function () {
         changeArtButtons()
         b1.src = "../images/icons/page_checked.png";
+        b1Cont.style.display = "flex";
     }
     b2.onclick = function () {
         changeArtButtons()
         b2.src = "../images/icons/page_checked.png";
+        b2Cont.style.display = "flex";
     }
     b3.onclick = function () {
         changeMatButtons()
@@ -46,8 +57,13 @@ function changeArtButtons() {
     let b1 = document.getElementById("b1");
     let b2 = document.getElementById("b2");
 
+    let b1Cont = document.getElementsByClassName("artifacts_set1")[0];
+    let b2Cont = document.getElementsByClassName("artifacts_set2")[0];
+
     b1.src = "../images/icons/page.png";
     b2.src = "../images/icons/page.png";
+    b1Cont.style.display = "none";
+    b2Cont.style.display = "none";
 }
 
 function changeMatButtons() {
