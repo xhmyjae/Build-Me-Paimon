@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.weaponsContent div:not(.page), .materials div:not(.page), .artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div{
+.weaponsContent div:not(.page) div, .materials div:not(.page), .artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -133,7 +133,7 @@
     flex-flow: column;
 }
 
-.artifacts_set2 div , .artifacts_set1 div{
+.artifacts_set2 div , .artifacts_set1 div, .weaponsContent div{
     display: flex;
     flex-flow: row;
     margin-bottom: 2vw;
