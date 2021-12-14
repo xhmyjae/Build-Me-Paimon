@@ -70,6 +70,7 @@
     display: none;
     flex-flow: wrap;
     flex-direction: column;
+    max-height: 25vw;
 }
 
 .talents {
