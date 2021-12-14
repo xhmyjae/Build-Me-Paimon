@@ -14,11 +14,11 @@
     position: relative;
 }
 
-.weaponsContent div:not(.page) , .artifacts div:not(.page), .materials div:not(.page){
+.weaponsContent div:not(.page) div, .materials div:not(.page), .artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div{
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 4%;
+    left: 2vw;
 }
 
 .rare2 {
@@ -122,4 +122,19 @@
 
 .talents .page {
     left: 14vw;
+}
+
+.artifacts_set1, .artifacts_set2{
+    display: flex;
+}
+
+.artifacts_set2 {
+    display:none;
+    flex-flow: column;
+}
+
+.artifacts_set2 div , .artifacts_set1 div, .weaponsContent div{
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 2vw;
 }
