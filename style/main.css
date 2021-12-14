@@ -68,15 +68,17 @@ body {
     background-color: rgba(13, 14, 14, 0.85);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
     z-index: 10000;
-    animation: rotateX 0.4s 180ms ease-in-out both;
+    /*animation: rotateX 0.4s 180ms ease-in-out both;*/
     transform-origin: top center
-
 }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to { opacity: 1; }
+.characters:not(:hover) {
+    animation: rotateX 0.4s 180ms ease-in-out both;
 }
+
+/*.characters {*/
+/*    animation: rotateX-end 0.4s 180ms ease-in-out both;*/
+/*}*/
 
 @keyframes rotateX {
 
@@ -93,7 +95,24 @@ body {
         opacity: 1;
         transform: rotateX(0deg);
     }
+}
 
+@keyframes rotateX-end {
+
+    0% {
+        opacity: 1;
+        transform: rotateX(0deg);
+
+    }
+
+    50% {
+        transform: rotateX(-20deg);
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotateX(-90deg);
+    }
 }
 
 .char_icon:hover + .characters{
@@ -105,7 +124,6 @@ body {
 .characters:hover{
     display: flex;
     flex-flow: wrap;
-
 }
 
 .characters > a {
