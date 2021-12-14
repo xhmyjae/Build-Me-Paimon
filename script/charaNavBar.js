@@ -40,6 +40,16 @@ function switchContent() {
     let talentsCont = document.getElementsByClassName("talents")[0];
     let constellationsCont = document.getElementsByClassName("constellations")[0];
 
+    let b1 = document.getElementById("b1");
+    let b1Cont = document.getElementsByClassName("artifacts_set1")[0];
+
+    let b3 = document.getElementById("b3");
+    // let b3Cont = document.getElementsByClassName("artifacts_set1")[0];
+
+    let b5 = document.getElementById("b5");
+    // let b5Cont = document.getElementsByClassName("artifacts_set1")[0];
+
+
     lore.onclick = function () {
         hideAll()
         loreCont.style.display = "flex";
@@ -51,15 +61,24 @@ function switchContent() {
     artifacts.onclick = function () {
         hideAll()
         artifactsCont.style.display = "flex";
+        changeArtButtons()
+        b1.src = "../images/icons/page_checked.png";
+        b1Cont.style.display = "flex";
 
     }
     materials.onclick = function () {
         hideAll()
         materialsCont.style.display = "flex";
+        changeMatButtons()
+        b3.src = "../images/icons/page_checked.png";
+        //b3Cont.style.display = "flex";
     }
     talents.onclick = function () {
         hideAll()
         talentsCont.style.display = "flex";
+        changeTalButtons()
+        b5.src = "../images/icons/page_checked.png"
+        //b5Cont.style.display = "flex";
     }
     constellations.onclick = function () {
         constellationsCont.style.display = "flex";
