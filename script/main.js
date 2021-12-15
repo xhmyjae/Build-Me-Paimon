@@ -1,11 +1,11 @@
-function test() {
-    console.log("js")
-}
-
-function displayChar(){
-    let btn = document.querySelector(".char_icon");
-    let char = document.querySelector(".characters");
-    btn.addEventListener('click', function (){
-        char.style.display = "flex";
-    })
-}
+// $('#DIVA').mouseenter(function() {
+//     $('#DIVB').show();
+// }).mouseleave(function() {
+//     if(!$('#DIVB').hasClass('active')){
+//         $('#DIVB').hide();
+//     }
+// });
+//
+// $('.characters').onmouseleave(function() {
+//     $('.')
+// })
