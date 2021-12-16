@@ -37,12 +37,12 @@
 }
 
 .rare3 {
-    background: linear-gradient(rgba(75,96,96,.800), rgba(117,155,131,.800));
+    background: linear-gradient(rgba(80,97,130,.800), rgba(81,146,170,.800));
     border-radius: 2vw;
     border: 0.2vw solid #efd5a3;
     width: 6vw;
     height: 6vw;
-    box-shadow: 0 0.1vw 0.8vw seagreen;
+    box-shadow: 0 0.1vw 0.8vw cornflowerblue;
 }
 
 .rare4 {
