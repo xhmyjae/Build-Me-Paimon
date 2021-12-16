@@ -64,7 +64,6 @@ function switchContent() {
         changeArtButtons()
         b1.src = "../images/icons/page_checked.png";
         b1Cont.style.display = "flex";
-
     }
     materials.onclick = function () {
         hideAll()

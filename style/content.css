@@ -14,14 +14,29 @@
     position: relative;
 }
 
-.weaponsContent div:not(.page) div, .materials div:not(.page), .artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div{
+.materials div:not(.page), .artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div{
     display: flex;
     flex-direction: column;
     position: relative;
     left: 2vw;
 }
 
+.weaponsContent {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
 .rare2 {
+    background: linear-gradient(rgba(75,96,96,.800), rgba(117,155,131,.800));
+    border-radius: 2vw;
+    border: 0.2vw solid #efd5a3;
+    width: 6vw;
+    height: 6vw;
+    box-shadow: 0 0.1vw 0.8vw seagreen;
+}
+
+.rare3 {
     background: linear-gradient(rgba(75,96,96,.800), rgba(117,155,131,.800));
     border-radius: 2vw;
     border: 0.2vw solid #efd5a3;
@@ -81,6 +96,10 @@
     display: none;
 }
 
+.weaponsContent {
+    display: none;
+}
+
 .w2 {
     display: none;
 }
@@ -125,7 +144,7 @@
     left: 14vw;
 }
 
-.artifacts_set1, .artifacts_set2{
+.artifacts_set1, .artifacts_set2, .weaponsContent div{
     display: flex;
 }
 
