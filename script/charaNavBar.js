@@ -77,10 +77,11 @@ function switchContent() {
         hideAll()
         talentsCont.style.display = "flex";
         changeTalButtons()
-        b5.src = "../images/icons/page_checked.png"
+        b5.src = "../images/icons/page_checked.png";
         //b5Cont.style.display = "flex";
     }
     constellations.onclick = function () {
+        hideAll()
         constellationsCont.style.display = "flex";
     }
 }
