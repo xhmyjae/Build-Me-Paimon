@@ -77,10 +77,6 @@ body {
     animation: rotateX 0.4s 180ms ease-in-out both;
 }
 
-.char_icon + .characters {
-    animation: rotateX-end 0.4s 180ms ease-in-out;
-}
-
 @keyframes rotateX {
 
     0% {
@@ -179,22 +175,27 @@ footer {
 }
 
 .resized img {
+    position: absolute;
     left:-12%;
 }
 
+.unzoom img {
+    position: absolute;
+    transform: scale(0.9);
+    left:15vw !important;
+}
+
 .resized_toobig img {
-    left:-10%;
+    position: absolute;
+    left:25vw;
 }
 
-.yanfei_box img {
-    left:-10%; /*yanfei splash not clean, left needed*/
+.sayu_resized img {
+    position: absolute;
+    left: 10vw;
 }
 
-.kazuha_box img {
-    left:-15%;
-    top:10%;
-}
-
-.hutao_box img{
-    left:-8%;
+.xiao_resized img {
+    position: absolute;
+    left: 20vw;
 }
