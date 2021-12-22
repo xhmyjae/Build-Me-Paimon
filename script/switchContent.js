@@ -30,10 +30,12 @@ function switchInContent() {
     b3.onclick = function () {
         changeMatButtons()
         b3.src = "../images/icons/page_checked.png";
+        b3Cont.style.display = "flex";
     }
     b4.onclick = function () {
         changeMatButtons()
         b4.src = "../images/icons/page_checked.png";
+        b4Cont.style.display = "flex";
     }
     b5.onclick = function () {
         changeTalButtons()
@@ -70,8 +72,13 @@ function changeMatButtons() {
     let b3 = document.getElementById("b3");
     let b4 = document.getElementById("b4");
 
+    let b3Cont = document.getElementsByClassName("ascensionMats")[0];
+    let b4Cont = document.getElementsByClassName("talentMats")[0];
+
     b3.src = "../images/icons/page.png";
     b4.src = "../images/icons/page.png";
+    b3Cont.style.display = "none";
+    b4Cont.style.display = "none";
 }
 
 function changeTalButtons() {

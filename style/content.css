@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.materials div:not(.page), .artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div{
+.artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -86,7 +86,7 @@
     width: 90%;
 }
 
-.artifacts {
+.weaponsContent, .artifacts, .materials, .talents, .constellations {
     display: none;
 }
 
@@ -95,26 +95,6 @@
     flex-flow: wrap;
     flex-direction: column;
     max-height: 25vw;
-}
-
-.talents {
-    display: none;
-}
-
-.constellations {
-    display: none;
-}
-
-.weaponsContent {
-    display: none;
-}
-
-.w2 {
-    display: none;
-}
-
-.w3 {
-    display: none;
 }
 
 .materialsName {

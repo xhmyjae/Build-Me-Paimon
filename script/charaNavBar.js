@@ -44,7 +44,7 @@ function switchContent() {
     let b1Cont = document.getElementsByClassName("artifacts_set1")[0];
 
     let b3 = document.getElementById("b3");
-    // let b3Cont = document.getElementsByClassName("artifacts_set1")[0];
+    let b3Cont = document.getElementsByClassName("ascensionMats")[0];
 
     let b5 = document.getElementById("b5");
     // let b5Cont = document.getElementsByClassName("artifacts_set1")[0];
@@ -70,7 +70,7 @@ function switchContent() {
         materialsCont.style.display = "flex";
         changeMatButtons()
         b3.src = "../images/icons/page_checked.png";
-        //b3Cont.style.display = "flex";
+        b3Cont.style.display = "flex";
     }
     talents.onclick = function () {
         hideAll()
