@@ -29,11 +29,13 @@ function switchInContent() {
     }
     b3.onclick = function () {
         changeMatButtons()
+        document.getElementsByClassName("matName")[0].innerHTML = "Ascension";
         b3.src = "../images/icons/page_checked.png";
         b3Cont.style.display = "block";
     }
     b4.onclick = function () {
         changeMatButtons()
+        document.getElementsByClassName("matName")[0].innerHTML = "Talents";
         b4.src = "../images/icons/page_checked.png";
         b4Cont.style.display = "block";
     }

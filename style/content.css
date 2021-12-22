@@ -77,7 +77,7 @@
     position: relative;
 }
 
-.weaponsName, .artifactsName {
+.weaponsName, .artifactsName, .matName {
     color: #efd5a3;
     font-family: 'zh-cn';
     position: relative;
@@ -122,6 +122,12 @@
 
 .ascensionMats, .talentsMats {
     columns: 3;
+}
+
+.matName {
+    position: absolute;
+    top: -2.5vw;
+    opacity: 0.7;
 }
 
 .materials div div {
