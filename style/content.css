@@ -52,6 +52,10 @@
 .page {
     position: absolute;
     top: 21vw;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .page img:hover {
@@ -77,7 +81,7 @@
     position: relative;
 }
 
-.weaponsName, .artifactsName, .matName {
+.weaponsName, .artifactsName, .matName, .talentsName {
     color: #efd5a3;
     font-family: 'zh-cn';
     position: relative;
@@ -141,9 +145,40 @@
     margin: 0.5vw 0;
 }
 
+
+/* TALENTS */
+
+.talent1 div, .talent2 div, .talent3 div, .talentPass div, .talents span {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.talents div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(88,94,106), rgb(132,142,155));
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
+.talents div div div, .talents div div div span {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1vw;
+}
+
+.talentsName + span {
+    color: darkgray;
+}
+
+
+
+
+
 .weaponsContent, .artifacts, .materials, .talents, .constellations {
     top: 2vw;
     display: none;
     position: relative;
-    justify-content: center;
 }
