@@ -133,6 +133,7 @@
     position: absolute;
     top: -2.5vw;
     opacity: 0.7;
+    letter-spacing: 8px;
 }
 
 .materials div div {
