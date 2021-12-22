@@ -75,7 +75,7 @@ function changeMatButtons() {
     let b4 = document.getElementById("b4");
 
     let b3Cont = document.getElementsByClassName("ascensionMats")[0];
-    let b4Cont = document.getElementsByClassName("talentMats")[0];
+    let b4Cont = document.getElementsByClassName("talentsMats")[0];
 
     b3.src = "../images/icons/page.png";
     b4.src = "../images/icons/page.png";

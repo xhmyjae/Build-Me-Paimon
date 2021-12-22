@@ -52,6 +52,7 @@
 .page {
     position: absolute;
     top: 21vw;
+    z-index:999999999;
 }
 
 .page img:hover {
