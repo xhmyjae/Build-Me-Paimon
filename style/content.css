@@ -49,6 +49,20 @@
 
 
 
+.page {
+    position: absolute;
+    top: 21vw;
+}
+
+.page img:hover {
+    cursor: pointer;
+}
+
+.page img {
+    height: 1.5vw;
+    margin: 10px;
+}
+
 
 .artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div{
     display: flex;
@@ -90,20 +104,6 @@
 /*.material img {*/
 /*    transform: scale(0.3);*/
 /*}*/
-
-.page {
-    position: absolute;
-    top: 21vw;
-}
-
-.page img:hover {
-    cursor: pointer;
-}
-
-.page img {
-    height: 1.5vw;
-    margin: 10px;
-}
 
 .artifacts_set1, .artifacts_set2, .weaponsContent div, .ascensionContent{
     display: flex;
