@@ -108,6 +108,10 @@
     height: 4vw;
 }
 
+/*.material img {*/
+/*    transform: scale(0.3);*/
+/*}*/
+
 .materials div {
     flex-direction: row;
     align-items: center;
