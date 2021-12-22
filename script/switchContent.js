@@ -11,7 +11,7 @@ function switchInContent() {
     let b1Cont = document.getElementsByClassName("artifacts_set1")[0];
     let b2Cont = document.getElementsByClassName("artifacts_set2")[0];
     let b3Cont = document.getElementsByClassName("ascensionMats")[0];
-    let b4Cont = document.getElementsByClassName("talentMats")[0];
+    let b4Cont = document.getElementsByClassName("talentsMats")[0];
     // let b5Cont = document.getElementsByClassName("artifacts_set1")[0];
     // let b6Cont = document.getElementsByClassName("artifacts_set2")[0];
     // let b7Cont = document.getElementsByClassName("artifacts_set1")[0];
