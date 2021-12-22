@@ -27,6 +27,15 @@
     position: relative;
 }
 
+.rare1 {
+    background: linear-gradient(rgba(88,94,106,.800), rgba(132,142,155,.800));
+    border-radius: 2vw;
+    border: 0.2vw solid #efd5a3;
+    width: 6vw;
+    height: 6vw;
+    box-shadow: 0 0.1vw 0.8vw seagreen;
+}
+
 .rare2 {
     background: linear-gradient(rgba(75,96,96,.800), rgba(117,155,131,.800));
     border-radius: 2vw;
@@ -144,7 +153,7 @@
     left: 14vw;
 }
 
-.artifacts_set1, .artifacts_set2, .weaponsContent div{
+.artifacts_set1, .artifacts_set2, .weaponsContent div, .ascensionContent{
     display: flex;
 }
 
