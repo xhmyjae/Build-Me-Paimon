@@ -59,18 +59,26 @@ function switchContent() {
         weaponsCont.style.display = "flex";
     }
     artifacts.onclick = function () {
+        console.log("art navbar1")
         hideAll()
         artifactsCont.style.display = "flex";
         changeArtButtons()
         b1.src = "../images/icons/page_checked.png";
         b1Cont.style.display = "flex";
+        console.log("art navbar2")
     }
     materials.onclick = function () {
+        console.log("mats click nav")
         hideAll()
+        console.log("mats hideAll")
         materialsCont.style.display = "flex";
+        console.log("mats display flex")
         changeMatButtons()
+        console.log("mats changeMatButtons")
         b3.src = "../images/icons/page_checked.png";
+        console.log("mats checked")
         b3Cont.style.display = "block";
+        console.log("mats display block")
     }
     talents.onclick = function () {
         hideAll()
