@@ -15,8 +15,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 4%;
-    padding-right: 0;
+    padding: 0;
+    margin: 3.5% 0;
 }
 
 .icon_navchara {
@@ -35,8 +35,7 @@
 }
 
 .icon_navchara img {
-    width: 85%;
-    height: 85%;
+    width: 4vw;
 }
 
 .icon_navchara:hover {
@@ -46,6 +45,4 @@
 
 #text {
     position: relative;
-    top: -1vw;
-    left: 6%;
 }

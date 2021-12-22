@@ -30,12 +30,12 @@ function switchInContent() {
     b3.onclick = function () {
         changeMatButtons()
         b3.src = "../images/icons/page_checked.png";
-        b3Cont.style.display = "flex";
+        b3Cont.style.display = "block";
     }
     b4.onclick = function () {
         changeMatButtons()
         b4.src = "../images/icons/page_checked.png";
-        b4Cont.style.display = "flex";
+        b4Cont.style.display = "block";
     }
     b5.onclick = function () {
         changeTalButtons()

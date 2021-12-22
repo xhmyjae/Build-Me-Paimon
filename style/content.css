@@ -2,38 +2,13 @@
     font-size: 1.25vw;
 }
 
-/*.weapon {
-    width: 6vw;
-}*/
-
-.weaponsContent , .artifacts, .materials, .talents{
-    top: 2vw;
-    display: none;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-}
-
-.artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 2vw;
-}
-
-.weaponsContent {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
 .rare1 {
     background: linear-gradient(rgba(88,94,106,.800), rgba(132,142,155,.800));
     border-radius: 2vw;
     border: 0.2vw solid #efd5a3;
     width: 6vw;
     height: 6vw;
-    box-shadow: 0 0.1vw 0.8vw seagreen;
+    box-shadow: 0 0.1vw 0.8vw lightslategrey;
 }
 
 .rare2 {
@@ -72,7 +47,23 @@
     box-shadow: 0 0.1vw 0.8vw darkgoldenrod;
 }
 
-.weaponsName, .artifactsName, .ascension {
+
+
+
+.artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 2vw;
+}
+
+.weaponsContent {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.weaponsName, .artifactsName {
     color: #efd5a3;
     font-family: 'zh-cn';
     position: relative;
@@ -86,20 +77,8 @@
     width: 90%;
 }
 
-.weaponsContent, .artifacts, .materials, .talents, .constellations {
-    display: none;
-}
-
-.materials {
-    display: none;
-    flex-flow: wrap;
-    flex-direction: column;
-    max-height: 25vw;
-}
-
 .materialsName {
     font-size: 1vw;
-    /*margin-left: 2%;*/
 }
 
 .material {
@@ -112,16 +91,9 @@
 /*    transform: scale(0.3);*/
 /*}*/
 
-.materials div {
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 2%;
-}
-
 .page {
     position: absolute;
-    top: 19vw;
-    left: 18vw;
+    top: 21vw;
 }
 
 .page img:hover {
@@ -131,10 +103,6 @@
 .page img {
     height: 1.5vw;
     margin: 10px;
-}
-
-.talents .page {
-    left: 14vw;
 }
 
 .artifacts_set1, .artifacts_set2, .weaponsContent div, .ascensionContent{
@@ -150,4 +118,26 @@
     display: flex;
     flex-flow: row;
     margin-bottom: 2vw;
+}
+
+.ascensionMats, .talentsMats {
+    columns: 3;
+}
+
+.materials div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    break-inside: avoid;
+}
+
+.materials div div span {
+    margin: 0.5vw 0;
+}
+
+.weaponsContent, .artifacts, .materials, .talents, .constellations {
+    top: 2vw;
+    display: none;
+    position: relative;
+    justify-content: center;
 }

@@ -68,9 +68,9 @@ function switchContent() {
     materials.onclick = function () {
         hideAll()
         materialsCont.style.display = "flex";
-        changeMatButtons()
         b3.src = "../images/icons/page_checked.png";
-        b3Cont.style.display = "flex";
+        changeMatButtons()
+        b3Cont.style.display = "block";
     }
     talents.onclick = function () {
         hideAll()
