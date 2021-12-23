@@ -47,7 +47,7 @@ function switchContent() {
     let b3Cont = document.getElementsByClassName("ascensionMats")[0];
 
     let b5 = document.getElementById("b5");
-    // let b5Cont = document.getElementsByClassName("artifacts_set1")[0];
+    let b5Cont = document.getElementsByClassName("talent1")[0];
 
 
     lore.onclick = function () {
@@ -85,7 +85,7 @@ function switchContent() {
         talentsCont.style.display = "flex";
         changeTalButtons()
         b5.src = "../images/icons/page_checked.png";
-        //b5Cont.style.display = "flex";
+        b5Cont.style.display = "flex";
     }
     constellations.onclick = function () {
         hideAll()

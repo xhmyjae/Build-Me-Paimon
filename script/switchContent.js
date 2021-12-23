@@ -12,10 +12,10 @@ function switchInContent() {
     let b2Cont = document.getElementsByClassName("artifacts_set2")[0];
     let b3Cont = document.getElementsByClassName("ascensionMats")[0];
     let b4Cont = document.getElementsByClassName("talentsMats")[0];
-    // let b5Cont = document.getElementsByClassName("artifacts_set1")[0];
-    // let b6Cont = document.getElementsByClassName("artifacts_set2")[0];
-    // let b7Cont = document.getElementsByClassName("artifacts_set1")[0];
-    // let b8Cont = document.getElementsByClassName("artifacts_set2")[0];
+    let b5Cont = document.getElementsByClassName("talent1")[0];
+    let b6Cont = document.getElementsByClassName("talent2")[0];
+    let b7Cont = document.getElementsByClassName("talent3")[0];
+    let b8Cont = document.getElementsByClassName("talentPass")[0];
 
     b1.onclick = function () {
         changeArtButtons()
@@ -42,18 +42,22 @@ function switchInContent() {
     b5.onclick = function () {
         changeTalButtons()
         b5.src = "../images/icons/page_checked.png";
+        b5Cont.style.display = "flex";
     }
     b6.onclick = function () {
         changeTalButtons()
         b6.src = "../images/icons/page_checked.png";
+        b6Cont.style.display = "flex";
     }
     b7.onclick = function () {
         changeTalButtons()
         b7.src = "../images/icons/page_checked.png";
+        b7Cont.style.display = "flex";
     }
     b8.onclick = function () {
         changeTalButtons()
         b8.src = "../images/icons/page_checked.png";
+        b8Cont.style.display = "flex";
     }
 }
 
@@ -89,8 +93,17 @@ function changeTalButtons() {
     let b7 = document.getElementById("b7");
     let b8 = document.getElementById("b8");
 
+    let b5Cont = document.getElementsByClassName("talent1")[0];
+    let b6Cont = document.getElementsByClassName("talent2")[0];
+    let b7Cont = document.getElementsByClassName("talent3")[0];
+    let b8Cont = document.getElementsByClassName("talentPass")[0];
+
     b5.src = "../images/icons/page.png";
     b6.src = "../images/icons/page.png";
     b7.src = "../images/icons/page.png";
     b8.src = "../images/icons/page.png";
+    b5Cont.style.display = "none";
+    b6Cont.style.display = "none";
+    b7Cont.style.display = "none";
+    b8Cont.style.display = "none";
 }

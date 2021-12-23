@@ -157,7 +157,7 @@
 
 .talent1 div, .talent2 div, .talent3 div, .talentPass div, .talents span {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
 }
@@ -178,8 +178,30 @@
 
 .talentsName + span {
     color: darkgray;
+    margin-bottom: 1%;
 }
 
+.talentsType {
+    color: #efd5a3;
+    margin-bottom: 1%;
+}
+
+.talentsContent {
+    margin-bottom: 1vw;
+}
+
+.talents > div:not(.page) {
+    top: -2vw;
+    position: relative;
+}
+
+.talent2, .talent3, .talentPass {
+    display: none;
+}
+
+.talentPass {
+    margin: 0 1vw;
+}
 
 
 
