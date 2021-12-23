@@ -34,7 +34,7 @@ body {
 
 .nav_icon_header:hover, .dropdown:hover .char_icon {
     transform: scale(1.04);
-    filter: brightness(1.1);
+    filter: brightness(1);
 }
 
 .nav_icon_header {
