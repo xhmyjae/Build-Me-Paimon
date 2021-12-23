@@ -1,16 +1,15 @@
 body {
     color: white;
     font-size: 1.25vw;
-    text-shadow:
-            .1vw 0vw .25vw #181817,
-            .15vw 0vw .25vw #272726,
-            .1vw 0vw .1vw #272726;
+    text-shadow: .1vw 0vw .25vw #181817,
+    .15vw 0vw .25vw #272726,
+    .1vw 0vw .1vw #272726;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     scrollbar-arrow-color: #272726;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +17,7 @@ body {
     padding: 0;
 }
 
-.navigation{
+.navigation {
     background-color: rgba(13, 14, 14, 0.75);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
     position: fixed;
@@ -32,22 +31,29 @@ body {
     padding: 0;
 }
 
-.icon_navbar:hover {
+
+.nav_icon_header:hover, .dropdown:hover .char_icon {
     transform: scale(1.04);
     filter: brightness(1.1);
 }
 
-.icon_navbar {
+.nav_icon_header {
     filter: brightness(0.6);
-    display:inline-block;
+    transition: all 0.3s;
+}
+
+.icon_navbar {
+    /*filter: brightness(0.6);*/
+    display: inline-block;
     margin: 0 30px;
     list-style: none;
     position: relative;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    cursor: pointer;
-    transition: all 0.3s;
+
+    /*cursor: pointer;*/
+    /*transition: all 0.3s;*/
 }
 
 .icon_navbar img {
@@ -56,7 +62,7 @@ body {
 }
 
 .characters {
-    display:none;
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
@@ -73,7 +79,7 @@ body {
     transform-origin: top center
 }
 
-.char_icon:hover + .characters{
+.char_icon:hover + .characters {
     animation: rotateX 0.4s 180ms ease-in-out both;
 }
 
@@ -112,13 +118,13 @@ body {
     }
 }
 
-.char_icon:hover + .characters{
+.char_icon:hover + .characters {
     display: flex;
     flex-flow: wrap;
     text-decoration: none;
 }
 
-.characters:hover{
+.characters:hover {
     display: flex;
     flex-flow: wrap;
 }
@@ -142,17 +148,18 @@ a.icon_navbar:after {
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
+
 a.icon_navbar:hover:after {
     width: 100%;
     left: 0;
 }
 
-.icon_navbar a{
+.icon_navbar a {
     display: flex;
     justify-content: center;
 }
 
-.a_icon{
+.a_icon {
     position: relative;
 }
 
@@ -176,18 +183,18 @@ footer {
 
 .resized img {
     position: absolute;
-    left:-12%;
+    left: -12%;
 }
 
 .unzoom img {
     position: absolute;
     transform: scale(0.9);
-    left:15vw !important;
+    left: 15vw !important;
 }
 
 .resized_toobig img {
     position: absolute;
-    left:25vw;
+    left: 25vw;
 }
 
 .sayu_resized img {
