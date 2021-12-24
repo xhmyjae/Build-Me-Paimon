@@ -106,10 +106,6 @@
     height: 4vw;
 }
 
-/*.material img {*/
-/*    transform: scale(0.3);*/
-/*}*/
-
 .artifacts_set1, .artifacts_set2, .weaponsContent div, .ascensionContent{
     display: flex;
 }

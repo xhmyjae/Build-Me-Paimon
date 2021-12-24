@@ -75,13 +75,19 @@ body {
     background-color: rgba(13, 14, 14, 0.85);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
     z-index: 10000;
+    transition: all 0.4s linear;
     /*animation: rotateX 0.4s 180ms ease-in-out both;*/
     transform-origin: top center
 }
 
-.char_icon:hover + .characters {
-    animation: rotateX 0.4s 180ms ease-in-out both;
+.char_icon:hover ~ .characters {
+    animation: rotateX 0.5s 180ms ease-out both;
 }
+
+/*PLEASE {*/
+/*    animation: rotateX 1s 180ms ease-out both reverse;*/
+/*}*/
+
 
 @keyframes rotateX {
 
