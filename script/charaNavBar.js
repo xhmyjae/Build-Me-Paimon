@@ -90,6 +90,9 @@ function switchContent() {
     constellations.onclick = function () {
         hideAll()
         constellationsCont.style.display = "flex";
+        changeConstButtons()
+        b9.src = "../images/icons/page_checked.png";
+        b9Cont.style.display = "flex";
     }
 }
 
