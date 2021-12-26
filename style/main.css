@@ -80,13 +80,17 @@ body {
     transform-origin: top center
 }
 
-.char_icon:hover ~ .characters {
+/*.char_icon:hover ~ .characters {*/
+/*    animation: rotateX 0.5s 180ms ease-out both;*/
+/*}*/
+
+.test-dropdown {
     animation: rotateX 0.5s 180ms ease-out both;
 }
 
-/*PLEASE {*/
-/*    animation: rotateX 1s 180ms ease-out both reverse;*/
-/*}*/
+.reverse-dropdown {
+    animation: rotateX 1s 180ms ease-out both reverse;
+}
 
 
 @keyframes rotateX {
