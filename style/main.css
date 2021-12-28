@@ -185,12 +185,6 @@ a.icon_navbar:hover:after {
     transition: all 0.2s;
 }
 
-footer {
-    background-color: #272726;
-    position: absolute;
-    z-index: 30000;
-}
-
 .resized img {
     position: absolute;
     left: -12%;
