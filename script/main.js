@@ -9,14 +9,18 @@ target.addEventListener("mouseleave", mOut, false);
 function mOver() {
     //si ligne dessous (=enlever css ligne 131) : display mais ne s'enleve pas (logique)
     // target.setAttribute("style", "display:flex; flex-flow: wrap;")
+    target.setAttribute("style", "visibility: visible;")
     target.classList.add('test-dropdown') //
     target.classList.remove('reverse-dropdown')
 }
 
 function mOut() {
+    console.log('entrée mouse out fct')
     target.classList.remove('test-dropdown') //enlever l'animation (éviter les colisions?)
-    icon.classList.add('reverse-dropdown') //pour les test : sortie de .characters = replie de l'icon
+    console.log('supprime test-dropdown')
+    // icon.classList.add('reverse-dropdown') //pour les test : sortie de .characters = replie de l'icon
     target.classList.add('reverse-dropdown') //probleme : se replie pas alors que l'icon oui (source : display: none?)
+    console.log('ajoute reverse-dropdown')
 }
 
 
