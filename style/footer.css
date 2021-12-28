@@ -1,5 +1,5 @@
 footer {
-    position: relative;
+    position: absolute;
     z-index: 5000;
     width: 101vw;
     background-color: #111;
