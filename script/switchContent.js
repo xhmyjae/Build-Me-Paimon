@@ -158,8 +158,8 @@ function changeConstButtons() {
     let b13 = document.getElementById("b13");
     let b14 = document.getElementById("b14");
 
-    // let b9Cont = document.getElementsByClassName("constellation1")[0];
-    // let b10Cont = document.getElementsByClassName("constellation2")[0];
+    let b9Cont = document.getElementsByClassName("constellation1")[0];
+    let b10Cont = document.getElementsByClassName("constellation2")[0];
     // let b11Cont = document.getElementsByClassName("constellation3")[0];
     // let b12Cont = document.getElementsByClassName("constellation4")[0];
     // let b13Cont = document.getElementsByClassName("constellation5")[0];
@@ -172,8 +172,8 @@ function changeConstButtons() {
     b13.src = "../images/icons/page.png";
     b14.src = "../images/icons/page.png";
 
-    // b9Cont.style.display = "none";
-    // b10Cont.style.display = "none";
+    b9Cont.style.display = "none";
+    b10Cont.style.display = "none";
     // b11Cont.style.display = "none";
     // b12Cont.style.display = "none";
     // b13Cont.style.display = "none";
