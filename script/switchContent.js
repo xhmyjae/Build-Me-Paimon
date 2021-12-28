@@ -171,6 +171,7 @@ function changeConstButtons() {
     b12.src = "../images/icons/page.png";
     b13.src = "../images/icons/page.png";
     b14.src = "../images/icons/page.png";
+
     // b9Cont.style.display = "none";
     // b10Cont.style.display = "none";
     // b11Cont.style.display = "none";
