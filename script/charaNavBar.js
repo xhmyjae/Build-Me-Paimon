@@ -100,7 +100,7 @@ function switchContent() {
         hideAll()
         constellationsCont.style.display = "flex";
         changeConstButtons()
-        // b9.src = "../images/icons/page_checked.png";
+        b9.src = "../images/icons/page_checked.png";
         // b9Cont.style.display = "flex";
         constellations.style.transform = "scale(1.04)";
         constellations.style.filter = "brightness(1.1)";
