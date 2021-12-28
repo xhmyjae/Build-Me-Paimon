@@ -1,8 +1,8 @@
 .lore {
     font-size: 1.25vw;
-    background-color: rgba(13, 14, 14, 0.85);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px 8px;
-    border: 0.2vw solid #efd5a3;
+    background-color: rgba(13, 14, 14, 0.55);
+    box-shadow: rgb(0 0 0 / 35%) 0px 0px 10px 8px;
+    border: 0.2vw solid white;
     padding: 25px;
     border-radius: 4px;
 }
@@ -161,6 +161,7 @@
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
+    margin: 0 0.5vw;
 }
 
 .talents div:not(.page) img {
@@ -180,6 +181,7 @@
 .talentsName + span {
     color: darkgray;
     margin-bottom: 1%;
+    font-size: 1vw;
 }
 
 .talentsType {
@@ -200,8 +202,8 @@
     display: none;
 }
 
-.talentPass {
-    margin: 0 1vw;
+.talentPass div {
+    max-width: 14vw;
 }
 
 

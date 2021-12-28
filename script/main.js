@@ -12,6 +12,7 @@ function mOver() {
     target.setAttribute("style", "visibility: visible;")
     target.classList.add('test-dropdown') //
     target.classList.remove('reverse-dropdown')
+    target.classList.add('test-dropdown')
 }
 
 function mOut() {

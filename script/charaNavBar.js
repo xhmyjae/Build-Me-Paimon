@@ -50,13 +50,20 @@ function switchContent() {
     let b5Cont = document.getElementsByClassName("talent1")[0];
 
 
+    lore.style.transform = "scale(1.04)";
+    lore.style.filter = "brightness(1.1)";
+
     lore.onclick = function () {
         hideAll()
         loreCont.style.display = "flex";
+        lore.style.transform = "scale(1.04)";
+        lore.style.filter = "brightness(1.1)";
     }
     weapons.onclick = function () {
         hideAll()
         weaponsCont.style.display = "flex";
+        weapons.style.transform = "scale(1.04)";
+        weapons.style.filter = "brightness(1.1)";
     }
     artifacts.onclick = function () {
         console.log("art navbar1")
@@ -65,19 +72,19 @@ function switchContent() {
         changeArtButtons()
         b1.src = "../images/icons/page_checked.png";
         b1Cont.style.display = "flex";
+        artifacts.style.transform = "scale(1.04)";
+        artifacts.style.filter = "brightness(1.1)";
         console.log("art navbar2")
     }
     materials.onclick = function () {
         console.log("mats click nav")
         hideAll()
-        console.log("mats hideAll")
         materialsCont.style.display = "flex";
-        console.log("mats display flex")
         changeMatButtons()
-        console.log("mats changeMatButtons")
         b3.src = "../images/icons/page_checked.png";
-        console.log("mats checked")
         b3Cont.style.display = "block";
+        materials.style.transform = "scale(1.04)";
+        materials.style.filter = "brightness(1.1)";
         console.log("mats display block")
     }
     talents.onclick = function () {
@@ -86,30 +93,34 @@ function switchContent() {
         changeTalButtons()
         b5.src = "../images/icons/page_checked.png";
         b5Cont.style.display = "flex";
+        talents.style.transform = "scale(1.04)";
+        talents.style.filter = "brightness(1.1)";
     }
     constellations.onclick = function () {
         hideAll()
         constellationsCont.style.display = "flex";
         changeConstButtons()
-        b9.src = "../images/icons/page_checked.png";
-        b9Cont.style.display = "flex";
+        // b9.src = "../images/icons/page_checked.png";
+        // b9Cont.style.display = "flex";
+        constellations.style.transform = "scale(1.04)";
+        constellations.style.filter = "brightness(1.1)";
     }
 }
 
 function hideAll() {
-    let loreCont = document.getElementsByClassName("lore")[0];
-    let weaponsCont = document.getElementsByClassName("weaponsContent")[0];
-    let artifactsCont = document.getElementsByClassName("artifacts")[0];
-    let materialsCont = document.getElementsByClassName("materials")[0];
-    let talentsCont = document.getElementsByClassName("talents")[0];
-    let constellationsCont = document.getElementsByClassName("constellations")[0];
 
-    loreCont.style.display = "none";
-    weaponsCont.style.display = "none";
-    artifactsCont.style.display = "none";
-    materialsCont.style.display = "none";
-    talentsCont.style.display = "none";
-    constellationsCont.style.display = "none";
+    const charaIcons = ["Lore", "Weapons", "Artifacts", "Materials", "Talents", "Constellations"];
+    const cont = ["lore", "weaponsContent", "artifacts", "materials", "talents", "constellations"];
+
+    for (let i = 0; i < charaIcons.length; i++) {
+        document.getElementById(charaIcons[i]).style.transform = "scale(1)";
+        document.getElementById(charaIcons[i]).style.filter = "brightness(0.6)";
+    }
+
+    for (let i = 0; i < cont.length; i++) {
+        document.getElementsByClassName(cont[i])[0].style.display = "none";
+    }
+
 }
 
 window.onload = function () {
