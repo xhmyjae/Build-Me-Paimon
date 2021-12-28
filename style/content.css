@@ -87,7 +87,7 @@
     position: relative;
 }
 
-.weaponsName, .artifactsName, .matName, .talentsName {
+.weaponsName, .artifactsName, .matName, .talentsName, .constellationsName {
     color: #efd5a3;
     font-family: 'zh-cn';
     position: relative;
@@ -110,6 +110,16 @@
     width: 3vw;
     height: 3vw;
     padding: 0.5vw;
+    transition: all 0.3s;
+}
+
+.weapon, .artifact, .talentimg, .constellationimg {
+    transition: all 0.3s;
+}
+
+.material:hover, .weapon:hover, .artifact:hover, .talentimg:hover, .constellationimg:hover {
+    transform: translateY(-4%) !important;
+    filter: brightness(1.1)!important;
 }
 
 .artifacts_set1, .artifacts_set2, .weaponsContent div, .ascensionContent{
@@ -157,7 +167,7 @@
 
 /* TALENTS */
 
-.talent1 div, .talent2 div, .talent3 div, .talentPass div, .talents span {
+.talent1 div, .talent2 div, .talent3 div, .talentPass div, .talents span, .constellations span, .constellation1 div {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -165,7 +175,7 @@
     margin: 0 0.5vw;
 }
 
-.talents div:not(.page) img {
+.talents div:not(.page) img, .constellations div:not(.page) img {
     width: 3.5vw;
     background: linear-gradient(rgb(88,94,106), rgb(132,142,155));
     border-radius: 50%;
@@ -179,7 +189,7 @@
     font-size: 1vw;
 }
 
-.talentsName + span {
+.talentsName + span, .constellationsName + span {
     color: darkgray;
     margin-bottom: 1%;
     font-size: 1vw;
