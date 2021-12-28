@@ -49,6 +49,9 @@ function switchContent() {
     let b5 = document.getElementById("b5");
     let b5Cont = document.getElementsByClassName("talent1")[0];
 
+    let b9 = document.getElementById("b9");
+    let b9Cont = document.getElementsByClassName("constellation1")[0];
+
 
     lore.style.transform = "scale(1.04)";
     lore.style.filter = "brightness(1.1)";
@@ -101,7 +104,7 @@ function switchContent() {
         constellationsCont.style.display = "flex";
         changeConstButtons()
         b9.src = "../images/icons/page_checked.png";
-        // b9Cont.style.display = "flex";
+        b9Cont.style.display = "flex";
         constellations.style.transform = "scale(1.04)";
         constellations.style.filter = "brightness(1.1)";
     }
