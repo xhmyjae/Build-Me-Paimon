@@ -62,27 +62,31 @@ body {
 }
 
 .characters {
-    display: none;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
     min-width: 200px;
-    height: auto;
+    height: 0px;
     text-align: center;
     align-items: center;
     justify-content: center;
     background-color: rgba(13, 14, 14, 0.85);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
     z-index: 10000;
-    transition: all 0.4s linear;
+    transition: all 1s;
     /*animation: rotateX 0.4s 180ms ease-in-out both;*/
-    transform-origin: top center
+    transform-origin: top center;
+    display: flex;
+    flex-flow: wrap;
+    overflow: hidden;
 }
 
-/*.char_icon:hover ~ .characters {*/
-/*    animation: rotateX 0.5s 180ms ease-out both;*/
-/*}*/
+.open-characters {
+    height : 200px;
+}
+
+
 
 .test-dropdown {
     animation: rotateX 0.5s 180ms ease-out both;
@@ -134,17 +138,16 @@ body {
     text-decoration: none;
 }
 
-.characters:hover {
-    display: flex;
-    flex-flow: wrap;
-}
-
 .characters > a {
     margin: 0 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
+}
+
+.char_icon:hover ~ .characters a {
+    display: flex;
 }
 
 a.icon_navbar:after {
