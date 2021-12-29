@@ -155,13 +155,13 @@
 
 .materials div div {
     display: flex;
-    flex-direction: column;
     align-items: center;
     break-inside: avoid;
+    height: 6vw;
 }
 
 .materials div div span {
-    margin: 0.5vw 0;
+    margin: 0.6vw;
 }
 
 
@@ -191,7 +191,7 @@
 
 .talentsName + span, .constellationsName + span {
     color: darkgray;
-    margin-bottom: 1%;
+    margin-bottom: 0.5vw;
     font-size: 1vw;
 }
 
