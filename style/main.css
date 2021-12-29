@@ -74,7 +74,7 @@ body {
     background-color: rgba(13, 14, 14, 0.85);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
     z-index: 10000;
-    transition: all 1s;
+    transition: all 0.7s;
     /*animation: rotateX 0.4s 180ms ease-in-out both;*/
     transform-origin: top center;
     display: flex;
