@@ -114,6 +114,7 @@ function changeArtButtons() {
     b2.src = "../images/icons/page.png";
     b1Cont.style.display = "none";
     b2Cont.style.display = "none";
+    document.querySelector(".character img").style.opacity = "1";
 }
 
 function changeMatButtons() {
@@ -127,6 +128,7 @@ function changeMatButtons() {
     b4.src = "../images/icons/page.png";
     b3Cont.style.display = "none";
     b4Cont.style.display = "none";
+    document.querySelector(".character img").style.opacity = "1";
 }
 
 function changeTalButtons() {
@@ -178,4 +180,5 @@ function changeConstButtons() {
     b12Cont.style.display = "none";
     b13Cont.style.display = "none";
     b14Cont.style.display = "none";
+    document.querySelector(".character img").style.opacity = "1";
 }

@@ -184,6 +184,14 @@
     margin: 0 0 1vw 0;
 }
 
+.geo div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(202, 131, 34), rgb(255, 249, 204));
+    border-radius: 50%;
+    box-shadow: rgb(206, 129, 35) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
 .talents div div div, .talents div div div span {
     display: flex;
     align-items: flex-start;
@@ -230,10 +238,9 @@
 }
 
 
-
-
 .weaponsContent, .artifacts, .materials, .talents, .constellations {
     top: 2vw;
     display: none;
     position: relative;
 }
+
