@@ -80,7 +80,6 @@ function switchContent() {
         console.log("art navbar2")
     }
     materials.onclick = function () {
-        console.log("mats click nav")
         hideAll()
         materialsCont.style.display = "flex";
         changeMatButtons()
@@ -88,7 +87,6 @@ function switchContent() {
         b3Cont.style.display = "block";
         materials.style.transform = "scale(1.04)";
         materials.style.filter = "brightness(1.1)";
-        console.log("mats display block")
     }
     talents.onclick = function () {
         hideAll()
