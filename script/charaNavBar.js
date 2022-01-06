@@ -96,6 +96,7 @@ function switchContent() {
         b5Cont.style.display = "flex";
         talents.style.transform = "scale(1.04)";
         talents.style.filter = "brightness(1.1)";
+        document.querySelector(".characters img").style.opacity = "0.3";
     }
     constellations.onclick = function () {
         hideAll()

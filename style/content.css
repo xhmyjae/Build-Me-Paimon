@@ -167,7 +167,7 @@
 
 /* TALENTS */
 
-.talent1 div, .talent2 div, .talent3 div, .talentPass div, .talents span, .constellations span, .constellation1 div,
+.talent1 div:first-child, .talent2 div:first-child, .talent3 div:first-child, .talentPass div, .talents span, .constellations span, .constellation1 div,
 .constellation2 div, .constellation3 div, .constellation4 div, .constellation5 div, .constellation6 div{
     display: flex;
     justify-content: flex-start;
@@ -176,7 +176,7 @@
     margin: 0 0.5vw;
 }
 
-.talents div:not(.page) img, .constellations div:not(.page) img {
+.talents div div:not(.page):not(.talent_gif) img, .constellations div:not(.page) img {
     width: 3.5vw;
     background: linear-gradient(rgb(88,94,106), rgb(132,142,155));
     border-radius: 50%;
@@ -188,6 +188,7 @@
     display: flex;
     align-items: flex-start;
     font-size: 1vw;
+    flex-direction: column;
 }
 
 .talentsName + span, .constellationsName + span {
@@ -217,6 +218,15 @@
 
 .talentPass div {
     max-width: 14vw;
+}
+
+.talent_gif {
+    position: absolute;
+    left: -43vw;
+}
+
+.talent_gif img {
+    width: 35vw;
 }
 
 
