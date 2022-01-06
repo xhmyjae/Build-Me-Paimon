@@ -7,10 +7,10 @@ footer {
     align-items: end;
     flex-direction: column;
     bottom: -71vw;
-    left: -0.7vw;
     margin: 5vw 0;
     width: 101vw;
     height: 20vw;
+    left: 0;
 }
 
 .top {
@@ -52,18 +52,18 @@ footer {
     top: 5vw;
 }
 
-.logos img:first-child {
+.logos a:first-child img {
     width: 5vw;
 }
 
-.logos img {
+.logos a img {
     width: 10vw;
     padding: 0 1vw;
 }
 
-.logos img:nth-child(2) {
-    border-color: #fff;
+.logos a:nth-child(2) {
     border-left: 0.1vw solid;
+    border-color: white;
 }
 
 .links {
