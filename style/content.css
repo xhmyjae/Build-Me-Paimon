@@ -227,11 +227,9 @@
     max-width: 14vw;
 }
 
-
-
-
 .weaponsContent, .artifacts, .materials, .talents, .constellations {
     top: 2vw;
     display: none;
     position: relative;
 }
+
