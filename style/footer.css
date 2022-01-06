@@ -17,7 +17,21 @@ footer {
     left: 0;
     position: absolute;
     top: 0;
-    padding: 2vw 8vw;
+    padding: 1.5vw 8vw 0.5vw 8vw;
+    /*border-image: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,0))!important;*/
+    /*border-bottom: 0.1vw solid;*/
+    width: 100%;
+}
+
+.top img {
+    height: 2vw;
+    padding: 0 0.5vw;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.top img:hover {
+    opacity: 1;
 }
 
 .bot {
