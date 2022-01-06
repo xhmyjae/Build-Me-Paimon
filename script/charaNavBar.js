@@ -61,15 +61,16 @@ function switchContent() {
         loreCont.style.display = "flex";
         lore.style.transform = "scale(1.04)";
         lore.style.filter = "brightness(1.1)";
+        document.querySelector(".character img").style.opacity = "1";
     }
     weapons.onclick = function () {
         hideAll()
         weaponsCont.style.display = "flex";
         weapons.style.transform = "scale(1.04)";
         weapons.style.filter = "brightness(1.1)";
+        document.querySelector(".character img").style.opacity = "1";
     }
     artifacts.onclick = function () {
-        console.log("art navbar1")
         hideAll()
         artifactsCont.style.display = "flex";
         changeArtButtons()
@@ -77,7 +78,7 @@ function switchContent() {
         b1Cont.style.display = "flex";
         artifacts.style.transform = "scale(1.04)";
         artifacts.style.filter = "brightness(1.1)";
-        console.log("art navbar2")
+        document.querySelector(".character img").style.opacity = "1";
     }
     materials.onclick = function () {
         hideAll()
@@ -87,6 +88,7 @@ function switchContent() {
         b3Cont.style.display = "block";
         materials.style.transform = "scale(1.04)";
         materials.style.filter = "brightness(1.1)";
+        document.querySelector(".character img").style.opacity = "1";
     }
     talents.onclick = function () {
         hideAll()
@@ -106,6 +108,7 @@ function switchContent() {
         b9Cont.style.display = "flex";
         constellations.style.transform = "scale(1.04)";
         constellations.style.filter = "brightness(1.1)";
+        document.querySelector(".character img").style.opacity = "1";
     }
 }
 

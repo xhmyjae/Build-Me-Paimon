@@ -29,6 +29,9 @@ function switchInContent() {
     let b13Cont = document.getElementsByClassName("constellation5")[0];
     let b14Cont = document.getElementsByClassName("constellation6")[0];
 
+    let talent_gif = document.querySelector("talent_gif img");
+
+
     b1.onclick = function () {
         changeArtButtons()
         b1.src = "../images/icons/page_checked.png";
@@ -55,6 +58,7 @@ function switchInContent() {
         changeTalButtons()
         b5.src = "../images/icons/page_checked.png";
         b5Cont.style.display = "flex";
+        talent_gif.src = `${talent_gif.getAttribute('src')}?a=${Math.random()}`;
     }
     b6.onclick = function () {
         changeTalButtons()
@@ -114,7 +118,6 @@ function changeArtButtons() {
     b2.src = "../images/icons/page.png";
     b1Cont.style.display = "none";
     b2Cont.style.display = "none";
-    document.querySelector(".character img").style.opacity = "1";
 }
 
 function changeMatButtons() {
@@ -128,7 +131,6 @@ function changeMatButtons() {
     b4.src = "../images/icons/page.png";
     b3Cont.style.display = "none";
     b4Cont.style.display = "none";
-    document.querySelector(".character img").style.opacity = "1";
 }
 
 function changeTalButtons() {
@@ -180,5 +182,4 @@ function changeConstButtons() {
     b12Cont.style.display = "none";
     b13Cont.style.display = "none";
     b14Cont.style.display = "none";
-    document.querySelector(".character img").style.opacity = "1";
 }
