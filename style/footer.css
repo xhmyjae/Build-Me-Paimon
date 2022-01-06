@@ -77,6 +77,15 @@ footer {
     font-size: 1vw;
 }
 
+.github_links {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.github_links:hover {
+    opacity: 1;
+}
+
 .links a {
     text-decoration: none;
     color: #7d7d7d;
