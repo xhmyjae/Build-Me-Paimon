@@ -167,7 +167,8 @@
 
 /* TALENTS */
 
-.talent1 div, .talent2 div, .talent3 div, .talentPass div, .talents span, .constellations span, .constellation1 div {
+.talent1 div, .talent2 div, .talent3 div, .talentPass div, .talents span, .constellations span, .constellation1 div,
+.constellation2 div, .constellation3 div, .constellation4 div, .constellation5 div, .constellation6 div{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
