@@ -221,7 +221,7 @@ a.icon_navbar:hover:after {
 
 .fondu-out {
     opacity: 0;
-    transition: opacity 0.4s ease-out;
+    transition: opacity 0.4s 0.5s ease-out; /*type animationDuration animationBeginsAfter easing*/
 }
 
 .loader-wrapper {
