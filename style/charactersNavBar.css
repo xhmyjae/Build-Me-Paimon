@@ -39,10 +39,11 @@
 }
 
 .icon_navchara:hover {
-    transform: scale(1.04);
-    filter: brightness(1.1);
+    transform: scale(1.04)!important;
+    filter: brightness(1.1)!important;
 }
 
 #text {
     position: relative;
 }
+

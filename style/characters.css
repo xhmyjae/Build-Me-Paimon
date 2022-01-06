@@ -49,3 +49,32 @@ body {
     font-family: 'zh-cn';
     src: url('zh-cn.ttf') format('truetype');
 }
+
+
+/* VIDEO */
+
+.video {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: absolute;
+    top: 100%;
+    margin: 5vw 0;
+}
+
+.video div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    height: 33vw;
+    border: 0.2vw solid #fff;
+    background: #6b6b6b center/cover no-repeat;
+    cursor: pointer;
+}
+
+.thumbnails {
+    width: 60vw;
+    height: 33vw;
+}

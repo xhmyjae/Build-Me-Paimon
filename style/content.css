@@ -1,5 +1,10 @@
 .lore {
     font-size: 1.25vw;
+    background-color: rgba(13, 14, 14, 0.55);
+    box-shadow: rgb(0 0 0 / 35%) 0px 0px 10px 8px;
+    border: 0.2vw solid white;
+    padding: 25px;
+    border-radius: 4px;
 }
 
 .rare1 {
@@ -82,7 +87,7 @@
     position: relative;
 }
 
-.weaponsName, .artifactsName, .matName, .talentsName {
+.weaponsName, .artifactsName, .matName, .talentsName, .constellationsName {
     color: #efd5a3;
     font-family: 'zh-cn';
     position: relative;
@@ -102,13 +107,20 @@
 
 .material {
     border-radius: 1.5vw;
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
+    padding: 0.5vw;
+    transition: all 0.3s;
 }
 
-/*.material img {*/
-/*    transform: scale(0.3);*/
-/*}*/
+.weapon, .artifact, .talentimg, .constellationimg {
+    transition: all 0.3s;
+}
+
+.material:hover, .weapon:hover, .artifact:hover, .talentimg:hover, .constellationimg:hover {
+    transform: translateY(-4%) !important;
+    filter: brightness(1.1)!important;
+}
 
 .artifacts_set1, .artifacts_set2, .weaponsContent div, .ascensionContent{
     display: flex;
@@ -143,26 +155,27 @@
 
 .materials div div {
     display: flex;
-    flex-direction: column;
     align-items: center;
     break-inside: avoid;
+    height: 6vw;
 }
 
 .materials div div span {
-    margin: 0.5vw 0;
+    margin: 0.6vw;
 }
 
 
 /* TALENTS */
 
-.talent1 div, .talent2 div, .talent3 div, .talentPass div, .talents span {
+.talent1 div, .talent2 div, .talent3 div, .talentPass div, .talents span, .constellations span, .constellation1 div {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
+    margin: 0 0.5vw;
 }
 
-.talents div:not(.page) img {
+.talents div:not(.page) img, .constellations div:not(.page) img {
     width: 3.5vw;
     background: linear-gradient(rgb(88,94,106), rgb(132,142,155));
     border-radius: 50%;
@@ -176,10 +189,33 @@
     font-size: 1vw;
 }
 
-.talentsName + span {
+.talentsName + span, .constellationsName + span {
     color: darkgray;
+    margin-bottom: 0.5vw;
+    font-size: 1vw;
 }
 
+.talentsType {
+    color: #efd5a3;
+    margin-bottom: 1%;
+}
+
+.talentsContent {
+    margin-bottom: 1vw;
+}
+
+.talents > div:not(.page) {
+    top: -2vw;
+    position: relative;
+}
+
+.talent2, .talent3, .talentPass {
+    display: none;
+}
+
+.talentPass div {
+    max-width: 14vw;
+}
 
 
 
