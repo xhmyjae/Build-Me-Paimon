@@ -32,7 +32,7 @@ body {
 }
 
 
-.nav_icon_header:hover, .dropdown:hover .nav_icon_header {
+.nav_icon_header:hover/*, .dropdown:hover .nav_icon_header*/ {
     transform: scale(1.04);
     filter: brightness(1);
 }
@@ -40,6 +40,11 @@ body {
 .nav_icon_header {
     filter: brightness(0.6);
     transition: all 0.3s;
+}
+
+.click_icon {
+    transform: scale(1.04) !important;
+    filter: brightness(1) !important;
 }
 
 .icon_navbar {
