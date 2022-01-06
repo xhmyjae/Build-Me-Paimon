@@ -10,6 +10,7 @@ footer {
     margin: 5vw 0;
     width: 101vw;
     height: 20vw;
+    left: 0;
 }
 
 .top {
@@ -60,9 +61,9 @@ footer {
     padding: 0 1vw;
 }
 
-.logos a:nth-child(2) img {
-    border-color: #fff;
+.logos a:nth-child(2) {
     border-left: 0.1vw solid;
+    border-color: white;
 }
 
 .links {
@@ -74,6 +75,15 @@ footer {
     top: 5vw;
     color: #7d7d7d;
     font-size: 1vw;
+}
+
+.github_links {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.github_links:hover {
+    opacity: 1;
 }
 
 .links a {
