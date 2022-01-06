@@ -160,10 +160,10 @@ function changeConstButtons() {
 
     let b9Cont = document.getElementsByClassName("constellation1")[0];
     let b10Cont = document.getElementsByClassName("constellation2")[0];
-    // let b11Cont = document.getElementsByClassName("constellation3")[0];
-    // let b12Cont = document.getElementsByClassName("constellation4")[0];
-    // let b13Cont = document.getElementsByClassName("constellation5")[0];
-    // let b14Cont = document.getElementsByClassName("constellation6")[0];
+    let b11Cont = document.getElementsByClassName("constellation3")[0];
+    let b12Cont = document.getElementsByClassName("constellation4")[0];
+    let b13Cont = document.getElementsByClassName("constellation5")[0];
+    let b14Cont = document.getElementsByClassName("constellation6")[0];
 
     b9.src = "../images/icons/page.png";
     b10.src = "../images/icons/page.png";
@@ -174,8 +174,8 @@ function changeConstButtons() {
 
     b9Cont.style.display = "none";
     b10Cont.style.display = "none";
-    // b11Cont.style.display = "none";
-    // b12Cont.style.display = "none";
-    // b13Cont.style.display = "none";
-    // b14Cont.style.display = "none";
+    b11Cont.style.display = "none";
+    b12Cont.style.display = "none";
+    b13Cont.style.display = "none";
+    b14Cont.style.display = "none";
 }
