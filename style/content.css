@@ -61,7 +61,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-
+    transition: 1s;
 }
 
 .page img:hover {
