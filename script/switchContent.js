@@ -58,7 +58,9 @@ function switchInContent() {
         changeTalButtons()
         b5.src = "../images/icons/page_checked.png";
         b5Cont.style.display = "flex";
-        talent_gif.src = `${talent_gif.getAttribute('src')}?a=${Math.random()}`;
+        // talent_gif.src = talent_gif.getAttribute('src');
+        // talent_gif.setAttribute('src', "../images/talents-gif/albedo/Talent_Favonius_Bladework_-_Weiss_Normal.gif");
+        // talent_gif.src = `${talent_gif.getAttribute('src')}?a=${Math.random()}`;
     }
     b6.onclick = function () {
         changeTalButtons()
