@@ -59,8 +59,9 @@ body {
     justify-content: center;
     align-items: end;
     position: absolute;
-    top: 100%;
-    margin: 5vw 0;
+    top: 101%;
+    margin: 10vw 0;
+    left: 0;
 }
 
 .video div {
