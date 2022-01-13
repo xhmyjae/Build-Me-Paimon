@@ -7,6 +7,7 @@ body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     scrollbar-arrow-color: #272726;
+    margin: 0;
 }
 
 .header {
@@ -25,10 +26,11 @@ body {
     top: 0;
     z-index: 999;
     width: 100%;
-    min-width: 1280px;
     height: 66px;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -56,7 +58,7 @@ body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-
+    height: 100%;
     /*cursor: pointer;*/
     /*transition: all 0.3s;*/
 }
@@ -91,7 +93,9 @@ body {
     height : 200px;
 }
 
-
+.dropdown {
+    height: 100%;
+}
 
 .test-dropdown {
     animation: rotateX 0.5s 180ms ease-out both;
