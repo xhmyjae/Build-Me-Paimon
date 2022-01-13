@@ -42,7 +42,7 @@ body {
     font-family: 'zh-cn';
     filter: opacity(0.3);
     font-size: 5vw;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 @font-face {
@@ -58,9 +58,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
-    position: absolute;
+    /*position: absolute;*/
     top: 101%;
-    margin: 10vw 0;
+    /*margin: 10vw 0;*/
     left: 0;
 }
 
