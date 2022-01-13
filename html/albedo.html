@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="../style/charactersNavBar.css"/>
     <link rel="stylesheet" type="text/css" href="../style/content.css"/>
     <link rel="stylesheet" type="text/css" href="../style/footer.css"/>
+    <link href="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css" rel="stylesheet">
     <link rel="icon" type="text/css" href="../images/icons/Character_Paimon_Portrait.png">
     <script src="../script/main.js"></script>
     <script src="../script/charaNavBar.js"></script>
@@ -20,7 +21,6 @@
 </head>
 
 <body class="albedo">
-<div id="fullpage">
     <nav class="navigation">
         <ul class="header">
             <li class="icon_navbar"><a href="../index.html" class="icon_navbar"><img class="nav_icon_header"
@@ -130,6 +130,7 @@
         </ul>
     </nav>
 
+    <div id="fullpage">
     <div class="section" id="section1">
         <div class="background">
         </div>
@@ -476,7 +477,8 @@
             </div>
         </div>
     </div>
-    <div class="section" id="section3">
+
+    <div class="section fp-auto-height" id="section3">
         <footer>
             <div class="top">
                 <a href="https://discord.gg/sDv2BfsA7W" target="_blank"><img src="../images/icons/discord.png"
@@ -509,12 +511,14 @@
     </div>
 </div>
 
+
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.extensions.min.js"></script>
 
 <script defer>
     var myFullpage = new fullpage('#fullpage', {
-        autoScrolling: true
+        autoScrolling: true,
+        keyboardScrolling: true,
     })
 </script>
 

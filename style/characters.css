@@ -23,7 +23,7 @@ body {
 }
 
 .character {
-    bottom: -3px;
+    bottom: 1px;
     width: 97.5vw;
     height: 97vh;
     display: flex;

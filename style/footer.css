@@ -1,16 +1,20 @@
 footer {
-    position: absolute;
+    position: relative;
     z-index: 5000;
     background-color: #111;
     display: flex;
     justify-content: center;
     align-items: end;
     flex-direction: column;
-    bottom: -80vw;
-    margin: 5vw 0;
+    bottom: 0;
+    margin: 5vw 0 0 0;
     width: 101vw;
     height: 20vw;
     left: 0;
+}
+
+#section3 {
+    max-height: 20vw;
 }
 
 .top {
