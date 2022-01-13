@@ -1,23 +1,27 @@
 footer {
-    position: absolute;
+    position: relative;
     z-index: 5000;
     background-color: #111;
     display: flex;
     justify-content: center;
     align-items: end;
     flex-direction: column;
-    bottom: -80vw;
-    margin: 5vw 0;
+    bottom: 0;
+    margin: 0;
     width: 101vw;
     height: 20vw;
     left: 0;
 }
 
+/*#section3 {*/
+/*    max-height: 20vw;*/
+/*}*/
+
 .top {
     left: 0;
     position: absolute;
     top: 0;
-    padding: 1.5vw 8vw 0.5vw 8vw;
+    padding: 2vw 8vw 0.5vw 2vw;
     /*border-image: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,0))!important;*/
     /*border-bottom: 0.1vw solid;*/
     width: 100%;
