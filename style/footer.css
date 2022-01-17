@@ -22,9 +22,18 @@ footer {
     position: absolute;
     top: 0;
     padding: 2vw 8vw 0.5vw 2vw;
-    /*border-image: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,0))!important;*/
-    /*border-bottom: 0.1vw solid;*/
     width: 100%;
+}
+
+.underline_footer {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(130deg,#6b6b6b,#111111 70%);
 }
 
 .top img {
