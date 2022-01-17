@@ -208,7 +208,7 @@
 .talentsType {
     color: #efd5a3;
     margin-bottom: 1%;
-    font-size: 1vw;
+    font-size: 125% !important;
 }
 
 .talentsContent {

@@ -9,16 +9,6 @@
     z-index :1;
 }
 
-.header_navchara {
-    position: relative;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 3.5% 0;
-}
-
 .icon_navchara {
     filter: brightness(0.6);
     list-style: none;
@@ -32,6 +22,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header_navchara {
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 3.5% 0;
+    background-image: url("../images/icons/header-ending.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    filter: drop-shadow(0 0 1.5rem black);
 }
 
 .icon_navchara img {
