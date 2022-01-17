@@ -5,6 +5,9 @@
     border: 0.2vw solid white;
     padding: 25px;
     border-radius: 4px;
+    max-height: 20vw;
+    overflow-y: auto;
+    scrollbar-color: rgb(38, 39, 42) rgb(27, 34, 43);
 }
 
 .rare1 {
