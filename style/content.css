@@ -245,3 +245,11 @@
     position: relative;
 }
 
+.element {
+    display: flex;
+    justify-content: center;
+}
+
+.element img {
+    margin: auto;
+}
