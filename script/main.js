@@ -15,6 +15,7 @@ function enableScrolling(){
 
 
 window.addEventListener('load', () => {
+   window.scrollTo(0, 0); //scroll to top when reload
    disableScrolling()
    const waiting = 0.5; //time waiting AFTER window is loaded to display
    const loader = document.querySelector('.loader-wrapper');
@@ -24,5 +25,4 @@ window.addEventListener('load', () => {
       enableScrolling()
    }, waiting * 1000); //time in second * 1000
 })
-
 
