@@ -71,7 +71,7 @@ footer {
 
 .logos a img {
     width: 10vw;
-    padding: 0 1vw;
+    padding: 0 1vw 0 0;
 }
 
 .logos a:nth-child(2) {
