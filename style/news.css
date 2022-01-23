@@ -17,7 +17,7 @@ body {
     background-color: #f0f0f0;
 }
 
-.single_articles {
+.single_articles a {
     position: relative;
     max-width: 100%;
     height: 15vh;
@@ -30,9 +30,10 @@ body {
 
     background-color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
-.single_articles:hover {
+.single_articles a:hover {
     border-color: rgba(57,59,64,0.15);
 }
 
