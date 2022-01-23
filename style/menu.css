@@ -38,13 +38,14 @@ footer {
     cursor: pointer;
 }
 
-.articles > div {
+.articles > a {
+    position: absolute;
     margin: 5%;
     height: 90%;
     width: 90%;
 }
 
-.articles div div {
+.articles a div {
     overflow: hidden;
 }
 
@@ -58,7 +59,6 @@ footer {
 }
 
 .new_articles_content {
-    font-family: Helvetica, serif;
     text-shadow: None;
 }
 
