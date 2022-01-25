@@ -2,8 +2,8 @@
 
 body {
     background-image: url("../images/wallpaper/news_background.jpg");
-    background-attachment: fixed!important;
-    background-size: cover!important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
 }
 
 /* ARTICLES */
@@ -25,7 +25,7 @@ body {
     padding: 1% 1.5%;
     border-radius: 0.5vw;
     display: flex;
-    border: solid 3px rgba(57,59,64,0);
+    border: solid 3px rgba(57, 59, 64, 0);
     transition: border-color 0.2s linear;
 
     background-color: white;
@@ -34,7 +34,7 @@ body {
 }
 
 .single_articles a:hover {
-    border-color: rgba(57,59,64,0.15);
+    border-color: rgba(57, 59, 64, 0.15);
 }
 
 .single_articles img {

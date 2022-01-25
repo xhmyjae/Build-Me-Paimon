@@ -33,7 +33,7 @@ footer {
     left: 0;
     height: 2px;
     border-radius: 2px;
-    background: linear-gradient(130deg,#6b6b6b,#111111 70%);
+    background: linear-gradient(130deg, #6b6b6b, #111111 70%);
 }
 
 .top img {
@@ -57,7 +57,7 @@ footer {
     width: 100%;
 }
 
-.logos{
+.logos {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -102,7 +102,7 @@ footer {
 .links a {
     text-decoration: none;
     color: #7d7d7d;
-    border-color: white!important;
+    border-color: white !important;
     border-left: 0.1vw solid;
     padding: 0 1vw;
 }

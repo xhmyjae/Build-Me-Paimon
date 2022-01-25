@@ -27,7 +27,7 @@
     width: 30%;
     height: 85%;
     position: relative;
-    background-color: rgba(18,18,18,0.8);
+    background-color: rgba(18, 18, 18, 0.8);
     box-shadow: 0 3px 7px 0 rgb(0 0 0 / 35%);
     border-radius: 4px;
     cursor: pointer;
@@ -65,7 +65,7 @@
     height: 50vw;
     top: 22vw;
     background-image: url("../images/wallpaper/back_new_characters.jpg");
-    background-size: cover!important;
+    background-size: cover !important;
 }
 
 .list_new_characters > img {
