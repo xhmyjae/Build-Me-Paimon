@@ -12,10 +12,11 @@ body {
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 0;
     padding: 0;
+    width: 50%;
 }
 
 .navigation {
@@ -52,7 +53,6 @@ body {
 .icon_navbar {
     /*filter: brightness(0.6);*/
     display: inline-block;
-    margin: 0 30px;
     list-style: none;
     position: relative;
     background-position: center;
