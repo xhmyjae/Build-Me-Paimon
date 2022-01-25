@@ -6,7 +6,7 @@
     flex-direction: column;
     list-style: none;
     width: 43%;
-    z-index :1;
+    z-index: 1;
 }
 
 .icon_navchara {
@@ -44,8 +44,8 @@
 }
 
 .icon_navchara:hover {
-    transform: scale(1.04)!important;
-    filter: brightness(1.1)!important;
+    transform: scale(1.04) !important;
+    filter: brightness(1.1) !important;
 }
 
 #text {

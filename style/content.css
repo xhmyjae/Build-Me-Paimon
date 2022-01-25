@@ -11,7 +11,7 @@
 }
 
 .rare1 {
-    background: linear-gradient(rgba(88,94,106,.800), rgba(132,142,155,.800));
+    background: linear-gradient(rgba(88, 94, 106, .800), rgba(132, 142, 155, .800));
     border-radius: 2vw;
     border: 0.2vw solid #efd5a3;
     width: 6vw;
@@ -20,7 +20,7 @@
 }
 
 .rare2 {
-    background: linear-gradient(rgba(75,96,96,.800), rgba(117,155,131,.800));
+    background: linear-gradient(rgba(75, 96, 96, .800), rgba(117, 155, 131, .800));
     border-radius: 2vw;
     border: 0.2vw solid #efd5a3;
     width: 6vw;
@@ -29,7 +29,7 @@
 }
 
 .rare3 {
-    background: linear-gradient(rgba(80,97,130,.800), rgba(81,146,170,.800));
+    background: linear-gradient(rgba(80, 97, 130, .800), rgba(81, 146, 170, .800));
     border-radius: 2vw;
     border: 0.2vw solid #efd5a3;
     width: 6vw;
@@ -38,7 +38,7 @@
 }
 
 .rare4 {
-    background: linear-gradient(rgba(89,92,135,.800), rgba(137,113,175,.800));
+    background: linear-gradient(rgba(89, 92, 135, .800), rgba(137, 113, 175, .800));
     border-radius: 2vw;
     border: 0.2vw solid #efd5a3;
     width: 6vw;
@@ -47,14 +47,13 @@
 }
 
 .rare5 {
-    background: linear-gradient(rgba(140,107,53,.800), rgba(179,120,50,.800));
+    background: linear-gradient(rgba(140, 107, 53, .800), rgba(179, 120, 50, .800));
     border-radius: 2vw;
     border: 0.2vw solid #efd5a3;
     width: 6vw;
     height: 6vw;
     box-shadow: 0 0.1vw 0.8vw darkgoldenrod;
 }
-
 
 
 .page {
@@ -77,7 +76,7 @@
 }
 
 
-.artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div{
+.artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -126,19 +125,19 @@ strong {
 
 .material:hover, .weapon:hover, .artifact:hover, .talentimg:hover, .constellationimg:hover {
     transform: translateY(-4%) !important;
-    filter: brightness(1.1)!important;
+    filter: brightness(1.1) !important;
 }
 
-.artifacts_set1, .artifacts_set2, .weaponsContent div, .ascensionContent{
+.artifacts_set1, .artifacts_set2, .weaponsContent div, .ascensionContent {
     display: flex;
 }
 
 .artifacts_set2 {
-    display:none;
+    display: none;
     flex-flow: column;
 }
 
-.artifacts_set2 div , .artifacts_set1 div, .weaponsContent div{
+.artifacts_set2 div, .artifacts_set1 div, .weaponsContent div {
     display: flex;
     flex-flow: row;
     margin-bottom: 2vw;
@@ -175,7 +174,7 @@ strong {
 /* TALENTS */
 
 .talent1 div:first-child, .talent2 div:first-child, .talent3 div:first-child, .talentPass div, .talents span, .constellations span, .constellation1 div,
-.constellation2 div, .constellation3 div, .constellation4 div, .constellation5 div, .constellation6 div{
+.constellation2 div, .constellation3 div, .constellation4 div, .constellation5 div, .constellation6 div {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -185,7 +184,7 @@ strong {
 
 .talents div div:not(.page):not(.talent_gif) img, .constellations div:not(.page) img {
     width: 3.5vw;
-    background: linear-gradient(rgb(88,94,106), rgb(132,142,155));
+    background: linear-gradient(rgb(88, 94, 106), rgb(132, 142, 155));
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 7px 0px;
     margin: 0 0 1vw 0;
@@ -196,6 +195,14 @@ strong {
     background: linear-gradient(rgb(202, 131, 34), rgb(255, 249, 204));
     border-radius: 50%;
     box-shadow: rgb(206, 129, 35) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
+.cryo div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(100, 224, 253), rgb(243, 249, 253));
+    border-radius: 50%;
+    box-shadow: rgb(100, 168, 185) 0px 3px 7px 0px;
     margin: 0 0 1vw 0;
 }
 

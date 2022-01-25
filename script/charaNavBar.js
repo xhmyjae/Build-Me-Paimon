@@ -11,7 +11,7 @@ function charaNavBar() {
         icons.setAttribute("id", charaIcons[i]);
 
         let img = document.createElement("img");
-        img.setAttribute("src", "../images/icons/"+linksIcons[i]);
+        img.setAttribute("src", "../images/icons/" + linksIcons[i]);
         img.setAttribute("title", charaIcons[i]);
         img.setAttribute("alt", charaIcons[i]);
 

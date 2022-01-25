@@ -2,184 +2,193 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="antaww/xhmyjae">
-    <meta name="description" content="Albedo's complete build">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="antaww/xhmyjae" name="author">
+    <meta content="Albedo's complete build" name="description">
     <title>Albedo Build</title>
 
-    <link rel="stylesheet" type="text/css" href="../style/characters.css"/>
-    <link rel="stylesheet" type="text/css" href="../style/main.css">
-    <link rel="stylesheet" type="text/css" href="../style/charactersNavBar.css"/>
-    <link rel="stylesheet" type="text/css" href="../style/content.css"/>
-    <link rel="stylesheet" type="text/css" href="../style/footer.css"/>
+    <link href="../style/characters.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/main.css" rel="stylesheet" type="text/css">
+    <link href="../style/charactersNavBar.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/content.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/footer.css" rel="stylesheet" type="text/css"/>
     <link href="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css" rel="stylesheet">
-    <link rel="icon" type="text/css" href="../images/icons/Character_Paimon_Portrait.png">
+    <link href="../images/icons/Character_Paimon_Portrait.png" rel="icon" type="text/css">
     <script src="../script/main.js"></script>
     <script src="../script/charaNavBar.js"></script>
     <script src="../script/switchContent.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css" integrity="sha512-TD/aL30dNLN0VaHVoh9voFlNi7ZuWQYtV4bkIJv2ulZ8mEEkZJ7IyGvDthMKvIUwzLmPONnjQlAi55HTERVXpw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css"
+          integrity="sha512-TD/aL30dNLN0VaHVoh9voFlNi7ZuWQYtV4bkIJv2ulZ8mEEkZJ7IyGvDthMKvIUwzLmPONnjQlAi55HTERVXpw=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
 </head>
 
 <body class="albedo">
-    <nav class="navigation">
-        <ul class="header">
-            <li class="icon_navbar"><a href="../index.html" class="icon_navbar"><img class="nav_icon_header"
-                                                                                     src="../images/icons/Icon_Inventory_Furnishings.png"
-                                                                                     alt="Home"
-                                                                                     title="Home"></a></li>
-            <li class="icon_navbar"><a href="../html/news.html" class="icon_navbar"><img class="nav_icon_header" src="../images/icons/Icon_Inventory_Quest.png" alt="News icon" title="News"></a></li>
+<nav class="navigation">
+    <ul class="header">
+        <li class="icon_navbar"><a class="icon_navbar" href="../index.html"><img alt="Home"
+                                                                                 class="nav_icon_header"
+                                                                                 src="../images/icons/Icon_Inventory_Furnishings.png"
+                                                                                 title="Home"></a></li>
+        <li class="icon_navbar"><a class="icon_navbar" href="../html/news.html"><img alt="News icon"
+                                                                                     class="nav_icon_header"
+                                                                                     src="../images/icons/Icon_Inventory_Quest.png" title="News"></a>
+        </li>
 
-            <div class="dropdown">
-                <li class="icon_navbar char_icon" onclick="showCharacters()"><a class="icon_navbar"><img
-                        class="nav_icon_header" src="../images/icons/Icon_Inventory_Character_Development_Items.png"
-                        title="Characters"></a></li>
-                <div class="characters">
-                    <a href="../html/albedo.html" class="a_icon"><img src="../images/characters/Albedo_head.png"
-                                                                      alt="Albedo"
-                                                                      title="Albedo"></a>
-                    <a href="../html/aloy.html" class="a_icon"><img src="../images/characters/Aloy_head.png"
-                                                                    alt="Aloy"
-                                                                    title="Aloy"></a>
-                    <a href="../html/amber.html" class="a_icon"><img src="../images/characters/Amber_head.png"
-                                                                     alt="Amber"
-                                                                     title="Amber"></a>
-                    <a href="../html/barbara.html" class="a_icon"><img src="../images/characters/Barbara_head.png"
-                                                                       alt="Barbara"
-                                                                       title="Barbara"></a>
-                    <a href="../html/beidou.html" class="a_icon"><img src="../images/characters/Beidou_head.png"
-                                                                      alt="Beidou"
-                                                                      title="Beidou"></a>
-                    <a href="../html/bennett.html" class="a_icon"><img src="../images/characters/Bennett_head.png"
-                                                                       alt="Bennett"
-                                                                       title="Bennett"></a>
-                    <a href="../html/chongyun.html" class="a_icon"><img src="../images/characters/Chongyun_head.png"
-                                                                        alt="Chongyun"
-                                                                        title="Chongyun"></a>
-                    <a href="../html/diluc.html" class="a_icon"><img src="../images/characters/Diluc_head.png"
-                                                                     alt="Diluc"
-                                                                     title="Diluc"></a>
-                    <a href="../html/diona.html" class="a_icon"><img src="../images/characters/Diona_head.png"
-                                                                     alt="Diona"
-                                                                     title="Diona"></a>
-                    <a href="../html/eula.html" class="a_icon"><img src="../images/characters/Eula_head.png"
-                                                                    alt="Eula"
-                                                                    title="Eula"></a>
-                    <a href="../html/fischl.html" class="a_icon"><img src="../images/characters/Fischl_head.png"
-                                                                      alt-="Fischl"
-                                                                      title="Fischl"></a>
-                    <a href="../html/ganyu.html" class="a_icon"><img src="../images/characters/Ganyu_head.png"
-                                                                     alt="Ganyu"
-                                                                     title="Ganyu"></a>
-                    <a href="../html/gorou.html" class="a_icon"><img src="../images/characters/Gorou_head.png"
-                                                                     alt="Gorou"
-                                                                     title="Gorou"></a>
-                    <a href="../html/hutao.html" class="a_icon"><img src="../images/characters/Hu%20Tao_head.png"
-                                                                     alt="Hu Tao"
-                                                                     title="Hu Tao"></a>
-                    <a href="../html/itto.html" class="a_icon"><img src="../images/characters/Itto_head.png"
-                                                                    alt="Itto"
-                                                                    title="Itto"></a>
-                    <a href="../html/jean.html" class="a_icon"><img src="../images/characters/Jean_head.png"
-                                                                    alt="Jean"
-                                                                    title="Jean"></a>
-                    <a href="../html/kazuha.html" class="a_icon"><img src="../images/characters/Kazuha_head.png"
-                                                                      alt="Kaedehara Kazuha"
-                                                                      title="Kaedehara Kazuha"></a>
-                    <a href="../html/kaeya.html" class="a_icon"><img src="../images/characters/Kaeya_head.png"
-                                                                     alt="Kaeya"
-                                                                     title="Kaeya"></a>
-                    <a href="../html/ayaka.html" class="a_icon"><img src="../images/characters/Ayaka_head.png"
-                                                                     alt="Ayaka"
-                                                                     title="Kamisato Ayaka"></a>
-                    <a href="../html/keqing.html" class="a_icon"><img src="../images/characters/Keqing_head.png"
-                                                                      alt="Keqing"
-                                                                      title="Keqing"></a>
-                    <a href="../html/klee.html" class="a_icon"><img src="../images/characters/Klee_head.png"
-                                                                    alt="Klee"
-                                                                    title="Klee"></a>
-                    <a href="../html/sara.html" class="a_icon"><img src="../images/characters/Sara_head.png"
-                                                                    alt="Kujou Sara"
-                                                                    title="Kujou Sara"></a>
-                    <a href="../html/lisa.html" class="a_icon"><img src="../images/characters/Lisa_head.png"
-                                                                    alt="Lisa"
-                                                                    title="Lisa"></a>
-                    <a href="../html/mona.html" class="a_icon"><img src="../images/characters/Mona_head.png"
-                                                                    alt="Mona"
-                                                                    title="Mona"></a>
-                    <a href="../html/ningguang.html" class="a_icon"><img src="../images/characters/Ningguang_head.png"
-                                                                         alt="Ningguang"
-                                                                         title="Ningguang"></a>
-                    <a href="../html/noelle.html" class="a_icon"><img src="../images/characters/Noelle_head.png"
-                                                                      alt="Noelle"
-                                                                      title="Noelle"></a>
-                    <a href="../html/qiqi.html" class="a_icon"><img src="../images/characters/Qiqi_head.png"
-                                                                    alt="Qiqi"
-                                                                    title="Qiqi"></a>
-                    <a href="../html/raiden.html" class="a_icon"><img src="../images/characters/Raiden_head.png"
-                                                                      alt="Raiden Shogun"
-                                                                      title="Raiden Shogun"></a>
-                    <a href="../html/razor.html" class="a_icon"><img src="../images/characters/Razor_head.png"
-                                                                     alt="Razor"
-                                                                     title="Razor"></a>
-                    <a href="../html/rosaria.html" class="a_icon"><img src="../images/characters/Rosaria_head.png"
-                                                                       alt="Rosaria"
-                                                                       title="Rosaria"></a>
-                    <a href="../html/kokomi.html" class="a_icon"><img src="../images/characters/Kokomi_head.png"
-                                                                      alt="Sangonomiya Kokomi"
-                                                                      title="Sangonomiya Kokomi"></a>
-                    <a href="../html/sayu.html" class="a_icon"><img src="../images/characters/Sayu_head.png"
-                                                                    alt="Sayu"
-                                                                    title="Sayu"></a>
-                    <a href="../html/sucrose.html" class="a_icon"><img src="../images/characters/Sucrose_head.png"
-                                                                       alt="Sucrose"
-                                                                       title="Sucrose"></a>
-                    <a href="../html/tartaglia.html" class="a_icon"><img src="../images/characters/Tartaglia_head.png"
-                                                                         alt="Tartaglia"
-                                                                         title="Tartaglia"></a>
-                    <a href="../html/thoma.html" class="a_icon"><img src="../images/characters/Thoma_head.png"
-                                                                     alt="Thoma"
-                                                                     title="Thoma"></a>
-                    <a href="../html/traveler.html" class="a_icon"><img
-                            src="../images/characters/Traveler%20(Electro)_head.png" alt="Traveler" title="Traveler"></a>
-                    <!--                add element variation for traveler when click ("which element ? -electro/geo/anemo = new html)-->
-                    <a href="../html/venti.html" class="a_icon"><img src="../images/characters/Venti_head.png"
-                                                                     alt="Venti"
-                                                                     title="Venti"></a>
-                    <a href="../html/xiangling.html" class="a_icon"><img src="../images/characters/Xiangling_head.png"
-                                                                         alt="Xiangling"
-                                                                         title="Xiangling"></a>
-                    <a href="../html/xiao.html" class="a_icon"><img src="../images/characters/Xiao_head.png"
-                                                                    alt="Xiao"
-                                                                    title="Xiao"></a>
-                    <a href="../html/xingqiu.html" class="a_icon"><img src="../images/characters/Xingqiu_head.png"
-                                                                       alt="Xingqiu"
-                                                                       title="Xingqiu"></a>
-                    <a href="../html/xinyan.html" class="a_icon"><img src="../images/characters/Xinyan_head.png"
-                                                                      alt="Xinyan"
-                                                                      title="Xinyan"></a>
-                    <a href="../html/yanfei.html" class="a_icon"><img src="../images/characters/Yanfei_head.png"
-                                                                      alt="Yanfei"
-                                                                      title="Yanfei"></a>
-                    <a href="../html/yoimiya.html" class="a_icon"><img src="../images/characters/Yoimiya_head.png"
-                                                                       alt="Yoimiya"
-                                                                       title="Yoimiya"></a>
-                    <a href="../html/zhongli.html" class="a_icon"><img src="../images/characters/Zhongli_head.png"
-                                                                       alt="Zhonli"
-                                                                       title="Zhongli"></a>
-                </div>
+        <div class="dropdown">
+            <li class="icon_navbar char_icon" onclick="showCharacters()"><a class="icon_navbar"><img
+                    class="nav_icon_header" src="../images/icons/Icon_Inventory_Character_Development_Items.png"
+                    title="Characters"></a></li>
+            <div class="characters">
+                <a class="a_icon" href="../html/albedo.html"><img alt="Albedo"
+                                                                  src="../images/characters/Albedo_head.png"
+                                                                  title="Albedo"></a>
+                <a class="a_icon" href="../html/aloy.html"><img alt="Aloy"
+                                                                src="../images/characters/Aloy_head.png"
+                                                                title="Aloy"></a>
+                <a class="a_icon" href="../html/amber.html"><img alt="Amber"
+                                                                 src="../images/characters/Amber_head.png"
+                                                                 title="Amber"></a>
+                <a class="a_icon" href="../html/barbara.html"><img alt="Barbara"
+                                                                   src="../images/characters/Barbara_head.png"
+                                                                   title="Barbara"></a>
+                <a class="a_icon" href="../html/beidou.html"><img alt="Beidou"
+                                                                  src="../images/characters/Beidou_head.png"
+                                                                  title="Beidou"></a>
+                <a class="a_icon" href="../html/bennett.html"><img alt="Bennett"
+                                                                   src="../images/characters/Bennett_head.png"
+                                                                   title="Bennett"></a>
+                <a class="a_icon" href="../html/chongyun.html"><img alt="Chongyun"
+                                                                    src="../images/characters/Chongyun_head.png"
+                                                                    title="Chongyun"></a>
+                <a class="a_icon" href="../html/diluc.html"><img alt="Diluc"
+                                                                 src="../images/characters/Diluc_head.png"
+                                                                 title="Diluc"></a>
+                <a class="a_icon" href="../html/diona.html"><img alt="Diona"
+                                                                 src="../images/characters/Diona_head.png"
+                                                                 title="Diona"></a>
+                <a class="a_icon" href="../html/eula.html"><img alt="Eula"
+                                                                src="../images/characters/Eula_head.png"
+                                                                title="Eula"></a>
+                <a class="a_icon" href="../html/fischl.html"><img alt-="Fischl"
+                                                                  src="../images/characters/Fischl_head.png"
+                                                                  title="Fischl"></a>
+                <a class="a_icon" href="../html/ganyu.html"><img alt="Ganyu"
+                                                                 src="../images/characters/Ganyu_head.png"
+                                                                 title="Ganyu"></a>
+                <a class="a_icon" href="../html/gorou.html"><img alt="Gorou"
+                                                                 src="../images/characters/Gorou_head.png"
+                                                                 title="Gorou"></a>
+                <a class="a_icon" href="../html/hutao.html"><img alt="Hu Tao"
+                                                                 src="../images/characters/Hu%20Tao_head.png"
+                                                                 title="Hu Tao"></a>
+                <a class="a_icon" href="../html/itto.html"><img alt="Itto"
+                                                                src="../images/characters/Itto_head.png"
+                                                                title="Itto"></a>
+                <a class="a_icon" href="../html/jean.html"><img alt="Jean"
+                                                                src="../images/characters/Jean_head.png"
+                                                                title="Jean"></a>
+                <a class="a_icon" href="../html/kazuha.html"><img alt="Kaedehara Kazuha"
+                                                                  src="../images/characters/Kazuha_head.png"
+                                                                  title="Kaedehara Kazuha"></a>
+                <a class="a_icon" href="../html/kaeya.html"><img alt="Kaeya"
+                                                                 src="../images/characters/Kaeya_head.png"
+                                                                 title="Kaeya"></a>
+                <a class="a_icon" href="../html/ayaka.html"><img alt="Ayaka"
+                                                                 src="../images/characters/Ayaka_head.png"
+                                                                 title="Kamisato Ayaka"></a>
+                <a class="a_icon" href="../html/keqing.html"><img alt="Keqing"
+                                                                  src="../images/characters/Keqing_head.png"
+                                                                  title="Keqing"></a>
+                <a class="a_icon" href="../html/klee.html"><img alt="Klee"
+                                                                src="../images/characters/Klee_head.png"
+                                                                title="Klee"></a>
+                <a class="a_icon" href="../html/sara.html"><img alt="Kujou Sara"
+                                                                src="../images/characters/Sara_head.png"
+                                                                title="Kujou Sara"></a>
+                <a class="a_icon" href="../html/lisa.html"><img alt="Lisa"
+                                                                src="../images/characters/Lisa_head.png"
+                                                                title="Lisa"></a>
+                <a class="a_icon" href="../html/mona.html"><img alt="Mona"
+                                                                src="../images/characters/Mona_head.png"
+                                                                title="Mona"></a>
+                <a class="a_icon" href="../html/ningguang.html"><img alt="Ningguang"
+                                                                     src="../images/characters/Ningguang_head.png"
+                                                                     title="Ningguang"></a>
+                <a class="a_icon" href="../html/noelle.html"><img alt="Noelle"
+                                                                  src="../images/characters/Noelle_head.png"
+                                                                  title="Noelle"></a>
+                <a class="a_icon" href="../html/qiqi.html"><img alt="Qiqi"
+                                                                src="../images/characters/Qiqi_head.png"
+                                                                title="Qiqi"></a>
+                <a class="a_icon" href="../html/raiden.html"><img alt="Raiden Shogun"
+                                                                  src="../images/characters/Raiden_head.png"
+                                                                  title="Raiden Shogun"></a>
+                <a class="a_icon" href="../html/razor.html"><img alt="Razor"
+                                                                 src="../images/characters/Razor_head.png"
+                                                                 title="Razor"></a>
+                <a class="a_icon" href="../html/rosaria.html"><img alt="Rosaria"
+                                                                   src="../images/characters/Rosaria_head.png"
+                                                                   title="Rosaria"></a>
+                <a class="a_icon" href="../html/kokomi.html"><img alt="Sangonomiya Kokomi"
+                                                                  src="../images/characters/Kokomi_head.png"
+                                                                  title="Sangonomiya Kokomi"></a>
+                <a class="a_icon" href="../html/sayu.html"><img alt="Sayu"
+                                                                src="../images/characters/Sayu_head.png"
+                                                                title="Sayu"></a>
+                <a class="a_icon" href="../html/sucrose.html"><img alt="Sucrose"
+                                                                   src="../images/characters/Sucrose_head.png"
+                                                                   title="Sucrose"></a>
+                <a class="a_icon" href="../html/tartaglia.html"><img alt="Tartaglia"
+                                                                     src="../images/characters/Tartaglia_head.png"
+                                                                     title="Tartaglia"></a>
+                <a class="a_icon" href="../html/thoma.html"><img alt="Thoma"
+                                                                 src="../images/characters/Thoma_head.png"
+                                                                 title="Thoma"></a>
+                <a class="a_icon" href="../html/traveler.html"><img
+                        alt="Traveler" src="../images/characters/Traveler%20(Electro)_head.png" title="Traveler"></a>
+                <!--                add element variation for traveler when click ("which element ? -electro/geo/anemo = new html)-->
+                <a class="a_icon" href="../html/venti.html"><img alt="Venti"
+                                                                 src="../images/characters/Venti_head.png"
+                                                                 title="Venti"></a>
+                <a class="a_icon" href="../html/xiangling.html"><img alt="Xiangling"
+                                                                     src="../images/characters/Xiangling_head.png"
+                                                                     title="Xiangling"></a>
+                <a class="a_icon" href="../html/xiao.html"><img alt="Xiao"
+                                                                src="../images/characters/Xiao_head.png"
+                                                                title="Xiao"></a>
+                <a class="a_icon" href="../html/xingqiu.html"><img alt="Xingqiu"
+                                                                   src="../images/characters/Xingqiu_head.png"
+                                                                   title="Xingqiu"></a>
+                <a class="a_icon" href="../html/xinyan.html"><img alt="Xinyan"
+                                                                  src="../images/characters/Xinyan_head.png"
+                                                                  title="Xinyan"></a>
+                <a class="a_icon" href="../html/yanfei.html"><img alt="Yanfei"
+                                                                  src="../images/characters/Yanfei_head.png"
+                                                                  title="Yanfei"></a>
+                <a class="a_icon" href="../html/yoimiya.html"><img alt="Yoimiya"
+                                                                   src="../images/characters/Yoimiya_head.png"
+                                                                   title="Yoimiya"></a>
+                <a class="a_icon" href="../html/zhongli.html"><img alt="Zhonli"
+                                                                   src="../images/characters/Zhongli_head.png"
+                                                                   title="Zhongli"></a>
             </div>
-            <li class="icon_navbar"><a href="https://webstatic-sea.mihoyo.com/app/ys-map-sea/index.html?utm_source=hoyolab&lang=en-us#/map/2" class="icon_navbar" target="_blank"><img class="nav_icon_header" src="../images/icons/Icon_Inventory_Precious_Items.png" alt="Genshin map" title="Map"></a></li>
-        </ul>
-    </nav>
+        </div>
+        <li class="icon_navbar"><a
+                class="icon_navbar"
+                href="https://webstatic-sea.mihoyo.com/app/ys-map-sea/index.html?utm_source=hoyolab&lang=en-us#/map/2" target="_blank"><img alt="Genshin map"
+                                                         class="nav_icon_header"
+                                                         src="../images/icons/Icon_Inventory_Precious_Items.png" title="Map"></a></li>
+    </ul>
+</nav>
 
-    <div id="fullpage">
+<div id="fullpage">
     <div class="section" id="section1">
         <div class="background">
         </div>
 
         <div class="character">
-            <img src="../images/characters/big_albedo.png" alt="Albedo">
+            <img alt="Albedo" src="../images/characters/big_albedo.png">
         </div>
 
         <div id="content">
@@ -194,14 +203,16 @@
 
                 <div class="weaponsContent">
                     <div>
-                        <img src="../images/img-genshin/weapons/primordial_jade_cutter.png" alt="Primordial Jade cutter" class="weapon rare5">
+                        <img alt="Primordial Jade cutter" class="weapon rare5"
+                             src="../images/img-genshin/weapons/primordial_jade_cutter.png">
                         <div>
                             <span class="weaponsName">Primordial Jade Cutter</span>
                             <span class="weaponsText">HP increased by <strong>20/25/30/35/40%</strong>. Additionally, provides an ATK bonus based on <strong>1.2/1.5/1.8/2.1/2.4%</strong> of the weilder's Max HP.</span>
                         </div>
                     </div>
                     <div>
-                        <img src="../images/img-genshin/weapons/cinnabar_spindle.png" alt="Cinnabar spindle" class="weapon rare4">
+                        <img alt="Cinnabar spindle" class="weapon rare4"
+                             src="../images/img-genshin/weapons/cinnabar_spindle.png">
                         <div>
                             <span class="weaponsName">Cinnabar Spindle</span>
                             <span class="weaponsText">Elemental Skill DMG is increased by <strong>40/50/60/70/80%</strong> of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG.</span>
@@ -211,14 +222,14 @@
 
                 <div class="artifacts">
                     <div class="page">
-                        <img src="../images/icons/page_checked.png" alt="Checked button" id="b1">
-                        <img src="../images/icons/page.png" alt="button" id="b2">
+                        <img alt="Checked button" id="b1" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b2" src="../images/icons/page.png">
                     </div>
                     <div class="artifacts_set1">
                         <div>
-                            <img src="../images/img-genshin/artifacts/husk_of_opulent_dreams_flower.png"
-                                 alt="Husk of Opulent dreams"
-                                 class="artifact rare5">
+                            <img alt="Husk of Opulent dreams"
+                                 class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/husk_of_opulent_dreams_flower.png">
                             <div>
                                 <span class="artifactsName">Husk of Opulent Dreams (x4)</span>
                                 <span class="artifactsText">- DEF +30%
@@ -233,16 +244,17 @@
                     </div>
                     <div class="artifacts_set2">
                         <div>
-                            <img src="../images/img-genshin/artifacts/archaic_petra_flower.png" alt="Archaic Petra" class="artifact rare5">
+                            <img alt="Archaic Petra" class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/archaic_petra_flower.png">
                             <div>
                                 <span class="artifactsName">Archaic Petra (x2)</span>
                                 <span class="artifactsText">- Geo DMG Bonus +15%.</span>
                             </div>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/artifacts/noblesse_oblige_flower.png"
-                                 alt="Noblesse oblige"
-                                 class="artifact rare5">
+                            <img alt="Noblesse oblige"
+                                 class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/noblesse_oblige_flower.png">
                             <div>
                                 <span class="artifactsName">Noblesse Oblige (x2)</span>
                                 <span class="artifactsText">- Elemental Burst DMG +20%.</span>
@@ -253,79 +265,95 @@
 
                 <div class="materials">
                     <div class="page">
-                        <img src="../images/icons/page_checked.png" alt="checked button" id="b3">
-                        <img src="../images/icons/page.png" alt="button" id="b4">
+                        <img alt="checked button" id="b3" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b4" src="../images/icons/page.png">
                     </div>
                     <span class="matName">Ascension</span>
                     <div class="ascensionMats">
                         <div>
-                            <img src="../images/img-genshin/items/prithiva_topaz_sliver.png" alt="Prithiva topaz sliver" class="material rare2">
+                            <img alt="Prithiva topaz sliver" class="material rare2"
+                                 src="../images/img-genshin/items/prithiva_topaz_sliver.png">
                             <span class="materialsName">Prithiva Topaz Sliver (x1)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/prithiva_topaz_fragment.png" alt="Prithiva topaz fragment" class="material rare3">
+                            <img alt="Prithiva topaz fragment"
+                                 class="material rare3" src="../images/img-genshin/items/prithiva_topaz_fragment.png">
                             <span class="materialsName">Prithiva Topaz Fragment (x9)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/prithiva_topaz_chunk.png" alt="Prithiva topaz chunk" class="material rare4">
+                            <img alt="Prithiva topaz chunk" class="material rare4"
+                                 src="../images/img-genshin/items/prithiva_topaz_chunk.png">
                             <span class="materialsName">Prithiva Topaz Chunk (x9)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/prithiva_topaz_gemstone.png" alt="Prithiva topaz gemstone" class="material rare5">
+                            <img alt="Prithiva topaz gemstone"
+                                 class="material rare5" src="../images/img-genshin/items/prithiva_topaz_gemstone.png">
                             <span class="materialsName">Prithiva Topaz Gemstone (x6)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/basalt_pillar.png" alt="Basalt pillar" class="material rare4">
+                            <img alt="Basalt pillar" class="material rare4"
+                                 src="../images/img-genshin/items/basalt_pillar.png">
                             <span class="materialsName">Basalt Pillar (x46)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/cecilia.png" alt="Cecilia" class="material rare1">
+                            <img alt="Cecilia" class="material rare1" src="../images/img-genshin/items/cecilia.png">
                             <span class="materialsName">Cecilia (x168)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/divining_scroll.png" alt="Divining scroll" class="material rare1">
+                            <img alt="Divining scroll" class="material rare1"
+                                 src="../images/img-genshin/items/divining_scroll.png">
                             <span class="materialsName">Divining Scroll (x18)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/seal_scroll.png" alt="Seal scroll" class="material rare2">
+                            <img alt="Seal scroll" class="material rare2"
+                                 src="../images/img-genshin/items/seal_scroll.png">
                             <span class="materialsName">Sealed Scroll (x30)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/forbidden_curse_scroll.png" alt="Forbidden curse scroll" class="material rare3">
+                            <img alt="Forbidden curse scroll"
+                                 class="material rare3" src="../images/img-genshin/items/forbidden_curse_scroll.png">
                             <span class="materialsName">Forbidden Curse Scroll (x36)</span>
                         </div>
                     </div>
                     <div class="talentsMats">
                         <div>
-                            <img src="../images/img-genshin/items/teachings_of_ballad.png" alt="Teachings of ballad" class="material rare2">
+                            <img alt="Teachings of ballad" class="material rare2"
+                                 src="../images/img-genshin/items/teachings_of_ballad.png">
                             <span class="materialsName">Teachings of Ballad (x9)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/guide_to_ballad.png" alt="Guide to ballad" class="material rare3">
+                            <img alt="Guide to ballad" class="material rare3"
+                                 src="../images/img-genshin/items/guide_to_ballad.png">
                             <span class="materialsName">Guide to Ballad (x63)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/philosophies_of_ballad.png" alt="Philosophies of ballad" class="material rare4">
+                            <img alt="Philosophies of ballad"
+                                 class="material rare4" src="../images/img-genshin/items/philosophies_of_ballad.png">
                             <span class="materialsName">Philosophies of Ballad (x114)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/divining_scroll.png" alt="Divining scroll" class="material rare1">
+                            <img alt="Divining scroll" class="material rare1"
+                                 src="../images/img-genshin/items/divining_scroll.png">
                             <span class="materialsName">Divining Scroll (x18)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/seal_scroll.png" alt="Seal scroll" class="material rare2">
+                            <img alt="Seal scroll" class="material rare2"
+                                 src="../images/img-genshin/items/seal_scroll.png">
                             <span class="materialsName">Sealed Scroll (x66)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/forbidden_curse_scroll.png" alt="Forbidden curse scroll" class="material rare3">
+                            <img alt="Forbidden curse scroll"
+                                 class="material rare3" src="../images/img-genshin/items/forbidden_curse_scroll.png">
                             <span class="materialsName">Forbidden Curse Scroll (x93)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/tusk_of_monoceros_caeli.png" alt="Tusk of monoceros" class="material rare5">
+                            <img alt="Tusk of monoceros" class="material rare5"
+                                 src="../images/img-genshin/items/tusk_of_monoceros_caeli.png">
                             <span class="materialsName">Tusk of Monoceros Caeli (x18)</span>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/items/crown_of_insight.png" alt="Crown of insight" class="material rare5">
+                            <img alt="Crown of insight" class="material rare5"
+                                 src="../images/img-genshin/items/crown_of_insight.png">
                             <span class="materialsName">Crown of Insight (x3)</span>
                         </div>
                     </div>
@@ -333,14 +361,14 @@
 
                 <div class="talents">
                     <div class="page">
-                        <img src="../images/icons/page_checked.png" alt="Checked button" id="b5">
-                        <img src="../images/icons/page.png" alt="button" id="b6">
-                        <img src="../images/icons/page.png" alt="button" id="b7">
-                        <img src="../images/icons/page.png" alt="button" id="b8">
+                        <img alt="Checked button" id="b5" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b6" src="../images/icons/page.png">
+                        <img alt="button" id="b7" src="../images/icons/page.png">
+                        <img alt="button" id="b8" src="../images/icons/page.png">
                     </div>
                     <div class="talent1">
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/talent_1.png" alt="talent" class="talentimg">
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/albedo/talent_1.png">
                             <span class="talentsName">Favonius Bladework - Weiss</span>
                             <span>Normal Attack</span>
                             <div>
@@ -353,12 +381,13 @@
                             </div>
                         </div>
                         <div class="talent_gif">
-                            <img src="../images/talents-gif/albedo/Talent_Favonius_Bladework_-_Weiss_Normal.gif" alt="talent gif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/albedo/Talent_Favonius_Bladework_-_Weiss_Normal.gif">
                         </div>
                     </div>
                     <div class="talent2">
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/talent_2.png" alt="talent" class="talentimg">
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/albedo/talent_2.png">
                             <span class="talentsName">Abiogenesis: Solar Isotoma</span>
                             <span>Elemental Skill</span>
                             <div>
@@ -371,12 +400,13 @@
                             </div>
                         </div>
                         <div class="talent_gif">
-                            <img src="../images/talents-gif/albedo/Talent_Abiogenesis_Solar_Isotoma_Press.gif" alt="talent gif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/albedo/Talent_Abiogenesis_Solar_Isotoma_Press.gif">
                         </div>
                     </div>
                     <div class="talent3">
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/talent_3.png" alt="talent" class="talentimg">
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/albedo/talent_3.png">
                             <span class="talentsName">Rite of Progeniture: Tectonic Tide</span>
                             <span>Elemental Burst</span>
                             <div>
@@ -385,12 +415,13 @@
                             </div>
                         </div>
                         <div class="talent_gif">
-                            <img src="../images/talents-gif/albedo/Talent_Rite_of_Progeniture_Tectonic_Tide.gif" alt="talent gif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/albedo/Talent_Rite_of_Progeniture_Tectonic_Tide.gif">
                         </div>
                     </div>
                     <div class="talentPass">
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/talent_4.png" alt="talent" class="talentimg">
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/albedo/talent_4.png">
                             <span class="talentsName">Calcite Might</span>
                             <span>Unlocked at Ascension 1</span>
                             <div>
@@ -398,7 +429,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/talent_5.png" class="talentimg" alt="talent">
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/albedo/talent_5.png">
                             <span class="talentsName">Homuncular Nature</span>
                             <span>Unlocked at Ascension 4</span>
                             <div>
@@ -406,7 +437,7 @@
                             </div>
                         </div>
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/talent_6.png" class="talentimg" alt="talent">
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/albedo/talent_6.png">
                             <span class="talentsName">Flash of Genius</span>
                             <span>Unlocked Automatically</span>
                             <div>
@@ -418,16 +449,17 @@
 
                 <div class="constellations geo">
                     <div class="page">
-                        <img src="../images/icons/page_checked.png" alt="checked button" id="b9">
-                        <img src="../images/icons/page.png" alt="button" id="b10">
-                        <img src="../images/icons/page.png" alt="button" id="b11">
-                        <img src="../images/icons/page.png" alt="button" id="b12">
-                        <img src="../images/icons/page.png" alt="button" id="b13">
-                        <img src="../images/icons/page.png" alt="button" id="b14">
+                        <img alt="checked button" id="b9" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b10" src="../images/icons/page.png">
+                        <img alt="button" id="b11" src="../images/icons/page.png">
+                        <img alt="button" id="b12" src="../images/icons/page.png">
+                        <img alt="button" id="b13" src="../images/icons/page.png">
+                        <img alt="button" id="b14" src="../images/icons/page.png">
                     </div>
                     <div class="constellation1">
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/constellation_1.png" class="constellationimg" alt="constellation">
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/albedo/constellation_1.png">
                             <span class="constellationsName">Flower of Eden</span>
                             <span>Constellation 1</span>
                             <div>
@@ -439,7 +471,8 @@
                     </div>
                     <div class="constellation2">
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/constellation_2.png" class="constellationimg" alt="constellation">
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/albedo/constellation_2.png">
                             <span class="constellationsName">Opening of Phanerozoic</span>
                             <span>Constellation 2</span>
                             <div>
@@ -454,7 +487,8 @@
                     </div>
                     <div class="constellation3">
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/constellation_3.png" class="constellationimg" alt="constellation">
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/albedo/constellation_3.png">
                             <span class="constellationsName">Grace of Helios</span>
                             <span>Constellation 3</span>
                             <div>
@@ -467,7 +501,8 @@
                     </div>
                     <div class="constellation4">
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/constellation_4.png" class="constellationimg" alt="constellation">
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/albedo/constellation_4.png">
                             <span class="constellationsName">Descent of Divinity</span>
                             <span>Constellation 4</span>
                             <div>
@@ -479,7 +514,8 @@
                     </div>
                     <div class="constellation5">
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/constellation_5.png" class="constellationimg" alt="constellation">
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/albedo/constellation_5.png">
                             <span class="constellationsName">Tide of Hadaen</span>
                             <span>Constellation 5</span>
                             <div>
@@ -492,7 +528,8 @@
                     </div>
                     <div class="constellation6">
                         <div>
-                            <img src="../images/img-genshin/skills/albedo/constellation_6.png" class="constellationimg" alt="constellation">
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/albedo/constellation_6.png">
                             <span class="constellationsName">Dust of Purification</span>
                             <span>Constellation 6</span>
                             <div>
@@ -521,10 +558,10 @@
     <div class="section" id="section2">
         <div class="video">
             <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/A3U51KyZLxE"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen class="thumbnails"></iframe>
+                <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="thumbnails"
+                        frameborder="0" height="315"
+                        src="https://www.youtube.com/embed/A3U51KyZLxE"
+                        title="YouTube video player" width="560"></iframe>
             </div>
         </div>
     </div>
@@ -533,28 +570,28 @@
         <footer>
             <div class="top">
 
-                <a href="https://discord.gg/sDv2BfsA7W" target="_blank"><img src="../images/icons/discord.png"
-                                                                             title="Community server"
-                                                                             alt="Community server"></a>
+                <a href="https://discord.gg/sDv2BfsA7W" target="_blank"><img alt="Community server"
+                                                                             src="../images/icons/discord.png"
+                                                                             title="Community server"></a>
                 <a href="https://www.youtube.com/channel/UCiS882YPwZt1NfaM0gR0D9Q" target="_blank"><img
-                        src="../images/icons/youtube.png" title="Youtube channel" alt="Youtube channel"></a>
-                <a href="https://www.hoyolab.com/home" target="_blank"><img src="../images/icons/hoyolab.png"
-                                                                            title="Hoyolab" alt="Hoyolab"></a>
+                        alt="Youtube channel" src="../images/icons/youtube.png" title="Youtube channel"></a>
+                <a href="https://www.hoyolab.com/home" target="_blank"><img alt="Hoyolab"
+                                                                            src="../images/icons/hoyolab.png" title="Hoyolab"></a>
                 <div class="underline_footer">
                 </div>
             </div>
             <div class="bot">
                 <div class="logos">
-                    <a href="../index.html" target="_blank"><img src="../images/icons/Character_Paimon_Portrait.png"
-                                                                 title="BuildMePaimon" alt="BuildMePaimon"></a>
+                    <a href="../index.html" target="_blank"><img alt="BuildMePaimon"
+                                                                 src="../images/icons/Character_Paimon_Portrait.png" title="BuildMePaimon"></a>
                     <a href="https://genshin.mihoyo.com/en/home" target="_blank"><img
-                            src="../images/img-genshin/genshin_logo.png" title="Genshin Website" alt="Genshin Website"></a>
+                            alt="Genshin Website" src="../images/img-genshin/genshin_logo.png" title="Genshin Website"></a>
                 </div>
                 <div class="links">
                     <div>
-                        <a href="https://github.com/antaww" target="_blank" class="github_links">GitHub antaww</a>
-                        <a href="https://github.com/xhmyjae" target="_blank" class="github_links">GitHub xhmyjae</a>
-                        <a href="mailto: antoine.pizzetta@ynov.com" class="github_links">Contact Us</a>
+                        <a class="github_links" href="https://github.com/antaww" target="_blank">GitHub antaww</a>
+                        <a class="github_links" href="https://github.com/xhmyjae" target="_blank">GitHub xhmyjae</a>
+                        <a class="github_links" href="mailto: antoine.pizzetta@ynov.com">Contact Us</a>
                     </div>
                     <p><b>Build Me Paimon</b> is a site created by fans to help players build their Genshin's
                         characters.
@@ -566,8 +603,8 @@
 </div>
 
 
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.extensions.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.extensions.min.js"
+        type="text/javascript"></script>
 
 <script defer>
     var myFullpage = new fullpage('#fullpage', {
