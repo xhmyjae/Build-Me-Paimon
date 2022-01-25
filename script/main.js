@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
    const loader = document.querySelector('.loader-wrapper');
    loader.classList.add('fondu-out');
    setTimeout(function(){
-      loader.style.zIndex = "1";
+      loader.style.zIndex = "0";
       enableScrolling()
    }, waiting * 1000); //time in second * 1000
 })
