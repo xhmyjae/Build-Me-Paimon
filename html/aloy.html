@@ -6,96 +6,617 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="antaww/xhmyjae">
     <meta name="description" content="Aloy's complete build">
-    <title>Aloy le sang</title>
+    <title>Aloy Build</title>
 
-    <link rel="stylesheet" type="text/css" href="../style/characters.css" />
+    <link rel="stylesheet" type="text/css" href="../style/characters.css"/>
     <link rel="stylesheet" type="text/css" href="../style/main.css">
-    <link rel="stylesheet" type="text/css" href="../style/charactersNavBar.css" />
-    <link rel="stylesheet" type="text/css" href="../style/content.css" />
+    <link rel="stylesheet" type="text/css" href="../style/charactersNavBar.css"/>
+    <link rel="stylesheet" type="text/css" href="../style/content.css"/>
+    <link rel="stylesheet" type="text/css" href="../style/footer.css"/>
+    <link href="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css" rel="stylesheet">
     <link rel="icon" type="text/css" href="../images/icons/Character_Paimon_Portrait.png">
+    <script src="../script/main.js"></script>
     <script src="../script/charaNavBar.js"></script>
-
+    <script src="../script/switchContent.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css"
+          integrity="sha512-TD/aL30dNLN0VaHVoh9voFlNi7ZuWQYtV4bkIJv2ulZ8mEEkZJ7IyGvDthMKvIUwzLmPONnjQlAi55HTERVXpw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 
 <body class="aloy">
+<nav class="navigation">
+    <ul class="header">
+        <li class="icon_navbar"><a href="../index.html" class="icon_navbar"><img class="nav_icon_header"
+                                                                                 src="../images/icons/Icon_Inventory_Furnishings.png"
+                                                                                 alt="Home"
+                                                                                 title="Home"></a></li>
+        <li class="icon_navbar"><a href="../html/news.html" class="icon_navbar"><img class="nav_icon_header"
+                                                                                     src="../images/icons/Icon_Inventory_Quest.png"
+                                                                                     alt="News icon" title="News"></a>
+        </li>
 
-    <nav class="navigation">
-        <ul class="header">
-            <li class="icon_navbar"><a href="../index.html" class="icon_navbar"><img src="../images/icons/Icon_Inventory_Furnishings.png" title="Home"></a></li>
-            <li class="icon_navbar char_icon"><a href="" class="icon_navbar"><img src="../images/icons/Icon_Inventory_Character_Development_Items.png" title="Characters"></a></li>
+        <div class="dropdown">
+            <li class="icon_navbar char_icon" onclick="showCharacters()"><a class="icon_navbar"><img
+                    class="nav_icon_header" src="../images/icons/Icon_Inventory_Character_Development_Items.png"
+                    title="Characters"></a></li>
             <div class="characters">
-                <a href="../html/albedo.html" class="a_icon"><img src="../images/characters/Albedo_head.png" title="Albedo"></a>
-                <a href="../html/aloy.html" class="a_icon"><img src="../images/characters/Aloy_head.png" title="Aloy"></a>
-                <a href="../html/amber.html" class="a_icon"><img src="../images/characters/Amber_head.png" title="Amber"></a>
-                <a href="../html/barbara.html" class="a_icon"><img src="../images/characters/Barbara_head.png" title="Barbara"></a>
-                <a href="../html/beidou.html" class="a_icon"><img src="../images/characters/Beidou_head.png" title="Beidou"></a>
-                <a href="../html/bennett.html" class="a_icon"><img src="../images/characters/Bennett_head.png" title="Bennett"></a>
-                <a href="../html/chongyun.html" class="a_icon"><img src="../images/characters/Chongyun_head.png" title="Chongyun"></a>
-                <a href="../html/diluc.html" class="a_icon"><img src="../images/characters/Diluc_head.png" title="Diluc"></a>
-                <a href="../html/diona.html" class="a_icon"><img src="../images/characters/Diona_head.png" title="Diona"></a>
-                <a href="../html/eula.html" class="a_icon"><img src="../images/characters/Eula_head.png" title="Eula"></a>
-                <a href="../html/fischl.html" class="a_icon"><img src="../images/characters/Fischl_head.png" title="Fischl"></a>
-                <a href="../html/ganyu.html" class="a_icon"><img src="../images/characters/Ganyu_head.png" title="Ganyu"></a>
-                <a href="../html/hutao.html" class="a_icon"><img src="../images/characters/Hu%20Tao_head.png" title="Hu Tao"></a>
-                <a href="../html/jean.html" class="a_icon"><img src="../images/characters/Jean_head.png" title="Jean"></a>
-                <a href="../html/kazuha.html" class="a_icon"><img src="../images/characters/Kazuha_head.png" title="Kaedehara Kazuha"></a>
-                <a href="../html/kaeya.html" class="a_icon"><img src="../images/characters/Kaeya_head.png" title="Kaeya"></a>
-                <a href="../html/ayaka.html" class="a_icon"><img src="../images/characters/Ayaka_head.png" title="Kamisato Ayaka"></a>
-                <a href="../html/keqing.html" class="a_icon"><img src="../images/characters/Keqing_head.png" title="Keqing"></a>
-                <a href="../html/klee.html" class="a_icon"><img src="../images/characters/Klee_head.png" title="Klee"></a>
-                <a href="../html/sara.html" class="a_icon"><img src="../images/characters/Sara_head.png" title="Kujou Sara"></a>
-                <a href="../html/lisa.html" class="a_icon"><img src="../images/characters/Lisa_head.png" title="Lisa"></a>
-                <a href="../html/mona.html" class="a_icon"><img src="../images/characters/Mona_head.png" title="Mona"></a>
-                <a href="../html/ningguang.html" class="a_icon"><img src="../images/characters/Ningguang_head.png" title="Ningguang"></a>
-                <a href="../html/noelle.html" class="a_icon"><img src="../images/characters/Noelle_head.png" title="Noelle"></a>
-                <a href="../html/qiqi.html" class="a_icon"><img src="../images/characters/Qiqi_head.png" title="Qiqi"></a>
-                <a href="../html/raiden.html" class="a_icon"><img src="../images/characters/Raiden_head.png" title="Raiden Shogun"></a>
-                <a href="../html/razor.html" class="a_icon"><img src="../images/characters/Razor_head.png" title="Razor"></a>
-                <a href="../html/rosaria.html" class="a_icon"><img src="../images/characters/Rosaria_head.png" title="Rosaria"></a>
-                <a href="../html/kokomi.html" class="a_icon"><img src="../images/characters/Kokomi_head.png" title="Sangonomiya Kokomi"></a>
-                <a href="../html/sayu.html" class="a_icon"><img src="../images/characters/Sayu_head.png" title="Sayu"></a>
-                <a href="../html/sucrose.html" class="a_icon"><img src="../images/characters/Sucrose_head.png" title="Sucrose"></a>
-                <a href="../html/tartaglia.html" class="a_icon"><img src="../images/characters/Tartaglia_head.png" title="Tartaglia"></a>
-                <a href="../html/thoma.html" class="a_icon"><img src="../images/characters/Thoma_head.png" title="Thoma"></a>
-                <a href="../html/traveler.html" class="a_icon"><img src="../images/characters/Traveler%20(Electro)_head.png" title="Traveler"></a>
+                <a href="../html/albedo.html" class="a_icon"><img src="../images/characters/Albedo_head.png"
+                                                                  alt="Albedo"
+                                                                  title="Albedo"></a>
+                <a href="../html/aloy.html" class="a_icon"><img src="../images/characters/Aloy_head.png"
+                                                                alt="Aloy"
+                                                                title="Aloy"></a>
+                <a href="../html/amber.html" class="a_icon"><img src="../images/characters/Amber_head.png"
+                                                                 alt="Amber"
+                                                                 title="Amber"></a>
+                <a href="../html/barbara.html" class="a_icon"><img src="../images/characters/Barbara_head.png"
+                                                                   alt="Barbara"
+                                                                   title="Barbara"></a>
+                <a href="../html/beidou.html" class="a_icon"><img src="../images/characters/Beidou_head.png"
+                                                                  alt="Beidou"
+                                                                  title="Beidou"></a>
+                <a href="../html/bennett.html" class="a_icon"><img src="../images/characters/Bennett_head.png"
+                                                                   alt="Bennett"
+                                                                   title="Bennett"></a>
+                <a href="../html/chongyun.html" class="a_icon"><img src="../images/characters/Chongyun_head.png"
+                                                                    alt="Chongyun"
+                                                                    title="Chongyun"></a>
+                <a href="../html/diluc.html" class="a_icon"><img src="../images/characters/Diluc_head.png"
+                                                                 alt="Diluc"
+                                                                 title="Diluc"></a>
+                <a href="../html/diona.html" class="a_icon"><img src="../images/characters/Diona_head.png"
+                                                                 alt="Diona"
+                                                                 title="Diona"></a>
+                <a href="../html/eula.html" class="a_icon"><img src="../images/characters/Eula_head.png"
+                                                                alt="Eula"
+                                                                title="Eula"></a>
+                <a href="../html/fischl.html" class="a_icon"><img src="../images/characters/Fischl_head.png"
+                                                                  alt-="Fischl"
+                                                                  title="Fischl"></a>
+                <a href="../html/ganyu.html" class="a_icon"><img src="../images/characters/Ganyu_head.png"
+                                                                 alt="Ganyu"
+                                                                 title="Ganyu"></a>
+                <a href="../html/gorou.html" class="a_icon"><img src="../images/characters/Gorou_head.png"
+                                                                 alt="Gorou"
+                                                                 title="Gorou"></a>
+                <a href="../html/hutao.html" class="a_icon"><img src="../images/characters/Hu%20Tao_head.png"
+                                                                 alt="Hu Tao"
+                                                                 title="Hu Tao"></a>
+                <a href="../html/itto.html" class="a_icon"><img src="../images/characters/Itto_head.png"
+                                                                alt="Itto"
+                                                                title="Itto"></a>
+                <a href="../html/jean.html" class="a_icon"><img src="../images/characters/Jean_head.png"
+                                                                alt="Jean"
+                                                                title="Jean"></a>
+                <a href="../html/kazuha.html" class="a_icon"><img src="../images/characters/Kazuha_head.png"
+                                                                  alt="Kaedehara Kazuha"
+                                                                  title="Kaedehara Kazuha"></a>
+                <a href="../html/kaeya.html" class="a_icon"><img src="../images/characters/Kaeya_head.png"
+                                                                 alt="Kaeya"
+                                                                 title="Kaeya"></a>
+                <a href="../html/ayaka.html" class="a_icon"><img src="../images/characters/Ayaka_head.png"
+                                                                 alt="Ayaka"
+                                                                 title="Kamisato Ayaka"></a>
+                <a href="../html/keqing.html" class="a_icon"><img src="../images/characters/Keqing_head.png"
+                                                                  alt="Keqing"
+                                                                  title="Keqing"></a>
+                <a href="../html/klee.html" class="a_icon"><img src="../images/characters/Klee_head.png"
+                                                                alt="Klee"
+                                                                title="Klee"></a>
+                <a href="../html/sara.html" class="a_icon"><img src="../images/characters/Sara_head.png"
+                                                                alt="Kujou Sara"
+                                                                title="Kujou Sara"></a>
+                <a href="../html/lisa.html" class="a_icon"><img src="../images/characters/Lisa_head.png"
+                                                                alt="Lisa"
+                                                                title="Lisa"></a>
+                <a href="../html/mona.html" class="a_icon"><img src="../images/characters/Mona_head.png"
+                                                                alt="Mona"
+                                                                title="Mona"></a>
+                <a href="../html/ningguang.html" class="a_icon"><img src="../images/characters/Ningguang_head.png"
+                                                                     alt="Ningguang"
+                                                                     title="Ningguang"></a>
+                <a href="../html/noelle.html" class="a_icon"><img src="../images/characters/Noelle_head.png"
+                                                                  alt="Noelle"
+                                                                  title="Noelle"></a>
+                <a href="../html/qiqi.html" class="a_icon"><img src="../images/characters/Qiqi_head.png"
+                                                                alt="Qiqi"
+                                                                title="Qiqi"></a>
+                <a href="../html/raiden.html" class="a_icon"><img src="../images/characters/Raiden_head.png"
+                                                                  alt="Raiden Shogun"
+                                                                  title="Raiden Shogun"></a>
+                <a href="../html/razor.html" class="a_icon"><img src="../images/characters/Razor_head.png"
+                                                                 alt="Razor"
+                                                                 title="Razor"></a>
+                <a href="../html/rosaria.html" class="a_icon"><img src="../images/characters/Rosaria_head.png"
+                                                                   alt="Rosaria"
+                                                                   title="Rosaria"></a>
+                <a href="../html/kokomi.html" class="a_icon"><img src="../images/characters/Kokomi_head.png"
+                                                                  alt="Sangonomiya Kokomi"
+                                                                  title="Sangonomiya Kokomi"></a>
+                <a href="../html/sayu.html" class="a_icon"><img src="../images/characters/Sayu_head.png"
+                                                                alt="Sayu"
+                                                                title="Sayu"></a>
+                <a href="../html/sucrose.html" class="a_icon"><img src="../images/characters/Sucrose_head.png"
+                                                                   alt="Sucrose"
+                                                                   title="Sucrose"></a>
+                <a href="../html/tartaglia.html" class="a_icon"><img src="../images/characters/Tartaglia_head.png"
+                                                                     alt="Tartaglia"
+                                                                     title="Tartaglia"></a>
+                <a href="../html/thoma.html" class="a_icon"><img src="../images/characters/Thoma_head.png"
+                                                                 alt="Thoma"
+                                                                 title="Thoma"></a>
+                <a href="../html/traveler.html" class="a_icon"><img
+                        src="../images/characters/Traveler%20(Electro)_head.png" alt="Traveler" title="Traveler"></a>
                 <!--                add element variation for traveler when click ("which element ? -electro/geo/anemo = new html)-->
-                <a href="../html/venti.html" class="a_icon"><img src="../images/characters/Venti_head.png" title="Venti"></a>
-                <a href="../html/xiangling.html" class="a_icon"><img src="../images/characters/Xiangling_head.png" title="Xiangling"></a>
-                <a href="../html/xiao.html" class="a_icon"><img src="../images/characters/Xiao_head.png" title="Xiao"></a>
-                <a href="../html/xingqiu.html" class="a_icon"><img src="../images/characters/Xingqiu_head.png" title="Xingqiu"></a>
-                <a href="../html/xinyan.html" class="a_icon"><img src="../images/characters/Xinyan_head.png" title="Xinyan"></a>
-                <a href="../html/yanfei.html" class="a_icon"><img src="../images/characters/Yanfei_head.png" title="Yanfei"></a>
-                <a href="../html/yoimiya.html" class="a_icon"><img src="../images/characters/Yoimiya_head.png" title="Yoimiya"></a>
-                <a href="../html/zhongli.html" class="a_icon"><img src="../images/characters/Zhongli_head.png" title="Zhongli"></a>
+                <a href="../html/venti.html" class="a_icon"><img src="../images/characters/Venti_head.png"
+                                                                 alt="Venti"
+                                                                 title="Venti"></a>
+                <a href="../html/xiangling.html" class="a_icon"><img src="../images/characters/Xiangling_head.png"
+                                                                     alt="Xiangling"
+                                                                     title="Xiangling"></a>
+                <a href="../html/xiao.html" class="a_icon"><img src="../images/characters/Xiao_head.png"
+                                                                alt="Xiao"
+                                                                title="Xiao"></a>
+                <a href="../html/xingqiu.html" class="a_icon"><img src="../images/characters/Xingqiu_head.png"
+                                                                   alt="Xingqiu"
+                                                                   title="Xingqiu"></a>
+                <a href="../html/xinyan.html" class="a_icon"><img src="../images/characters/Xinyan_head.png"
+                                                                  alt="Xinyan"
+                                                                  title="Xinyan"></a>
+                <a href="../html/yanfei.html" class="a_icon"><img src="../images/characters/Yanfei_head.png"
+                                                                  alt="Yanfei"
+                                                                  title="Yanfei"></a>
+                <a href="../html/yoimiya.html" class="a_icon"><img src="../images/characters/Yoimiya_head.png"
+                                                                   alt="Yoimiya"
+                                                                   title="Yoimiya"></a>
+                <a href="../html/zhongli.html" class="a_icon"><img src="../images/characters/Zhongli_head.png"
+                                                                   alt="Zhonli"
+                                                                   title="Zhongli"></a>
             </div>
-            <li class="icon_navbar"><a href="" class="icon_navbar"><img src="../images/icons/Icon_Inventory_Quest.png" title="Constellations"></a></li>
-        </ul>
-    </nav>
-
-    <div class="background">
-    </div>
-
-    <div class="character">
-        <img src="../images/characters/big_aloy.png">
-    </div>
-
-    <div id="content">
-        <div id="text">
-            <div class="lore">An outcast since birth, Aloy grew up in a harsh mountain wilderness near the tribe that shunned her. Fostered by an expert hunter, she trained to hunt with cat-like grace and deadly accuracy – but the things she most wanted to learn, he could not teach her. Most of all, she burned to know the circumstances of her birth – who her parents were, and why she was shunned by the tribe.<br>
-                Her quest for answers swept her into a wider and more dangerous world than she ever could have imagined. She encountered strange and powerful new tribes, ancient ruins rife with mysteries, and dangerous enemies, both human and machine.<br>
-                Eventually she learned that her origins and destiny were deeply tied to the fate of the world itself, and fought an epic battle to save it against the evil forces of an artificial intelligence from the ancient past.<br>
-                She thought that this would be the end of her journey. But there is always more to an adventurer's tale. She has now come to Teyvat in search of a new challenges.<br>
-                In this brave new world, Aloy is ready for the hunt!</div>
-            <div class="weapons"></div>
-            <div class="artefacts"></div>
-            <div class="materials"></div>
-            <div class="talents"></div>
-            <div class="constellations"></div>
         </div>
-        <script src="../script/charaNavBar.js"></script>
+        <li class="icon_navbar"><a
+                href="https://webstatic-sea.mihoyo.com/app/ys-map-sea/index.html?utm_source=hoyolab&lang=en-us#/map/2"
+                class="icon_navbar" target="_blank"><img class="nav_icon_header"
+                                                         src="../images/icons/Icon_Inventory_Precious_Items.png"
+                                                         alt="Genshin map" title="Map"></a></li>
+    </ul>
+</nav>
+
+<div id="fullpage">
+    <div class="section" id="section1">
+        <div class="background">
+        </div>
+
+        <div class="character">
+            <img src="../images/characters/big_aloy.png" alt="Aloy">
+        </div>
+
+        <div id="content">
+            <div id="text">
+                <div class="lore">An outcast since birth, Aloy grew up in a harsh mountain wilderness near the tribe
+                    that shunned her. Fostered by an expert hunter, she trained to hunt with cat-like grace and deadly
+                    accuracy – but the things she most wanted to learn, he could not teach her. Most of all, she burned
+                    to know the circumstances of her birth – who her parents were, and why she was shunned by the tribe.
+                    Her quest for answers swept her into a wider and more dangerous world than she ever could have
+                    imagined. She encountered strange and powerful new tribes, ancient ruins rife with mysteries, and
+                    dangerous enemies, both human and machine.
+                    Eventually she learned that her origins and destiny were deeply tied to the fate of the world
+                    itself, and fought an epic battle to save it against the evil forces of an artificial intelligence
+                    from the ancient past.
+                    She thought that this would be the end of her journey. But there is always more to an adventurer's
+                    tale. She has now come to Teyvat in search of a new challenges.
+                    In this brave new world, Aloy is ready for the hunt!
+                </div>
+
+                <div class="weaponsContent">
+                    <div>
+                        <img src="../images/img-genshin/weapons/polar_star.png" alt="Polar Star" class="weapon rare5">
+                        <div>
+                            <span class="weaponsName">Polar Star</span>
+                            <span class="weaponsText">Elemental Skill and Elemental Burst DMG increased by <strong>12/15/18/21/24%</strong>. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by 10/20/30/48%.</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../images/img-genshin/weapons/the_stringless.png" alt="The Stringless"
+                             class="weapon rare4">
+                        <div>
+                            <span class="weaponsName">The Stringless</span>
+                            <span class="weaponsText">Increases Elemental Skill and Elemental Burst DMG by <strong>24/30/36/42/48%</strong>.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artifacts">
+                    <div class="page">
+                        <img src="../images/icons/page_checked.png" alt="Checked button" id="b1">
+                        <img src="../images/icons/page.png" alt="button" id="b2">
+                    </div>
+                    <div class="artifacts_set1">
+                        <div>
+                            <img src="../images/img-genshin/artifacts/blizzard_strayer_flower.png"
+                                 alt="Blizzard Strayer"
+                                 class="artifact rare5">
+                            <div>
+                                <span class="artifactsName">Blizzard Strayer (x4)</span>
+                                <span class="artifactsText">- Cryo DMG Bonus <strong>+15%</strong>
+                                        <br>- When a character attacks an enemy affected by Cryo, their CRIT Rate is increased by <strong>20%</strong>. If the enemy is Frozen, CRIT Rate is increased by an additional <strong>20%</strong>.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="artifacts_set2">
+                        <div>
+                            <img src="../images/img-genshin/artifacts/noblesse_oblige_flower.png" alt="Nobelesse Oblige"
+                                 class="artifact rare5">
+                            <div>
+                                <span class="artifactsName">Noblesse Oblige (x2)</span>
+                                <span class="artifactsText">- Elemental Burst DMG <strong>+20%</strong></span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/artifacts/blizzard_strayer_flower.png"
+                                 alt="Blizzard Strayer"
+                                 class="artifact rare5">
+                            <div>
+                                <span class="artifactsName">Blizzard Strayer (x2)</span>
+                                <span class="artifactsText">- Cryo DMG Bonus <strong>+15%</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="materials">
+                    <div class="page">
+                        <img src="../images/icons/page_checked.png" alt="checked button" id="b3">
+                        <img src="../images/icons/page.png" alt="button" id="b4">
+                    </div>
+                    <span class="matName">Ascension</span>
+                    <div class="ascensionMats">
+                        <div>
+                            <img src="../images/img-genshin/items/shivada_jade_sliver.png" alt="Shivada Jade Silver"
+                                 class="material rare2">
+                            <span class="materialsName">Shivada Jade Silver (x1)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/shivada_jade_fragment.png" alt="Shivada Jade Fragment"
+                                 class="material rare3">
+                            <span class="materialsName">Shivada Jade Fragment (x9)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/shivada_jade_chunk.png" alt="Shivada Jade Chunk"
+                                 class="material rare4">
+                            <span class="materialsName">Shivada Jade Chunk (x9)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/shivada_jade_gemstone.png" alt="Shivada Jade Gemstone"
+                                 class="material rare5">
+                            <span class="materialsName">Shivada Jade Gemstone (x6)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/crystalline_bloom.png" alt="Crystalline Bloom"
+                                 class="material rare4">
+                            <span class="materialsName">Crystalline Bloom (x46)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/crystal_marrow.png" alt="Crystal Marrow"
+                                 class="material rare1">
+                            <span class="materialsName">Crystal Marrow (x168)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/spectral_husk.png" alt="Spectral Husk"
+                                 class="material rare1">
+                            <span class="materialsName">Spectral Husk (x18)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/spectral_heart.png" alt="Spectral Husk"
+                                 class="material rare2">
+                            <span class="materialsName">Spectral Heart (x30)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/spectral_nucleus.png" alt="Spectral Nucleus"
+                                 class="material rare3">
+                            <span class="materialsName">Spectral Nucleus (x36)</span>
+                        </div>
+                    </div>
+                    <div class="talentsMats">
+                        <div>
+                            <img src="../images/img-genshin/items/teachings_of_freedom.png" alt="Teachings of Freedom"
+                                 class="material rare2">
+                            <span class="materialsName">Teachings of Freedom (x9)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/guide_to_freedom.png" alt="Guide to Freedom"
+                                 class="material rare3">
+                            <span class="materialsName">Guide to Freedom (x63)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/philosophies_of_freedom.png"
+                                 alt="Philosophies of Freedom" class="material rare4">
+                            <span class="materialsName">Philosophies of Freedom (x114)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/spectral_husk.png" alt="Spectral Husk"
+                                 class="material rare1">
+                            <span class="materialsName">Spectral Husk (x18)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/spectral_heart.png" alt="Spectral Heart"
+                                 class="material rare2">
+                            <span class="materialsName">Sealed Heart (x66)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/spectral_nucleus.png" alt="Spectral Nucleus"
+                                 class="material rare3">
+                            <span class="materialsName">Spectral Nucleus (x93)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/molten_moment.png" alt="Molten Moment"
+                                 class="material rare5">
+                            <span class="materialsName">Molten Moment (x18)</span>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/items/crown_of_insight.png" alt="Crown of insight"
+                                 class="material rare5">
+                            <span class="materialsName">Crown of Insight (x3)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talents">
+                    <div class="page">
+                        <img src="../images/icons/page_checked.png" alt="Checked button" id="b5">
+                        <img src="../images/icons/page.png" alt="button" id="b6">
+                        <img src="../images/icons/page.png" alt="button" id="b7">
+                        <img src="../images/icons/page.png" alt="button" id="b8">
+                    </div>
+                    <div class="talent1">
+                        <div>
+                            <img src="../images/img-genshin/skills/aloy/talent_1.png" alt="talent" class="talentimg">
+                            <span class="talentsName">Rapid Fire</span>
+                            <span>Normal Attack</span>
+                            <div>
+                                <span class="talentsType">Normal Attack</span>
+                                <span class="talentsContent">Performs up to 4 consecutive shots with a bow.</span>
+                                <span class="talentsType">Charged Attack</span>
+                                <span class="talentsContent">Perform a more precise Aimed Shot with increased DMG.
+While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.</span>
+                                <span class="talentsType">Plunging Attack</span>
+                                <span class="talentsContent">Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.</span>
+                            </div>
+                        </div>
+                        <div class="talent_gif">
+                            <img src="../images/talents-gif/albedo/Talent_Favonius_Bladework_-_Weiss_Normal.gif"
+                                 alt="talent gif">
+                        </div>
+                    </div>
+                    <div class="talent2">
+                        <div>
+                            <img src="../images/img-genshin/skills/aloy/talent_2.png" alt="talent" class="talentimg">
+                            <span class="talentsName">Frozen Wilds</span>
+                            <span>Elemental Skill</span>
+                            <div>
+                                <span class="talentsContent">Aloy throws a Freeze Bomb in the targeted direction and triggers an explosion, dealing Cryo DMG. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing Cryo DMG.
+When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.
+Aloy can gain up to 1 Coil stack every 0.1s.</span>
+                                <span class="talentsType">Coil</span>
+                                <span class="talentsContent">Each stack increases Aloy's Normal Attack DMG.</span>
+                                <span class="talentsContent">When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG.</span>
+                            </div>
+                        </div>
+                        <div class="talent_gif">
+                            <img src="../images/talents-gif/albedo/Talent_Abiogenesis_Solar_Isotoma_Press.gif"
+                                 alt="talent gif">
+                        </div>
+                    </div>
+                    <div class="talent3">
+                        <div>
+                            <img src="../images/img-genshin/skills/aloy/talent_3.png" alt="talent" class="talentimg">
+                            <span class="talentsName">Prophecies of Dawn</span>
+                            <span>Elemental Burst</span>
+                            <div>
+                                <span class="talentsContent">Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing AoE Cryo Damage.</span>
+                            </div>
+                        </div>
+                        <div class="talent_gif">
+                            <img src="../images/talents-gif/albedo/Talent_Rite_of_Progeniture_Tectonic_Tide.gif"
+                                 alt="talent gif">
+                        </div>
+                    </div>
+                    <div class="talentPass">
+                        <div>
+                            <img src="../images/img-genshin/skills/aloy/talent_4.png" alt="talent" class="talentimg">
+                            <span class="talentsName">Combat Override</span>
+                            <span>Unlocked at Ascension 1</span>
+                            <div>
+                                <span class="talentsContent">When Aloy receives the Coil effect from Frozen Wilds, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/skills/aloy/talent_5.png" class="talentimg" alt="talent">
+                            <span class="talentsName">Strong Strike</span>
+                            <span>Unlocked at Ascension 4</span>
+                            <div>
+                                <span class="talentsContent">When Aloy is in the Rushing Ice state conferred by Frozen Wilds, her Cryo DMG Bonus increases by 3.5% every 1s. A maximum Cryo DMG Bonus increase of 35% can be gained in this way.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="../images/img-genshin/skills/albedo/talent_6.png" class="talentimg" alt="talent">
+                            <span class="talentsName">Easy Does It</span>
+                            <span>Unlocked Automatically</span>
+                            <div>
+                                <span class="talentsContent">When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="constellations geo">
+                    <div class="page">
+                        <img src="../images/icons/page_checked.png" alt="checked button" id="b9">
+                        <img src="../images/icons/page.png" alt="button" id="b10">
+                        <img src="../images/icons/page.png" alt="button" id="b11">
+                        <img src="../images/icons/page.png" alt="button" id="b12">
+                        <img src="../images/icons/page.png" alt="button" id="b13">
+                        <img src="../images/icons/page.png" alt="button" id="b14">
+                    </div>
+                    <div class="constellation1">
+                        <div>
+                            <img src="../images/img-genshin/skills/albedo/constellation_1.png" class="constellationimg"
+                                 alt="constellation">
+                            <span class="constellationsName">Flower of Eden</span>
+                            <span>Constellation 1</span>
+                            <div>
+                                    <span class="constellationsDescription">
+                                        Transient Blossoms generated by Albedo's Abiogenesis: Solar Isotoma regenerate 1.2 Energy for Albedo.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation2">
+                        <div>
+                            <img src="../images/img-genshin/skills/albedo/constellation_2.png" class="constellationimg"
+                                 alt="constellation">
+                            <span class="constellationsName">Opening of Phanerozoic</span>
+                            <span>Constellation 2</span>
+                            <div>
+                                    <span clas="constellationsDescription">
+                                        Transient Blossoms generated by Abiogenesis: Solar Isotoma grant Albedo Fatal Reckoning for 30s:
+
+                                        Unleashing Rite of Progeniture: Tectonic Tide consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.
+                                        This effect stacks up to 4 times.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation3">
+                        <div>
+                            <img src="../images/img-genshin/skills/albedo/constellation_3.png" class="constellationimg"
+                                 alt="constellation">
+                            <span class="constellationsName">Grace of Helios</span>
+                            <span>Constellation 3</span>
+                            <div>
+                                    <span class="constellationsDescription">
+                                        Increases the level of Abiogenesis: Solar Isotoma by 3.
+                                        Maximum upgrade level is 15.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation4">
+                        <div>
+                            <img src="../images/img-genshin/skills/albedo/constellation_4.png" class="constellationimg"
+                                 alt="constellation">
+                            <span class="constellationsName">Descent of Divinity</span>
+                            <span>Constellation 4</span>
+                            <div>
+                                    <span clas="constellationsDescription">
+                                        Solar Isotoma increases Plunging Attack DMG by 30% for active party members within the AoE.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation5">
+                        <div>
+                            <img src="../images/img-genshin/skills/albedo/constellation_5.png" class="constellationimg"
+                                 alt="constellation">
+                            <span class="constellationsName">Tide of Hadaen</span>
+                            <span>Constellation 5</span>
+                            <div>
+                                    <span clas="constellationsDescription">
+                                        Increases the level of Rite of Progeniture: Tectonic Tide by 3.
+                                        Maximum upgrade level is 15.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation6">
+                        <div>
+                            <img src="../images/img-genshin/skills/albedo/constellation_6.png" class="constellationimg"
+                                 alt="constellation">
+                            <span class="constellationsName">Dust of Purification</span>
+                            <span>Constellation 6</span>
+                            <div>
+                                    <span class="constellationsDescription">
+                                        If active party members within the AoE are protected by a shield created by Crystallize,
+                                        Solar Isotoma increases their DMG by 17%.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <script src="../script/charaNavBar.js"></script>
+        </div>
+
+        <div class="name">
+            <div class="element">
+                <img src="../images/img-genshin/elements/geo.png">
+                <span>Albedo</span>
+            </div>
+        </div>
+
+    </div>
+    <div class="section" id="section2">
+        <div class="video">
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/A3U51KyZLxE"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="thumbnails"></iframe>
+            </div>
+        </div>
     </div>
 
-    <div class="name"><span>Aloy</span></div>
+    <div class="section fp-auto-height" id="section3">
+        <footer>
+            <div class="top">
+
+                <a href="https://discord.gg/sDv2BfsA7W" target="_blank"><img src="../images/icons/discord.png"
+                                                                             title="Community server"
+                                                                             alt="Community server"></a>
+                <a href="https://www.youtube.com/channel/UCiS882YPwZt1NfaM0gR0D9Q" target="_blank"><img
+                        src="../images/icons/youtube.png" title="Youtube channel" alt="Youtube channel"></a>
+                <a href="https://www.hoyolab.com/home" target="_blank"><img src="../images/icons/hoyolab.png"
+                                                                            title="Hoyolab" alt="Hoyolab"></a>
+                <div class="underline_footer">
+                </div>
+            </div>
+            <div class="bot">
+                <div class="logos">
+                    <a href="../index.html" target="_blank"><img src="../images/icons/Character_Paimon_Portrait.png"
+                                                                 title="BuildMePaimon" alt="BuildMePaimon"></a>
+                    <a href="https://genshin.mihoyo.com/en/home" target="_blank"><img
+                            src="../images/img-genshin/genshin_logo.png" title="Genshin Website" alt="Genshin Website"></a>
+                </div>
+                <div class="links">
+                    <div>
+                        <a href="https://github.com/antaww" target="_blank" class="github_links">GitHub antaww</a>
+                        <a href="https://github.com/xhmyjae" target="_blank" class="github_links">GitHub xhmyjae</a>
+                        <a href="mailto: antoine.pizzetta@ynov.com" class="github_links">Contact Us</a>
+                    </div>
+                    <p><b>Build Me Paimon</b> is a site created by fans to help players build their Genshin's
+                        characters.
+                        It is not affiliated with miHoYo.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.extensions.min.js"></script>
+
+<script defer>
+    var myFullpage = new fullpage('#fullpage', {
+        autoScrolling: true,
+        keyboardScrolling: true,
+
+    })
+</script>
+
 
 </body>
 </html>
