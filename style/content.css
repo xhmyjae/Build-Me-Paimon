@@ -120,6 +120,10 @@
     transition: all 0.3s;
 }
 
+.weaponsContent strong {
+    color: #7ee4e3;
+}
+
 .material:hover, .weapon:hover, .artifact:hover, .talentimg:hover, .constellationimg:hover {
     transform: translateY(-4%) !important;
     filter: brightness(1.1)!important;
