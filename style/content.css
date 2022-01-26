@@ -240,10 +240,13 @@ strong {
 .talents > div:not(.page) {
     top: -2vw;
     position: relative;
+    width: 100%;
 }
 
-.talent2, .talent3, .talentPass {
+.talent1, .talent2, .talent3, .talentPass {
     display: none;
+    width: 100%;
+    justify-content: center;
 }
 
 .talentPass div {
@@ -265,6 +268,11 @@ strong {
     top: 2vw;
     display: none;
     position: relative;
+    justify-content: center;
+}
+
+.materials, .artifacts {
+    justify-content: left !important;
 }
 
 .element {

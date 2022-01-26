@@ -57,6 +57,14 @@
     text-shadow: None;
 }
 
+.new_articles_content h2 {
+    font-size: 115%;
+}
+
+.new_articles_content span {
+    font-size: 90%;
+}
+
 /* NEW CHARACTERS */
 
 .list_new_characters {
