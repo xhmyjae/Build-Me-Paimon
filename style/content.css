@@ -206,6 +206,14 @@ strong {
     margin: 0 0 1vw 0;
 }
 
+.pyro div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(207, 46, 29), rgb(236, 155, 91));
+    border-radius: 50%;
+    box-shadow: rgb(235, 135, 78) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
 .talents div div div, .talents div div div span {
     display: flex;
     align-items: flex-start;
