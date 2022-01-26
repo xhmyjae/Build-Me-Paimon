@@ -41,38 +41,38 @@ body {
 }
 
 /* ALL THE ARTICLES IMAGES */
-.articles_img {
+.articles_img1, .articles_img2, .articles_img3, .articles_img4, .articles_img5, .articles_img6 {
     width: 24%;
     height: 100%;
 }
 
-.articles_img:first-of-type {
+.articles_img1 {
     background-image: url("../images/news/first.png");
     background-size: cover;
 }
 
-.articles_img:nth-of-type(2) {
+.articles_img2 {
     background-image: url("../images/news/second.jpg");
     background-size: cover;
 }
 
-.articles_img:nth-of-type(3) {
+.articles_img3 {
     background-image: url("../images/news/third.jpg");
     background-size: cover;
 }
 
-.articles_img:nth-of-type(4) {
+.articles_img4 {
     background-image: url("../images/news/forth.jpg");
     background-size: cover;
 }
 
-.articles_img:nth-of-type(5) {
+.articles_img5 {
     background-image: url("../images/news/fifth.jpg");
     background-size: cover;
 }
 
-.articles_img:nth-of-type(6) {
-    background-image: url("../images/news/first.png");
+.articles_img6 {
+    background-image: url("../images/news/sixth.jpg");
     background-size: cover;
 }
 
