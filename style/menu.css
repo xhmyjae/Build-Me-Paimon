@@ -128,7 +128,7 @@
     font-family: 'zh-cn';
     color: #efd5a3;
     font-size: 120%;
-    padding: 5vw;
+    padding-top: 5vw;
     border-top: 2px solid rgba(10, 10, 10, 0.45);
     transition: all 1s;
 }
