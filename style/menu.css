@@ -130,8 +130,10 @@
     font-size: 120%;
     padding: 5vw;
     border-top: 2px solid rgba(10, 10, 10, 0.45);
+    transition: all 1s;
 }
 
 .list_new_characters a:hover {
-    filter: brightness(110%);
+    filter: brightness(120%) drop-shadow(0 0 1rem black);
+    text-shadow: 0 0 1px #ffeab3, 0 0 10px #fff, 0 0 10px #000, 0 0 10px #faf322, 0 0 1px #1a1713;
 }
