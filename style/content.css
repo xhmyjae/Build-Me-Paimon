@@ -132,7 +132,7 @@ strong {
     display: flex;
 }
 
-.artifacts_set2 {
+.artifacts_set2, .artifacts_set1 {
     display: none;
     flex-flow: column;
 }
