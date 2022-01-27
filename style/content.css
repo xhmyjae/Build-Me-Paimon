@@ -214,6 +214,14 @@ strong {
     margin: 0 0 1vw 0;
 }
 
+.hydro div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(82, 163, 211), rgb(40, 37, 59));
+    border-radius: 50%;
+    box-shadow: rgb(29, 31, 56) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
 .talents div div div, .talents div div div span {
     display: flex;
     align-items: flex-start;
