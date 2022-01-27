@@ -38,6 +38,8 @@
     margin: 5%;
     height: 90%;
     width: 90%;
+    text-decoration: none;
+    color: white;
 }
 
 .articles a div {
