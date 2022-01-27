@@ -222,6 +222,14 @@ strong {
     margin: 0 0 1vw 0;
 }
 
+.electro div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(172, 149, 232), rgb(102, 63, 178));
+    border-radius: 50%;
+    box-shadow: rgb(173, 150, 235) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
 .talents div div div, .talents div div div span {
     display: flex;
     align-items: flex-start;
