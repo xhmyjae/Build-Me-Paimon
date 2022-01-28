@@ -230,6 +230,14 @@ strong {
     margin: 0 0 1vw 0;
 }
 
+.anemo div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(29 95 113), rgb(132 211 208));
+    border-radius: 50%;
+    box-shadow: rgb(38 112 128) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
 .talents div div div, .talents div div div span {
     display: flex;
     align-items: flex-start;
