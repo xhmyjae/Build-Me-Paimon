@@ -190,54 +190,6 @@ strong {
     margin: 0 0 1vw 0;
 }
 
-.geo div:not(.page) img {
-    width: 3.5vw;
-    background: linear-gradient(rgb(202, 131, 34), rgb(255, 249, 204));
-    border-radius: 50%;
-    box-shadow: rgb(206, 129, 35) 0px 3px 7px 0px;
-    margin: 0 0 1vw 0;
-}
-
-.cryo div:not(.page) img {
-    width: 3.5vw;
-    background: linear-gradient(rgb(100, 224, 253), rgb(243, 249, 253));
-    border-radius: 50%;
-    box-shadow: rgb(100, 168, 185) 0px 3px 7px 0px;
-    margin: 0 0 1vw 0;
-}
-
-.pyro div:not(.page) img {
-    width: 3.5vw;
-    background: linear-gradient(rgb(207, 46, 29), rgb(236, 155, 91));
-    border-radius: 50%;
-    box-shadow: rgb(235, 135, 78) 0px 3px 7px 0px;
-    margin: 0 0 1vw 0;
-}
-
-.hydro div:not(.page) img {
-    width: 3.5vw;
-    background: linear-gradient(rgb(82, 163, 211), rgb(40, 37, 59));
-    border-radius: 50%;
-    box-shadow: rgb(29, 31, 56) 0px 3px 7px 0px;
-    margin: 0 0 1vw 0;
-}
-
-.electro div:not(.page) img {
-    width: 3.5vw;
-    background: linear-gradient(rgb(172, 149, 232), rgb(102, 63, 178));
-    border-radius: 50%;
-    box-shadow: rgb(173, 150, 235) 0px 3px 7px 0px;
-    margin: 0 0 1vw 0;
-}
-
-.anemo div:not(.page) img {
-    width: 3.5vw;
-    background: linear-gradient(rgb(29 95 113), rgb(132 211 208));
-    border-radius: 50%;
-    box-shadow: rgb(38 112 128) 0px 3px 7px 0px;
-    margin: 0 0 1vw 0;
-}
-
 .talents div div div, .talents div div div span {
     display: flex;
     align-items: flex-start;
@@ -297,6 +249,56 @@ strong {
 
 .materials, .artifacts {
     justify-content: left !important;
+}
+
+/* ELEMENT COLOR ON CONSTELLATION IMG */
+
+.geo div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(202, 131, 34), rgb(255, 249, 204));
+    border-radius: 50%;
+    box-shadow: rgb(206, 129, 35) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
+.cryo div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(100, 224, 253), rgb(243, 249, 253));
+    border-radius: 50%;
+    box-shadow: rgb(100, 168, 185) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
+.pyro div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(207, 46, 29), rgb(236, 155, 91));
+    border-radius: 50%;
+    box-shadow: rgb(235, 135, 78) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
+.hydro div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(82, 163, 211), rgb(40, 37, 59));
+    border-radius: 50%;
+    box-shadow: rgb(29, 31, 56) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
+.electro div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(172, 149, 232), rgb(102, 63, 178));
+    border-radius: 50%;
+    box-shadow: rgb(173, 150, 235) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
+}
+
+.anemo div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(29 95 113), rgb(132 211 208));
+    border-radius: 50%;
+    box-shadow: rgb(38 112 128) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
 }
 
 .element {
