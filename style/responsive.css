@@ -1,0 +1,96 @@
+@media only screen and (max-width: 500px) {
+
+    .character {
+        right: 0!important;
+        width: 50%!important;
+    }
+
+    .character img{
+        opacity: 0.7;
+    }
+
+    #content {
+        top:25vw;
+        width: 90%;
+    }
+
+    .lore {
+        font-size: 290%;
+        max-height: none;
+    }
+
+    .icon_navchara img {
+        width: 13vw;
+    }
+
+    .artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div {
+        font-size: 250%;
+    }
+
+    .weapon, .artifact {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 7vw;
+        margin-right: 2vw;
+    }
+
+    .weaponsName, .artifactsName, .constellationsName {
+        font-size: 143%;
+    }
+
+    .artifacts_set2 div, .artifacts_set1 div, .weaponsContent div {
+        margin-bottom: 5vw;
+    }
+
+    .page {
+        top: 90vw;
+    }
+
+    .page img {
+        height: 6vw;
+        margin: 20px;
+    }
+
+    .ascensionMats, .talentsMats {
+        columns: 2;
+        width: 100%;
+        top: 4vw;
+        position: absolute;
+    }
+
+    .material {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .materials div div {
+        height: 18vw;
+    }
+
+    .materials div div span, .matName {
+        margin: 2vw;
+        font-size: 250%;
+    }
+
+    .talents div div:not(.page):not(.talent_gif) img, .constellations div:not(.page) img {
+        width: 10vw;
+        margin-bottom: 2vw;
+    }
+
+    .talentsName, .constellationsName {
+        font-size: 310%;
+    }
+
+    .talentsName + span, .talents div div div, .constellationsName + span {
+        font-size: 4vw;
+    }
+
+    .talents div div div span, .constellationsDescription  {
+        font-size: 3.5vw;
+    }
+
+    .talentPass div {
+        max-width: 27vw;
+    }
+
+}
