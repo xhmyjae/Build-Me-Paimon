@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
     .character {
         right: 0!important;
@@ -91,6 +91,15 @@
 
     .talentPass div {
         max-width: 27vw;
+    }
+
+    .talent_gif {
+        left: auto;
+        top: 115vw;
+    }
+
+    .talent_gif img {
+        width: 75vw;
     }
 
 }
