@@ -1,5 +1,5 @@
 .lore {
-    font-size: 1.25vw;
+    font-size: 110%;
     background-color: rgba(13, 14, 14, 0.55);
     box-shadow: rgb(0 0 0 / 35%) 0px 0px 10px 8px;
     border: 0.2vw solid white;
@@ -190,6 +190,73 @@ strong {
     margin: 0 0 1vw 0;
 }
 
+.talents div div div, .talents div div div span {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1vw;
+    flex-direction: column;
+}
+
+.talentsName + span, .constellationsName + span {
+    color: darkgray;
+    margin-bottom: 0.5vw;
+    font-size: 1vw;
+}
+
+.talentsType {
+    color: #efd5a3;
+    margin-bottom: 1%;
+    font-size: 115% !important;
+}
+
+.talentsContent {
+    margin-bottom: 1vw;
+}
+
+.talents > div:not(.page) {
+    top: -2vw;
+    position: relative;
+    width: 100%;
+}
+
+.talent1, .talent2, .talent3, .talentPass {
+    display: none;
+    width: 100%;
+    justify-content: center;
+}
+
+.talentPass {
+    justify-content: space-between!important;
+}
+
+.talentPass div {
+    max-width: 14vw;
+}
+
+.talent_gif {
+    position: absolute;
+    left: -43vw;
+}
+
+.talent_gif img {
+    width: 35vw;
+    box-shadow: 1vw 1vw #9999;
+}
+
+
+.weaponsContent, .artifacts, .materials, .talents, .constellations {
+    top: 2vw;
+    display: none;
+    position: relative;
+    justify-content: center;
+}
+
+.materials, .artifacts {
+    justify-content: left !important;
+}
+
+/* ELEMENT COLOR ON CONSTELLATION IMG */
+
 .geo div:not(.page) img {
     width: 3.5vw;
     background: linear-gradient(rgb(202, 131, 34), rgb(255, 249, 204));
@@ -222,65 +289,20 @@ strong {
     margin: 0 0 1vw 0;
 }
 
-.talents div div div, .talents div div div span {
-    display: flex;
-    align-items: flex-start;
-    font-size: 1vw;
-    flex-direction: column;
+.electro div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(172, 149, 232), rgb(102, 63, 178));
+    border-radius: 50%;
+    box-shadow: rgb(173, 150, 235) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
 }
 
-.talentsName + span, .constellationsName + span {
-    color: darkgray;
-    margin-bottom: 0.5vw;
-    font-size: 1vw;
-}
-
-.talentsType {
-    color: #efd5a3;
-    margin-bottom: 1%;
-    font-size: 125% !important;
-}
-
-.talentsContent {
-    margin-bottom: 1vw;
-}
-
-.talents > div:not(.page) {
-    top: -2vw;
-    position: relative;
-    width: 100%;
-}
-
-.talent1, .talent2, .talent3, .talentPass {
-    display: none;
-    width: 100%;
-    justify-content: center;
-}
-
-.talentPass div {
-    max-width: 14vw;
-}
-
-.talent_gif {
-    position: absolute;
-    left: -43vw;
-}
-
-.talent_gif img {
-    width: 35vw;
-    box-shadow: 1vw 1vw #9999;
-}
-
-
-.weaponsContent, .artifacts, .materials, .talents, .constellations {
-    top: 2vw;
-    display: none;
-    position: relative;
-    justify-content: center;
-}
-
-.materials, .artifacts {
-    justify-content: left !important;
+.anemo div:not(.page) img {
+    width: 3.5vw;
+    background: linear-gradient(rgb(29 95 113), rgb(132 211 208));
+    border-radius: 50%;
+    box-shadow: rgb(38 112 128) 0px 3px 7px 0px;
+    margin: 0 0 1vw 0;
 }
 
 .element {

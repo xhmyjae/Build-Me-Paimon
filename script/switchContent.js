@@ -29,8 +29,6 @@ function switchInContent() {
     let b13Cont = document.getElementsByClassName("constellation5")[0];
     let b14Cont = document.getElementsByClassName("constellation6")[0];
 
-    let talent_gif = document.querySelector("talent_gif img");
-
 
     b1.onclick = function () {
         changeArtButtons()
@@ -58,9 +56,6 @@ function switchInContent() {
         changeTalButtons()
         b5.src = "../images/icons/page_checked.png";
         b5Cont.style.display = "flex";
-        // talent_gif.src = talent_gif.getAttribute('src');
-        // talent_gif.setAttribute('src', "../images/talents-gif/albedo/Talent_Favonius_Bladework_-_Weiss_Normal.gif");
-        // talent_gif.src = `${talent_gif.getAttribute('src')}?a=${Math.random()}`;
     }
     b6.onclick = function () {
         changeTalButtons()
