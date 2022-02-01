@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="antaww/xhmyjae" name="author">
+    <meta content="Xingqiu's complete build" name="description">
+    <title>Xingqiu Build</title>
+
+    <link href="../style/characters.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/main.css" rel="stylesheet" type="text/css">
+    <link href="../style/charactersNavBar.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/content.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/footer.css" rel="stylesheet" type="text/css"/>
+    <link href="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css" rel="stylesheet">
+    <link href="../images/icons/Character_Paimon_Portrait.png" rel="icon" type="text/css">
+    <script src="../script/main.js"></script>
+    <script src="../script/charaNavBar.js"></script>
+    <script src="../script/switchContent.js"></script>
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css"
+          integrity="sha512-TD/aL30dNLN0VaHVoh9voFlNi7ZuWQYtV4bkIJv2ulZ8mEEkZJ7IyGvDthMKvIUwzLmPONnjQlAi55HTERVXpw=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
+</head>
+
+<body class="xingqiu">
+<nav class="navigation">
+    <a class="bmp_logo" href="../index.html"><img alt="BuildMePaimon"
+                                                  src="../images/icons/logo_transparent.png"
+                                                  title="BuildMePaimon"></a>
+    <ul class="header">
+        <li class="icon_navbar"><a class="icon_navbar" href="../html/news.html"><img alt="News icon"
+                                                                                     class="nav_icon_header"
+                                                                                     src="../images/icons/Icon_Inventory_Quest.png"
+                                                                                     title="News"></a></li>
+        <div class="dropdown">
+
+            <li class="icon_navbar char_icon" onclick="showCharacters()"><a class="icon_navbar"><img
+                    alt="Characters icon" class="nav_icon_header"
+                    src="../images/icons/Icon_Inventory_Character_Development_Items.png" title="Characters"></a></li>
+            <div class="characters">
+                <a class="a_icon" href="../html/albedo.html"><img alt="Albedo"
+                                                                  src="../images/characters/Albedo_head.png"
+                                                                  title="Albedo"></a>
+                <a class="a_icon" href="../html/aloy.html"><img alt="Aloy" src="../images/characters/Aloy_head.png"
+                                                                title="Aloy"></a>
+                <a class="a_icon" href="../html/amber.html"><img alt="Amber" src="../images/characters/Amber_head.png"
+                                                                 title="Amber"></a>
+                <a class="a_icon" href="../html/barbara.html"><img alt="Barbara"
+                                                                   src="../images/characters/Barbara_head.png"
+                                                                   title="Barbara"></a>
+                <a class="a_icon" href="../html/beidou.html"><img alt="Beidou"
+                                                                  src="../images/characters/Beidou_head.png"
+                                                                  title="Beidou"></a>
+                <a class="a_icon" href="../html/bennett.html"><img alt="Bennett"
+                                                                   src="../images/characters/Bennett_head.png"
+                                                                   title="Bennett"></a>
+                <a class="a_icon" href="../html/chongyun.html"><img alt="Chongyun"
+                                                                    src="../images/characters/Chongyun_head.png"
+                                                                    title="Chongyun"></a>
+                <a class="a_icon" href="../html/diluc.html"><img alt="Diluc" src="../images/characters/Diluc_head.png"
+                                                                 title="Diluc"></a>
+                <a class="a_icon" href="../html/diona.html"><img alt="Diona" src="../images/characters/Diona_head.png"
+                                                                 title="Diona"></a>
+                <a class="a_icon" href="../html/eula.html"><img alt="Eula" src="../images/characters/Eula_head.png"
+                                                                title="Eula"></a>
+                <a class="a_icon" href="../html/fischl.html"><img alt="Fischl"
+                                                                  src="../images/characters/Fischl_head.png"
+                                                                  title="Fischl"></a>
+                <a class="a_icon" href="../html/ganyu.html"><img alt="Ganyu" src="../images/characters/Ganyu_head.png"
+                                                                 title="Ganyu"></a>
+                <a class="a_icon" href="../html/gorou.html"><img alt="Gorou" src="../images/characters/Gorou_head.png"
+                                                                 title="Gorou"></a>
+                <a class="a_icon" href="../html/hutao.html"><img alt="Hu Tao"
+                                                                 src="../images/characters/Hu%20Tao_head.png"
+                                                                 title="Hu Tao"></a>
+                <a class="a_icon" href="../html/itto.html"><img alt="Itto" src="../images/characters/Itto_head.png"
+                                                                title="Itto"></a>
+                <a class="a_icon" href="../html/jean.html"><img alt="Jean" src="../images/characters/Jean_head.png"
+                                                                title="Jean"></a>
+                <a class="a_icon" href="../html/kazuha.html"><img alt="Kaedehara Kazuha"
+                                                                  src="../images/characters/Kazuha_head.png"
+                                                                  title="Kaedehara Kazuha"></a>
+                <a class="a_icon" href="../html/kaeya.html"><img alt="Kaeya" src="../images/characters/Kaeya_head.png"
+                                                                 title="Kaeya"></a>
+                <a class="a_icon" href="../html/ayaka.html"><img alt="Kamisato Ayaka"
+                                                                 src="../images/characters/Ayaka_head.png"
+                                                                 title="Kamisato Ayaka"></a>
+                <a class="a_icon" href="../html/keqing.html"><img alt="Keqing"
+                                                                  src="../images/characters/Keqing_head.png"
+                                                                  title="Keqing"></a>
+                <a class="a_icon" href="../html/klee.html"><img alt="Klee" src="../images/characters/Klee_head.png"
+                                                                title="Klee"></a>
+                <a class="a_icon" href="../html/sara.html"><img alt="Kujou Sara"
+                                                                src="../images/characters/Sara_head.png"
+                                                                title="Kujou Sara"></a>
+                <a class="a_icon" href="../html/lisa.html"><img alt="Lisa" src="../images/characters/Lisa_head.png"
+                                                                title="Lisa"></a>
+                <a class="a_icon" href="../html/mona.html"><img alt="Mona" src="../images/characters/Mona_head.png"
+                                                                title="Mona"></a>
+                <a class="a_icon" href="../html/ningguang.html"><img alt="Ningguang"
+                                                                     src="../images/characters/Ningguang_head.png"
+                                                                     title="Ningguang"></a>
+                <a class="a_icon" href="../html/noelle.html"><img alt="Noelle"
+                                                                  src="../images/characters/Noelle_head.png"
+                                                                  title="Noelle"></a>
+                <a class="a_icon" href="../html/qiqi.html"><img alt="Qiqi" src="../images/characters/Qiqi_head.png"
+                                                                title="Qiqi"></a>
+                <a class="a_icon" href="../html/raiden.html"><img alt="Raiden Shogun"
+                                                                  src="../images/characters/Raiden_head.png"
+                                                                  title="Raiden Shogun"></a>
+                <a class="a_icon" href="../html/razor.html"><img alt="Razor" src="../images/characters/Razor_head.png"
+                                                                 title="Razor"></a>
+                <a class="a_icon" href="../html/rosaria.html"><img alt="Rosaria"
+                                                                   src="../images/characters/Rosaria_head.png"
+                                                                   title="Rosaria"></a>
+                <a class="a_icon" href="../html/kokomi.html"><img alt="Sangonomiya kokomi"
+                                                                  src="../images/characters/Kokomi_head.png"
+                                                                  title="Sangonomiya Kokomi"></a>
+                <a class="a_icon" href="../html/sayu.html"><img alt="Sayu" src="../images/characters/Sayu_head.png"
+                                                                title="Sayu"></a>
+                <a class="a_icon" href="../html/shenhe.html"><img alt="Shenhe"
+                                                                  src="../images/characters/Shenhe_head.png"
+                                                                  title="Shenhe"></a>
+                <a class="a_icon" href="../html/sucrose.html"><img alt="Sucrose"
+                                                                   src="../images/characters/Sucrose_head.png"
+                                                                   title="Sucrose"></a>
+                <a class="a_icon" href="../html/tartaglia.html"><img alt="Tartaglia"
+                                                                     src="../images/characters/Tartaglia_head.png"
+                                                                     title="Tartaglia"></a>
+                <a class="a_icon" href="../html/thoma.html"><img alt="Thoma" src="../images/characters/Thoma_head.png"
+                                                                 title="Thoma"></a>
+                <a class="a_icon" href="../html/traveler.html"><img alt="Traveler"
+                                                                    src="../images/img-genshin/characters/traveler_geo.png"
+                                                                    title="Traveler"></a>
+                <!--                add element variation for traveler when click ("which element ? -electro/geo/anemo = new html)-->
+                <a class="a_icon" href="../html/venti.html"><img alt="Venti" src="../images/characters/Venti_head.png"
+                                                                 title="Venti"></a>
+                <a class="a_icon" href="../html/xiangling.html"><img alt="Xiangling"
+                                                                     src="../images/characters/Xiangling_head.png"
+                                                                     title="Xiangling"></a>
+                <a class="a_icon" href="../html/xiao.html"><img alt="Xiao" src="../images/characters/Xiao_head.png"
+                                                                title="Xiao"></a>
+                <a class="a_icon" href="../html/xingqiu.html"><img alt="Xingqiu"
+                                                                   src="../images/characters/Xingqiu_head.png"
+                                                                   title="Xingqiu"></a>
+                <a class="a_icon" href="../html/xinyan.html"><img alt="Xinyan"
+                                                                  src="../images/characters/Xinyan_head.png"
+                                                                  title="Xinyan"></a>
+                <a class="a_icon" href="../html/yanfei.html"><img alt="Yanfei"
+                                                                  src="../images/characters/Yanfei_head.png"
+                                                                  title="Yanfei"></a>
+                <a class="a_icon" href="../html/yoimiya.html"><img alt="Yoimiya"
+                                                                   src="../images/characters/Yoimiya_head.png"
+                                                                   title="Yoimiya"></a>
+                <a class="a_icon" href="../html/yunjin.html"><img alt="Yun Jin"
+                                                                  src="../images/characters/Yun_jin_head.png"
+                                                                  title="Yun Jin"></a>
+                <a class="a_icon" href="../html/zhongli.html"><img alt="Zhongli"
+                                                                   src="../images/characters/Zhongli_head.png"
+                                                                   title="Zhongli"></a>
+            </div>
+        </div>
+        <li class="icon_navbar"><a
+                class="icon_navbar"
+                href="https://webstatic-sea.mihoyo.com/app/ys-map-sea/index.html?utm_source=hoyolab&lang=en-us#/map/2"
+                target="_blank"><img alt="Genshin map"
+                                     class="nav_icon_header"
+                                     src="../images/icons/Icon_Inventory_Precious_Items.png" title="Map"></a></li>
+    </ul>
+</nav>
+
+<div id="fullpage">
+    <div class="section" id="section1">
+        <div class="background">
+        </div>
+
+        <div class="character">
+            <img alt="Xingqiu" src="../images/characters/big_xingqiu.png">
+        </div>
+
+        <div id="content">
+            <div id="text">
+                <div class="lore">The second son of the Feiyun Commerce Guild, Xingqiu has had a reputation for being
+                    studious and polite ever since he was a young child.<br>
+                    But there is another side to the mild-mannered Xingqiu everyone knows. A daring, adventurous and
+                    much more mischievous side...
+                </div>
+
+                <div class="weaponsContent">
+                    <div>
+                        <img alt="Sacrificial Sword" class="weapon rare4"
+                             src="../images/img-genshin/weapons/sacrificial_sword.png">
+                        <div>
+                            <span class="weaponsName">Sacrificial Sword</span>
+                            <span class="weaponsText">After damaging an opponent with an Elemental Skill, the skill has a <strong>40/50/60/70/80%</strong> chance to end its own CD. Can only occur once every <strong>30/26/22/18/14s</strong>.</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="Favonius Sword" class="weapon rare4"
+                             src="../images/img-genshin/weapons/favonius_sword.png">
+                        <div>
+                            <span class="weaponsName">Favonius Sword</span>
+                            <span class="weaponsText">CRIT hits have a <strong>60/70/80/90/100%</strong> chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every <strong>12/10.5/9/7.5/6s</strong>.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artifacts">
+                    <div class="page">
+                        <img alt="Checked button" id="b1" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b2" src="../images/icons/page.png">
+                    </div>
+                    <div class="artifacts_set1">
+                        <div>
+                            <img alt="Emblem of Severed Fate"
+                                 class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/emblem_of_severed_fate_flower.png">
+                            <div>
+                                <span class="artifactsName">Emblem of Severed Fate (x4)</span>
+                                <span class="artifactsText">- Energy Recharge <strong>+20%</strong>
+                                        <br>- Increases Elemental Burst DMG by <strong>25%</strong> of Energy Recharge. A maximum of <strong>75%</strong> bonus DMG can be obtained in this way.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="artifacts_set2">
+                        <div>
+                            <img alt="Noblesse Oblige" class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/noblesse_oblige_flower.png">
+                            <div>
+                                <span class="artifactsName">Noblesse Oblige (x4)</span>
+                                <span class="artifactsText">- Elemental Burst DMG <strong>+20%</strong>
+                                <br>- Using an Elemental Burst increase all party members' ATK by <strong>20%</strong> for 12s. This effect cannot stack.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="materials">
+                    <div class="page">
+                        <img alt="checked button" id="b3" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b4" src="../images/icons/page.png">
+                    </div>
+                    <span class="matName">Ascension</span>
+                    <div class="ascensionMats">
+                        <div>
+                            <img alt="Varunada Lazurite Sliver" class="material rare2"
+                                 src="../images/img-genshin/items/varunada_lazurite_sliver.png">
+                            <span class="materialsName">Varunada Lazurite Sliver (x1)</span>
+                        </div>
+                        <div>
+                            <img alt="Varunada Lazurite Fragment"
+                                 class="material rare3"
+                                 src="../images/img-genshin/items/varunada_lazurite_fragment.png">
+                            <span class="materialsName">Varunada Lazurite Fragment (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Varunada Lazurite Chunk" class="material rare4"
+                                 src="../images/img-genshin/items/varunada_lazurite_chunk.png">
+                            <span class="materialsName">Varunada Lazurite Chunk (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Varunada Lazurite Gemstone"
+                                 class="material rare5"
+                                 src="../images/img-genshin/items/varunada_lazurite_gemstone.png">
+                            <span class="materialsName">Varunada Lazurite Gemstone (x6)</span>
+                        </div>
+                        <div>
+                            <img alt="Cleansing Heart" class="material rare4"
+                                 src="../images/img-genshin/items/cleansing_heart.png">
+                            <span class="materialsName">Cleansing Heart (x46)</span>
+                        </div>
+                        <div>
+                            <img alt="Silk Flower" class="material rare1"
+                                 src="../images/img-genshin/items/silk_flower.png">
+                            <span class="materialsName">Silk Flower (x168)</span>
+                        </div>
+                        <div>
+                            <img alt="Damaged Mask" class="material rare1"
+                                 src="../images/img-genshin/items/damaged_mask.png">
+                            <span class="materialsName">Damaged Mask (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Stained Mask" class="material rare2"
+                                 src="../images/img-genshin/items/stained_mask.png">
+                            <span class="materialsName">Stained Mask (x30)</span>
+                        </div>
+                        <div>
+                            <img alt="Ominous Mask"
+                                 class="material rare3" src="../images/img-genshin/items/ominous_mask.png">
+                            <span class="materialsName">Ominous Mask (x36)</span>
+                        </div>
+                    </div>
+                    <div class="talentsMats">
+                        <div>
+                            <img alt="Teachings of Gold" class="material rare2"
+                                 src="../images/img-genshin/items/teachings_of_gold.png">
+                            <span class="materialsName">Teachings of Gold (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Guide to Gold" class="material rare3"
+                                 src="../images/img-genshin/items/guide_to_gold.png">
+                            <span class="materialsName">Guide to Gold (x63)</span>
+                        </div>
+                        <div>
+                            <img alt="Philosophies of Gold"
+                                 class="material rare4" src="../images/img-genshin/items/philosophies_of_gold.png">
+                            <span class="materialsName">Philosophies of Gold (x114)</span>
+                        </div>
+                        <div>
+                            <img alt="Damaged Mask" class="material rare1"
+                                 src="../images/img-genshin/items/damaged_mask.png">
+                            <span class="materialsName">Damaged Mask (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Stained Mask" class="material rare2"
+                                 src="../images/img-genshin/items/stained_mask.png">
+                            <span class="materialsName">Stained Mask (x66)</span>
+                        </div>
+                        <div>
+                            <img alt="Ominous Mask"
+                                 class="material rare3" src="../images/img-genshin/items/ominous_mask.png">
+                            <span class="materialsName">Ominous Mask (x93)</span>
+                        </div>
+                        <div>
+                            <img alt="Tail of Boreas" class="material rare5"
+                                 src="../images/img-genshin/items/tail_of_boreas.png">
+                            <span class="materialsName">Tail of Boreas (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Crown of insight" class="material rare5"
+                                 src="../images/img-genshin/items/crown_of_insight.png">
+                            <span class="materialsName">Crown of Insight (x3)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talents">
+                    <div class="page">
+                        <img alt="Checked button" id="b5" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b6" src="../images/icons/page.png">
+                        <img alt="button" id="b7" src="../images/icons/page.png">
+                        <img alt="button" id="b8" src="../images/icons/page.png">
+                    </div>
+                    <div class="talent1">
+                        <div>
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/xingqiu/talent_1.png">
+                            <span class="talentsName">Guhua Style</span>
+                            <span>Normal Attack</span>
+                            <div>
+                                <span class="talentsType">Normal Attack</span>
+                                <span class="talentsContent">Performs up to 5 rapid strikes.</span>
+                                <span class="talentsType">Charged Attack</span>
+                                <span class="talentsContent">Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.</span>
+                                <span class="talentsType">Plunging Attack</span>
+                                <span class="talentsContent">Plunges from mid-aur to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.</span>
+                            </div>
+                        </div>
+                        <div class="talent_gif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/xingqiu/Talent_Guhua_Style_Normal.gif">
+                        </div>
+                    </div>
+                    <div class="talent2">
+                        <div>
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/xingqiu/talent_2.png">
+                            <span class="talentsName">Guhua Sword: Fatal Rainscreen</span>
+                            <span>Elemental Skill</span>
+                            <div>
+                                <span class="talentsContent">Xingqiu performs twin strikes with his sword, dealing Hydro DMG. At the same time, this ability creates the maximum number of Rain Swords, which will orbit the character.</span>
+                                <span class="talentsContent">When a character takes DMG, the Rain Sword will shatter, reducing the amount of DMG taken.</span>
+                                <span class="talentsContent">Increases the character's resistance to interruption.</span>
+                                <span class="talentsContent">20% of Xingqiu's Hydro DMG Bonus will be converted to additional DMG Reduction for the Rain Swords.</span>
+                                <span class="talentsContent">The maximum amount of additional DMG Reduction that can be gained this way is 24%.
+                                The initial maximum number of Rain Swords is 3.
+                                Using this ability applies the Wet status onto the character.</span>
+                            </div>
+                        </div>
+                        <div class="talent_gif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/xingqiu/Talent_Guhua_Sword_Fatal_Rainscreen.gif">
+                        </div>
+                    </div>
+                    <div class="talent3">
+                        <div>
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/xingqiu/talent_3.png">
+                            <span class="talentsName">Guhua Sword: Raincutter</span>
+                            <span>Elemental Burst</span>
+                            <div>
+                                <span class="talentsContent">Initiate Rainbow Bladework and fight using an illusory sword rain, while creating the maximum number of Rain Swords.</span>
+                                <span class="talentsType">Rainbow Bladework</span>
+                                <span class="talentsContent">Normal Attacks will trigger consecutive sword rain attacks, dealing Hydro DMG.</span>
+                                <span class="talentsContent">Rain Swords will remain at the maximum number throughout the ability's duration.</span>
+                                <span class="talentsContent">These effects carry over to other characters.</span>
+                            </div>
+                        </div>
+                        <div class="talent_gif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/xingqiu/Talent_Guhua_Sword_Raincutter.gif">
+                        </div>
+                    </div>
+                    <div class="talentPass">
+                        <div>
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/xingqiu/talent_4.png">
+                            <span class="talentsName">Hydropathic</span>
+                            <span>Unlocked at Ascension 1</span>
+                            <div>
+                                <span class="talentsContent">When a Rain Sword is shattered or when its duration expires, it regenerates the current character's HP based on 6% of Xingqiu's Max HP.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/xingqiu/talent_5.png">
+                            <span class="talentsName">Blades Amidst Raindrops</span>
+                            <span>Unlocked at Ascension 4</span>
+                            <div>
+                                <span class="talentsContent">Xingqiu gains a 20% Hydro DMG Bonus.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="talent" class="talentimg" src="../images/img-genshin/skills/xingqiu/talent_6.png">
+                            <span class="talentsName">Flash of Genius</span>
+                            <span>Unlocked Automatically</span>
+                            <div>
+                                <span class="talentsContent">When Xingqiu crafts Character Talent Materials, he has a 25% chance to refund a portion of the crafting materials used.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="constellations hydro">
+                    <div class="page">
+                        <img alt="checked button" id="b9" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b10" src="../images/icons/page.png">
+                        <img alt="button" id="b11" src="../images/icons/page.png">
+                        <img alt="button" id="b12" src="../images/icons/page.png">
+                        <img alt="button" id="b13" src="../images/icons/page.png">
+                        <img alt="button" id="b14" src="../images/icons/page.png">
+                    </div>
+                    <div class="constellation1">
+                        <div>
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/xingqiu/constellation_1.png">
+                            <span class="constellationsName">The Scent Remained</span>
+                            <span>Constellation 1</span>
+                            <div>
+                                    <span class="constellationsDescription">
+                                        Increases the maximum number of Rain Swords by 1.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation2">
+                        <div>
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/xingqiu/constellation_2.png">
+                            <span class="constellationsName">Rainbow Upon the Azure Sky</span>
+                            <span>Constellation 2</span>
+                            <div>
+                                    <span class="constellationsDescription">Extends the duration of Guhua Sword - Raincutter by 3s.
+                                    Decreases the Hydro RES of enemies hit by sword rain attacks by 15% for 4s.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation3">
+                        <div>
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/xingqiu/constellation_3.png">
+                            <span class="constellationsName">Weaver of Verses</span>
+                            <span>Constellation 3</span>
+                            <div>
+                                    <span class="constellationsDescription">Increases the Level of Guhua Sword - Raincutter by 3.
+Maximum upgrade level is 15.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation4">
+                        <div>
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/xingqiu/constellation_4.png">
+                            <span class="constellationsName">Evilsoother</span>
+                            <span>Constellation 4</span>
+                            <div>
+                                    <span class="constellationsDescription">
+Throughout the duration of Guhua Sword: Raincutter, the DMG dealt by Guhua Sword: Fatal Rainscreen is increased by 50%.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation5">
+                        <div>
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/xingqiu/constellation_5.png">
+                            <span class="constellationsName">Embrace of Rain</span>
+                            <span>Constellation 5</span>
+                            <div>
+                                    <span class="constellationsDescription">Increase the Level of Guhua Sword - Fatal Rainscreen by 3.
+Maximum upgrade level is 15.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation6">
+                        <div>
+                            <img alt="constellation" class="constellationimg"
+                                 src="../images/img-genshin/skills/xingqiu/constellation_6.png">
+                            <span class="constellationsName">Hence, Call Them My Own Verses</span>
+                            <span>Constellation 6</span>
+                            <div>
+                                    <span class="constellationsDescription">Activating 2 of Guhua Sword - Raincutter's sword rain attacks greatly increases the DMG of the third. Xingqiu regenerates 3 Energy when sword rain attacks hit enemies.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <script src="../script/charaNavBar.js"></script>
+        </div>
+
+        <div class="name">
+            <div class="element">
+                <img src="../images/img-genshin/elements/hydro.png">
+                <span>Xingqiu</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section2">
+        <div class="video">
+            <div>
+                <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="thumbnails"
+                        frameborder="0" height="315"
+                        src="https://www.youtube.com/embed/mRn6QHRD_xM"
+                        title="YouTube video player" width="560"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="section fp-auto-height" id="section3">
+        <footer>
+            <div class="top">
+
+                <a href="https://discord.gg/sDv2BfsA7W" target="_blank"><img alt="Community server"
+                                                                             src="../images/icons/discord.png"
+                                                                             title="Community server"></a>
+                <a href="https://www.youtube.com/channel/UCiS882YPwZt1NfaM0gR0D9Q" target="_blank"><img
+                        alt="Youtube channel" src="../images/icons/youtube.png" title="Youtube channel"></a>
+                <a href="https://www.hoyolab.com/home" target="_blank"><img alt="Hoyolab"
+                                                                            src="../images/icons/hoyolab.png"
+                                                                            title="Hoyolab"></a>
+                <div class="underline_footer">
+                </div>
+            </div>
+            <div class="bot">
+                <div class="logos">
+                    <a href="../index.html"><img alt="BuildMePaimon"
+                                                 src="../images/icons/Character_Paimon_Portrait.png"
+                                                 title="BuildMePaimon"></a>
+                    <a href="https://genshin.mihoyo.com/en/home" target="_blank"><img
+                            alt="Genshin Website" src="../images/img-genshin/genshin_logo.png" title="Genshin Website"></a>
+                </div>
+                <div class="links">
+                    <div>
+                        <a class="github_links" href="https://github.com/antaww" target="_blank">GitHub antaww</a>
+                        <a class="github_links" href="https://github.com/xhmyjae" target="_blank">GitHub xhmyjae</a>
+                        <a class="github_links" href="mailto: antoine.pizzetta@ynov.com">Contact Us</a>
+                    </div>
+                    <p><b>Build Me Paimon</b> is a site created by fans to help players build their Genshin's
+                        characters.
+                        It is not affiliated with miHoYo.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.extensions.min.js"
+        type="text/javascript"></script>
+
+<script defer>
+    var myFullpage = new fullpage('#fullpage', {
+        autoScrolling: true,
+        keyboardScrolling: true,
+
+    })
+</script>
+
+
+</body>
+</html>
