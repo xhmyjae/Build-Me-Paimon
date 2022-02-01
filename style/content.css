@@ -226,7 +226,7 @@ strong {
 }
 
 .talentPass {
-    justify-content: space-between!important;
+    justify-content: space-between !important;
 }
 
 .talentPass div {
@@ -308,6 +308,7 @@ strong {
 .element {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .element img {

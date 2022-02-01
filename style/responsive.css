@@ -1,16 +1,16 @@
 @media only screen and (max-width: 600px) {
 
     .character {
-        right: 0!important;
-        width: 50%!important;
+        right: 0 !important;
+        width: 50% !important;
     }
 
-    .character img{
+    .character img {
         opacity: 0.7;
     }
 
     #content {
-        top:25vw;
+        top: 25vw;
         width: 90%;
     }
 
@@ -85,7 +85,7 @@
         font-size: 4vw;
     }
 
-    .talents div div div span, .constellationsDescription  {
+    .talents div div div span, .constellationsDescription {
         font-size: 3.5vw;
     }
 
@@ -95,11 +95,25 @@
 
     .talent_gif {
         left: auto;
-        top: 115vw;
+        top: 170vw;
     }
 
     .talent_gif img {
         width: 75vw;
+    }
+
+    .video {
+        height: 70vh;
+    }
+
+    .video div {
+        width: 87vw;
+        height: 49.5vw;
+    }
+
+    .thumbnails {
+        width: 87vw;
+        height: 49vw;
     }
 
 }
