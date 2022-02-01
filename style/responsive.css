@@ -1,12 +1,13 @@
 @media only screen and (max-width: 600px) {
 
     .character {
-        right: 0 !important;
-        width: 50% !important;
+        left: 40vw;
+        top: 100vw;
     }
 
     .character img {
-        opacity: 0.7;
+        opacity: 0.5;
+        height: 50%;
     }
 
     #content {
@@ -114,6 +115,93 @@
     .thumbnails {
         width: 87vw;
         height: 49vw;
+    }
+
+    footer {
+        height: 35vw;
+    }
+
+    .top img {
+        height: 7vw;
+        padding: 0 1.5vw;
+    }
+
+    .logos {
+        justify-content: center;
+    }
+
+    .logos a:first-child img {
+        width: 12vw;
+    }
+
+    .logos a img {
+        width: 24vw;
+    }
+
+    .bot {
+        bottom: 9%;
+    }
+
+    .links {
+        font-size: 225%;
+    }
+
+    .underline_footer {
+        width: 60%;
+    }
+
+    .list_articles {
+        height: 100vh;
+        top: 76vw;
+    }
+
+    .list_articles > div {
+        flex-direction: column;
+    }
+
+    .articles {
+        width: 90%;
+        margin-bottom: 1vw;
+        height: 73vw;
+    }
+
+    .articles > a {
+        width: 90%;
+    }
+
+    .new_articles_content h2 {
+        font-size: 240%;
+    }
+
+    .new_articles_content span {
+        font-size: 200%;
+    }
+
+    .list_articles > div {
+        height: 130%;
+    }
+
+    .list_new_characters {
+        top: 64vw;
+    }
+
+    .list_new_characters > div span {
+        font-size: 5vw;
+    }
+
+    .list_new_characters > div img {
+        width: 100vw;
+        position: absolute;
+        top: 6vw;
+        opacity: 0.7;
+    }
+
+    .list_new_characters > div > div > div {;
+        z-index: 1;
+    }
+
+    .list_new_characters > div > div {
+        font-size: 3vw;
     }
 
 }
