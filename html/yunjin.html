@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="antaww/xhmyjae" name="author">
+    <meta content="Yunjin's complete build" name="description">
+    <title>Yunjin Build</title>
+
+    <link href="../style/characters.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/main.css" rel="stylesheet" type="text/css">
+    <link href="../style/charactersNavBar.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/content.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/footer.css" rel="stylesheet" type="text/css"/>
+    <link href="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css" rel="stylesheet">
+    <link href="../images/icons/Character_Paimon_Portrait.png" rel="icon" type="text/css">
+    <script src="../script/main.js"></script>
+    <script src="../script/charaNavBar.js"></script>
+    <script src="../script/switchContent.js"></script>
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css"
+          integrity="sha512-TD/aL30dNLN0VaHVoh9voFlNi7ZuWQYtV4bkIJv2ulZ8mEEkZJ7IyGvDthMKvIUwzLmPONnjQlAi55HTERVXpw=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
+</head>
+
+<body class="yunjin">
+<nav class="navigation">
+    <a class="bmpLogo" href="../index.html"><img alt="BuildMePaimon"
+                                                 src="../images/icons/logo_transparent.png"
+                                                 title="BuildMePaimon"></a>
+    <ul class="header">
+        <li class="iconNavbar"><a class="iconNavbar" href="../html/news.html"><img alt="News icon"
+                                                                                   class="navIconHeader"
+                                                                                   src="../images/icons/Icon_Inventory_Quest.png"
+                                                                                   title="News"></a></li>
+        <div class="dropdown">
+
+            <li class="iconNavbar charIcon" onclick="showCharacters()"><a class="iconNavbar"><img
+                    alt="Characters icon" class="navIconHeader"
+                    src="../images/icons/Icon_Inventory_Character_Development_Items.png" title="Characters"></a></li>
+            <div class="characters">
+                <a class="aIcon" href="../html/albedo.html"><img alt="Albedo"
+                                                                 src="../images/characters/Albedo_head.png"
+                                                                 title="Albedo"></a>
+                <a class="aIcon" href="../html/aloy.html"><img alt="Aloy" src="../images/characters/Aloy_head.png"
+                                                               title="Aloy"></a>
+                <a class="aIcon" href="../html/amber.html"><img alt="Amber" src="../images/characters/Amber_head.png"
+                                                                title="Amber"></a>
+                <a class="aIcon" href="../html/barbara.html"><img alt="Barbara"
+                                                                  src="../images/characters/Barbara_head.png"
+                                                                  title="Barbara"></a>
+                <a class="aIcon" href="../html/beidou.html"><img alt="Beidou"
+                                                                 src="../images/characters/Beidou_head.png"
+                                                                 title="Beidou"></a>
+                <a class="aIcon" href="../html/bennett.html"><img alt="Bennett"
+                                                                  src="../images/characters/Bennett_head.png"
+                                                                  title="Bennett"></a>
+                <a class="aIcon" href="../html/chongyun.html"><img alt="Chongyun"
+                                                                   src="../images/characters/Chongyun_head.png"
+                                                                   title="Chongyun"></a>
+                <a class="aIcon" href="../html/diluc.html"><img alt="Diluc" src="../images/characters/Diluc_head.png"
+                                                                title="Diluc"></a>
+                <a class="aIcon" href="../html/diona.html"><img alt="Diona" src="../images/characters/Diona_head.png"
+                                                                title="Diona"></a>
+                <a class="aIcon" href="../html/eula.html"><img alt="Eula" src="../images/characters/Eula_head.png"
+                                                               title="Eula"></a>
+                <a class="aIcon" href="../html/fischl.html"><img alt="Fischl"
+                                                                 src="../images/characters/Fischl_head.png"
+                                                                 title="Fischl"></a>
+                <a class="aIcon" href="../html/ganyu.html"><img alt="Ganyu" src="../images/characters/Ganyu_head.png"
+                                                                title="Ganyu"></a>
+                <a class="aIcon" href="../html/gorou.html"><img alt="Gorou" src="../images/characters/Gorou_head.png"
+                                                                title="Gorou"></a>
+                <a class="aIcon" href="../html/hutao.html"><img alt="Hu Tao"
+                                                                src="../images/characters/Hu%20Tao_head.png"
+                                                                title="Hu Tao"></a>
+                <a class="aIcon" href="../html/itto.html"><img alt="Itto" src="../images/characters/Itto_head.png"
+                                                               title="Itto"></a>
+                <a class="aIcon" href="../html/jean.html"><img alt="Jean" src="../images/characters/Jean_head.png"
+                                                               title="Jean"></a>
+                <a class="aIcon" href="../html/kazuha.html"><img alt="Kaedehara Kazuha"
+                                                                 src="../images/characters/Kazuha_head.png"
+                                                                 title="Kaedehara Kazuha"></a>
+                <a class="aIcon" href="../html/kaeya.html"><img alt="Kaeya" src="../images/characters/Kaeya_head.png"
+                                                                title="Kaeya"></a>
+                <a class="aIcon" href="../html/ayaka.html"><img alt="Kamisato Ayaka"
+                                                                src="../images/characters/Ayaka_head.png"
+                                                                title="Kamisato Ayaka"></a>
+                <a class="aIcon" href="../html/keqing.html"><img alt="Keqing"
+                                                                 src="../images/characters/Keqing_head.png"
+                                                                 title="Keqing"></a>
+                <a class="aIcon" href="../html/klee.html"><img alt="Klee" src="../images/characters/Klee_head.png"
+                                                               title="Klee"></a>
+                <a class="aIcon" href="../html/sara.html"><img alt="Kujou Sara"
+                                                               src="../images/characters/Sara_head.png"
+                                                               title="Kujou Sara"></a>
+                <a class="aIcon" href="../html/lisa.html"><img alt="Lisa" src="../images/characters/Lisa_head.png"
+                                                               title="Lisa"></a>
+                <a class="aIcon" href="../html/mona.html"><img alt="Mona" src="../images/characters/Mona_head.png"
+                                                               title="Mona"></a>
+                <a class="aIcon" href="../html/ningguang.html"><img alt="Ningguang"
+                                                                    src="../images/characters/Ningguang_head.png"
+                                                                    title="Ningguang"></a>
+                <a class="aIcon" href="../html/noelle.html"><img alt="Noelle"
+                                                                 src="../images/characters/Noelle_head.png"
+                                                                 title="Noelle"></a>
+                <a class="aIcon" href="../html/qiqi.html"><img alt="Qiqi" src="../images/characters/Qiqi_head.png"
+                                                               title="Qiqi"></a>
+                <a class="aIcon" href="../html/raiden.html"><img alt="Raiden Shogun"
+                                                                 src="../images/characters/Raiden_head.png"
+                                                                 title="Raiden Shogun"></a>
+                <a class="aIcon" href="../html/razor.html"><img alt="Razor" src="../images/characters/Razor_head.png"
+                                                                title="Razor"></a>
+                <a class="aIcon" href="../html/rosaria.html"><img alt="Rosaria"
+                                                                  src="../images/characters/Rosaria_head.png"
+                                                                  title="Rosaria"></a>
+                <a class="aIcon" href="../html/kokomi.html"><img alt="Sangonomiya kokomi"
+                                                                 src="../images/characters/Kokomi_head.png"
+                                                                 title="Sangonomiya Kokomi"></a>
+                <a class="aIcon" href="../html/sayu.html"><img alt="Sayu" src="../images/characters/Sayu_head.png"
+                                                               title="Sayu"></a>
+                <a class="aIcon" href="../html/shenhe.html"><img alt="Shenhe"
+                                                                 src="../images/characters/Shenhe_head.png"
+                                                                 title="Shenhe"></a>
+                <a class="aIcon" href="../html/sucrose.html"><img alt="Sucrose"
+                                                                  src="../images/characters/Sucrose_head.png"
+                                                                  title="Sucrose"></a>
+                <a class="aIcon" href="../html/tartaglia.html"><img alt="Tartaglia"
+                                                                    src="../images/characters/Tartaglia_head.png"
+                                                                    title="Tartaglia"></a>
+                <a class="aIcon" href="../html/thoma.html"><img alt="Thoma" src="../images/characters/Thoma_head.png"
+                                                                title="Thoma"></a>
+                <a class="aIcon" href="../html/traveler.html"><img alt="Traveler"
+                                                                   src="../images/img-genshin/characters/traveler_geo.png"
+                                                                   title="Traveler"></a>
+                <!--                add element variation for traveler when click ("which element ? -electro/geo/anemo = new html)-->
+                <a class="aIcon" href="../html/venti.html"><img alt="Venti" src="../images/characters/Venti_head.png"
+                                                                title="Venti"></a>
+                <a class="aIcon" href="../html/xiangling.html"><img alt="Xiangling"
+                                                                    src="../images/characters/Xiangling_head.png"
+                                                                    title="Xiangling"></a>
+                <a class="aIcon" href="../html/xiao.html"><img alt="Xiao" src="../images/characters/Xiao_head.png"
+                                                               title="Xiao"></a>
+                <a class="aIcon" href="../html/xingqiu.html"><img alt="Xingqiu"
+                                                                  src="../images/characters/Xingqiu_head.png"
+                                                                  title="Xingqiu"></a>
+                <a class="aIcon" href="../html/xinyan.html"><img alt="Xinyan"
+                                                                 src="../images/characters/Xinyan_head.png"
+                                                                 title="Xinyan"></a>
+                <a class="aIcon" href="../html/yanfei.html"><img alt="Yanfei"
+                                                                 src="../images/characters/Yanfei_head.png"
+                                                                 title="Yanfei"></a>
+                <a class="aIcon" href="../html/yoimiya.html"><img alt="Yoimiya"
+                                                                  src="../images/characters/Yoimiya_head.png"
+                                                                  title="Yoimiya"></a>
+                <a class="aIcon" href="../html/yunjin.html"><img alt="Yun Jin"
+                                                                 src="../images/characters/Yun_jin_head.png"
+                                                                 title="Yun Jin"></a>
+                <a class="aIcon" href="../html/zhongli.html"><img alt="Zhongli"
+                                                                  src="../images/characters/Zhongli_head.png"
+                                                                  title="Zhongli"></a>
+            </div>
+        </div>
+        <li class="iconNavbar"><a
+                class="iconNavbar"
+                href="https://webstatic-sea.mihoyo.com/app/ys-map-sea/index.html?utm_source=hoyolab&lang=en-us#/map/2"
+                target="_blank"><img alt="Genshin map"
+                                     class="navIconHeader"
+                                     src="../images/icons/Icon_Inventory_Precious_Items.png" title="Map"></a></li>
+    </ul>
+</nav>
+
+<div id="fullpage">
+    <div class="section" id="section1">
+        <div class="background">
+        </div>
+
+        <div class="character resized_toobig">
+            <img alt="Yunjin" src="../images/characters/big_yunjin.png">
+        </div>
+
+        <div id="content">
+            <div id="text">
+                <div class="lore">The current director of the Yun-Han Opera Troupe, a renowned Liyue opera singer who is
+                    skilled in both playwriting and singing. Her style is one-of-a-kind, exquisite and delicate, much
+                    like the person herself.
+                </div>
+
+                <div class="weaponsContent">
+                    <div>
+                        <img alt="Engulfing Lightning" class="weapon rare5"
+                             src="../images/img-genshin/weapons/engulfing_lightning.png">
+                        <div>
+                            <span class="weaponsName">Engulfing Lightning</span>
+                            <span class="weaponsText">ATK increased by <strong>28/34/40/46/52%</strong> of Energy Recharge over the base <strong>100%</strong>. You can gain a maximum bonus of <strong>80/90/100/110/120%</strong> ATK. Gain <strong>30/35/40/45/50%</strong> Energy Recharge for 12s after using an Elemental Burst.</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="Favonius Lance" class="weapon rare4"
+                             src="../images/img-genshin/weapons/favonius_lance.png">
+                        <div>
+                            <span class="weaponsName">Favonius Lance</span>
+                            <span class="weaponsText">CRIT hits have a <strong>60/70/80/90/100%</strong> chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every <strong>12/10.5/9/7.5/6s</strong>.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artifacts">
+                    <div class="page">
+                        <img alt="Checked button" id="b1" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b2" src="../images/icons/page.png">
+                    </div>
+                    <div class="artifactsSet1">
+                        <div>
+                            <img alt="Husk of Opulent Dreams"
+                                 class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/husk_of_opulent_dreams_flower.png">
+                            <div>
+                                <span class="artifactsName">Husk of Opulent Dreams (x4)</span>
+                                <span class="artifactsText">- DEF <strong>+30%</strong>
+                                    <br>- A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions: When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s. When off the field, the character gains 1 stack every 3s. Curiosity can stack up to 4 times, each providing <strong>6%</strong> DEF and a <strong>6%</strong> Geo DMG Bonus. When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="artifactsSet2">
+                        <div>
+                            <img alt="Emblem of Severed Fate"
+                                 class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/emblem_of_severed_fate_flower.png">
+                            <div>
+                                <span class="artifactsName">Emblem of Severed Fate (x2)</span>
+                                <span class="artifactsText">- Energy Recharge <strong>+20%</strong></span>
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="Husk of Opulent Dreams"
+                                 class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/husk_of_opulent_dreams_flower.png">
+                            <div>
+                                <span class="artifactsName">Husk of Opulent Dreams (x2)</span>
+                                <span class="artifactsText">- DEF <strong>+30%</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="materials">
+                    <div class="page">
+                        <img alt="checked button" id="b3" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b4" src="../images/icons/page.png">
+                    </div>
+                    <span class="matName">Ascension</span>
+                    <div class="ascensionMats">
+                        <div>
+                            <img alt="Prithiva topaz sliver" class="material rare2"
+                                 src="../images/img-genshin/items/prithiva_topaz_sliver.png">
+                            <span class="materialsName">Prithiva Topaz Sliver (x1)</span>
+                        </div>
+                        <div>
+                            <img alt="Prithiva topaz fragment"
+                                 class="material rare3" src="../images/img-genshin/items/prithiva_topaz_fragment.png">
+                            <span class="materialsName">Prithiva Topaz Fragment (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Prithiva topaz chunk" class="material rare4"
+                                 src="../images/img-genshin/items/prithiva_topaz_chunk.png">
+                            <span class="materialsName">Prithiva Topaz Chunk (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Prithiva topaz gemstone"
+                                 class="material rare5" src="../images/img-genshin/items/prithiva_topaz_gemstone.png">
+                            <span class="materialsName">Prithiva Topaz Gemstone (x6)</span>
+                        </div>
+                        <div>
+                            <img alt="Riftborn Regalia" class="material rare4"
+                                 src="../images/img-genshin/items/riftborn_regalia.png">
+                            <span class="materialsName">Riftborn Regalia (x46)</span>
+                        </div>
+                        <div>
+                            <img alt="Glaze Lily" class="material rare1"
+                                 src="../images/img-genshin/items/glaze_lily.png">
+                            <span class="materialsName">Glaze Lily (x168)</span>
+                        </div>
+                        <div>
+                            <img alt="Damaged Mask" class="material rare1"
+                                 src="../images/img-genshin/items/damaged_mask.png">
+                            <span class="materialsName">Damaged Mask (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Stained Mask" class="material rare2"
+                                 src="../images/img-genshin/items/stained_mask.png">
+                            <span class="materialsName">Stained Mask (x30)</span>
+                        </div>
+                        <div>
+                            <img alt="Ominous Mask"
+                                 class="material rare3" src="../images/img-genshin/items/ominous_mask.png">
+                            <span class="materialsName">Ominous Mask (x36)</span>
+                        </div>
+                    </div>
+                    <div class="talentsMats">
+                        <div>
+                            <img alt="Teachings of Diligence" class="material rare2"
+                                 src="../images/img-genshin/items/teachings_of_diligence.png">
+                            <span class="materialsName">Teachings of Diligence (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Guide to Diligence" class="material rare3"
+                                 src="../images/img-genshin/items/guide_to_diligence.png">
+                            <span class="materialsName">Guide to Diligence (x63)</span>
+                        </div>
+                        <div>
+                            <img alt="Philosophies of Diligence"
+                                 class="material rare4" src="../images/img-genshin/items/philosophies_of_diligence.png">
+                            <span class="materialsName">Philosophies of Diligence (x114)</span>
+                        </div>
+                        <div>
+                            <img alt="Damaged Mask" class="material rare1"
+                                 src="../images/img-genshin/items/damaged_mask.png">
+                            <span class="materialsName">Damaged Mask (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Stained Mask" class="material rare2"
+                                 src="../images/img-genshin/items/stained_mask.png">
+                            <span class="materialsName">Stained Mask (x66)</span>
+                        </div>
+                        <div>
+                            <img alt="Ominous Mask"
+                                 class="material rare3" src="../images/img-genshin/items/ominous_mask.png">
+                            <span class="materialsName">Ominous Mask (x93)</span>
+                        </div>
+                        <div>
+                            <img alt="Ashen Heart" class="material rare5"
+                                 src="../images/img-genshin/items/ashen_heart.png">
+                            <span class="materialsName">Ashen Heart (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Crown of insight" class="material rare5"
+                                 src="../images/img-genshin/items/crown_of_insight.png">
+                            <span class="materialsName">Crown of Insight (x3)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talents">
+                    <div class="page">
+                        <img alt="Checked button" id="b5" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b6" src="../images/icons/page.png">
+                        <img alt="button" id="b7" src="../images/icons/page.png">
+                        <img alt="button" id="b8" src="../images/icons/page.png">
+                    </div>
+                    <div class="talent1">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/yunjin/talent_1.png">
+                            <span class="talentsName">Cloud-Grazing Strike</span>
+                            <span>Normal Attack</span>
+                            <div>
+                                <span class="talentsType">Normal Attack</span>
+                                <span class="talentsContent">Performs up to 5 consecutive spear strikes.</span>
+                                <span class="talentsType">Charged Attack</span>
+                                <span class="talentsContent">Consumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.</span>
+                                <span class="talentsType">Plunging Attack</span>
+                                <span class="talentsContent">Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.</span>
+                            </div>
+                        </div>
+                        <div class="talentGif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/yunjin/Talent_Cloud-Grazing_Strike_Normal.gif">
+                        </div>
+                    </div>
+                    <div class="talent2">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/yunjin/talent_2.png">
+                            <span class="talentsName">Opening Flourish</span>
+                            <span>Elemental Skill</span>
+                            <div>
+                                <span class="talentsType">Press</span>
+                                <span class="talentsContent">Flourishes her polearm in a cloud-grasping stance, dealing Geo DMG.</span>
+                                <span class="talentsType">Hold</span>
+                                <span class="talentsContent">Takes up the Opening Flourish stance and charges up, forming a shield. DMG Absorption is based on Yun Jin's Max HP and has 150% effectiveness against all Elemental DMG and Physical DMG. The shield lasts until she finishes unleashing her Elemental Skill.
+When the skill is released, when its duration ends, or when the shield breaks, Yun Jin will unleash the charged energy as an attack, dealing Geo DMG.
+Based on the time spent charging, it will either unleash an attack at Charge Level 1 or Level 2.</span>
+                            </div>
+                        </div>
+                        <div class="talentGif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/yunjin/Talent_Opening_Flourish_Press.gif">
+                        </div>
+                    </div>
+                    <div class="talent3">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/yunjin/talent_3.png">
+                            <span class="talentsName">Cliffbreaker's Banner</span>
+                            <span>Elemental Burst</span>
+                            <div>
+                                <span class="talentsContent">Deals AoE Geo DMG and grants all nearby party members a Flying Cloud Flag Formation.</span>
+                                <span class="talentsType">Flying Cloud Flag Formation</span>
+                                <span class="talentsContent">When Normal Attack DMG is dealt to opponents, Bonus DMG will be dealt based on Yun Jin's current DEF.
+The effects of this skill will be cleared after a set duration or after being triggered a specific number of times.
+When one Normal Attack hits multiple opponents, the effect is triggered multiple times according to the number of opponents hit. The number of times that the effect is triggered is counted independently for each member of the party with Flying Cloud Flag Formation.</span>
+                            </div>
+                        </div>
+                        <div class="talentGif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/yunjin/Talent_Cliffbreaker's_Banner.gif">
+                        </div>
+                    </div>
+                    <div class="talentPass">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/yunjin/talent_4.png">
+                            <span class="talentsName">True to Oneself</span>
+                            <span>Unlocked at Ascension 1</span>
+                            <div>
+                                <span class="talentsContent">Using Opening Flourish at the precise moment when Yun Jin is attacked will unleash its Level 2 Charged (Hold) form.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/yunjin/talent_5.png">
+                            <span class="talentsName">Breaking Conventions</span>
+                            <span>Unlocked at Ascension 4</span>
+                            <div>
+                                <span class="talentsContent">The Normal Attack DMG Bonus granted by Flying Cloud Flag Formation is further increased by 2.5%/5%/7.5%/11.5% of Yun Jin's DEF when the party contains characters of 1/2/3/4 Elemental Types, respectively.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/yunjin/talent_6.png">
+                            <span class="talentsName">Light Nourishment</span>
+                            <span>Unlocked Automatically</span>
+                            <div>
+                                <span class="talentsContent">When Perfect Cooking is achieved on Food with Adventure-related effects, there is a 12% chance to obtain double the product.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="constellations geo">
+                    <div class="page">
+                        <img alt="checked button" id="b9" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b10" src="../images/icons/page.png">
+                        <img alt="button" id="b11" src="../images/icons/page.png">
+                        <img alt="button" id="b12" src="../images/icons/page.png">
+                        <img alt="button" id="b13" src="../images/icons/page.png">
+                        <img alt="button" id="b14" src="../images/icons/page.png">
+                    </div>
+                    <div class="constellation1">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/yunjin/constellation_1.png">
+                            <span class="constellationsName">Thespian Gallop</span>
+                            <span>Constellation 1</span>
+                            <div>
+                                    <span class="constellationsDescription">
+Opening Flourish's CD is decreased by 18%.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation2">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/yunjin/constellation_2.png">
+                            <span class="constellationsName">Myriad Mise-En-Scene</span>
+                            <span>Constellation 2</span>
+                            <div>
+                                <span class="constellationsDescription">After Cliffbreaker's Banner is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation3">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/yunjin/constellation_3.png">
+                            <span class="constellationsName">Seafaring General</span>
+                            <span>Constellation 3</span>
+                            <div>
+                                    <span class="constellationsDescription">Increases the Level of Cliffbreaker's Banner by 3.
+Maximum upgrade level is 15.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation4">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/yunjin/constellation_4.png">
+                            <span class="constellationsName">Flower and a Fighter</span>
+                            <span>Constellation 4</span>
+                            <div>
+                                    <span class="constellationsDescription">
+When Yun Jin triggers the Crystallize Reaction, her DEF is increased by 20% for 12s.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation5">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/yunjin/constellation_5.png">
+                            <span class="constellationsName">Famed Throughout the Land</span>
+                            <span>Constellation 5</span>
+                            <div>
+                                    <span class="constellationsDescription">Increases the Level of Opening Flourish by 3.
+Maximum upgrade level is 15.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation6">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/yunjin/constellation_6.png">
+                            <span class="constellationsName">Decorous Harmony</span>
+                            <span>Constellation 6</span>
+                            <div>
+                                    <span class="constellationsDescription">
+Characters under the effects of the Flying Cloud Flag Formation have their Normal ATK SPD increased by 12%.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <script src="../script/charaNavBar.js"></script>
+        </div>
+
+        <div class="name">
+            <div class="element">
+                <img src="../images/img-genshin/elements/geo.png">
+                <span>Yunjin</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section2">
+        <div class="video">
+            <div>
+                <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="thumbnails"
+                        frameborder="0" height="315"
+                        src="https://www.youtube.com/embed/YxIa114Od84"
+                        title="YouTube video player" width="560"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="section fp-auto-height" id="section3">
+        <footer>
+            <div class="top">
+
+                <a href="https://discord.gg/sDv2BfsA7W" target="_blank"><img alt="Community server"
+                                                                             src="../images/icons/discord.png"
+                                                                             title="Community server"></a>
+                <a href="https://www.youtube.com/channel/UCiS882YPwZt1NfaM0gR0D9Q" target="_blank"><img
+                        alt="Youtube channel" src="../images/icons/youtube.png" title="Youtube channel"></a>
+                <a href="https://www.hoyolab.com/home" target="_blank"><img alt="Hoyolab"
+                                                                            src="../images/icons/hoyolab.png"
+                                                                            title="Hoyolab"></a>
+                <div class="underlineFooter">
+                </div>
+            </div>
+            <div class="bot">
+                <div class="logos">
+                    <a href="../index.html"><img alt="BuildMePaimon"
+                                                 src="../images/icons/Character_Paimon_Portrait.png"
+                                                 title="BuildMePaimon"></a>
+                    <a href="https://genshin.mihoyo.com/en/home" target="_blank"><img
+                            alt="Genshin Website" src="../images/img-genshin/genshin_logo.png" title="Genshin Website"></a>
+                </div>
+                <div class="links">
+                    <div>
+                        <a class="githubLinks" href="https://github.com/antaww" target="_blank">GitHub antaww</a>
+                        <a class="githubLinks" href="https://github.com/xhmyjae" target="_blank">GitHub xhmyjae</a>
+                        <a class="githubLinks" href="mailto: antoine.pizzetta@ynov.com">Contact Us</a>
+                    </div>
+                    <p><b>Build Me Paimon</b> is a site created by fans to help players build their Genshin's
+                        characters.
+                        It is not affiliated with miHoYo.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.extensions.min.js"
+        type="text/javascript"></script>
+
+<script defer>
+    var myFullpage = new fullpage('#fullpage', {
+        autoScrolling: true,
+        keyboardScrolling: true,
+
+    })
+</script>
+
+
+</body>

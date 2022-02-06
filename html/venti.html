@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="antaww/xhmyjae" name="author">
+    <meta content="Venti's complete build" name="description">
+    <title>Venti Build</title>
+
+    <link href="../style/characters.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/main.css" rel="stylesheet" type="text/css">
+    <link href="../style/charactersNavBar.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/content.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/footer.css" rel="stylesheet" type="text/css"/>
+    <link href="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css" rel="stylesheet">
+    <link href="../images/icons/Character_Paimon_Portrait.png" rel="icon" type="text/css">
+    <script src="../script/main.js"></script>
+    <script src="../script/charaNavBar.js"></script>
+    <script src="../script/switchContent.js"></script>
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css"
+          integrity="sha512-TD/aL30dNLN0VaHVoh9voFlNi7ZuWQYtV4bkIJv2ulZ8mEEkZJ7IyGvDthMKvIUwzLmPONnjQlAi55HTERVXpw=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
+</head>
+
+<body class="venti">
+<nav class="navigation">
+    <a class="bmpLogo" href="../index.html"><img alt="BuildMePaimon"
+                                                 src="../images/icons/logo_transparent.png"
+                                                 title="BuildMePaimon"></a>
+    <ul class="header">
+        <li class="iconNavbar"><a class="iconNavbar" href="../html/news.html"><img alt="News icon"
+                                                                                   class="navIconHeader"
+                                                                                   src="../images/icons/Icon_Inventory_Quest.png"
+                                                                                   title="News"></a></li>
+        <div class="dropdown">
+
+            <li class="iconNavbar charIcon" onclick="showCharacters()"><a class="iconNavbar"><img
+                    alt="Characters icon" class="navIconHeader"
+                    src="../images/icons/Icon_Inventory_Character_Development_Items.png" title="Characters"></a></li>
+            <div class="characters">
+                <a class="aIcon" href="../html/albedo.html"><img alt="Albedo"
+                                                                 src="../images/characters/Albedo_head.png"
+                                                                 title="Albedo"></a>
+                <a class="aIcon" href="../html/aloy.html"><img alt="Aloy" src="../images/characters/Aloy_head.png"
+                                                               title="Aloy"></a>
+                <a class="aIcon" href="../html/amber.html"><img alt="Amber" src="../images/characters/Amber_head.png"
+                                                                title="Amber"></a>
+                <a class="aIcon" href="../html/barbara.html"><img alt="Barbara"
+                                                                  src="../images/characters/Barbara_head.png"
+                                                                  title="Barbara"></a>
+                <a class="aIcon" href="../html/beidou.html"><img alt="Beidou"
+                                                                 src="../images/characters/Beidou_head.png"
+                                                                 title="Beidou"></a>
+                <a class="aIcon" href="../html/bennett.html"><img alt="Bennett"
+                                                                  src="../images/characters/Bennett_head.png"
+                                                                  title="Bennett"></a>
+                <a class="aIcon" href="../html/chongyun.html"><img alt="Chongyun"
+                                                                   src="../images/characters/Chongyun_head.png"
+                                                                   title="Chongyun"></a>
+                <a class="aIcon" href="../html/diluc.html"><img alt="Diluc" src="../images/characters/Diluc_head.png"
+                                                                title="Diluc"></a>
+                <a class="aIcon" href="../html/diona.html"><img alt="Diona" src="../images/characters/Diona_head.png"
+                                                                title="Diona"></a>
+                <a class="aIcon" href="../html/eula.html"><img alt="Eula" src="../images/characters/Eula_head.png"
+                                                               title="Eula"></a>
+                <a class="aIcon" href="../html/fischl.html"><img alt="Fischl"
+                                                                 src="../images/characters/Fischl_head.png"
+                                                                 title="Fischl"></a>
+                <a class="aIcon" href="../html/ganyu.html"><img alt="Ganyu" src="../images/characters/Ganyu_head.png"
+                                                                title="Ganyu"></a>
+                <a class="aIcon" href="../html/gorou.html"><img alt="Gorou" src="../images/characters/Gorou_head.png"
+                                                                title="Gorou"></a>
+                <a class="aIcon" href="../html/hutao.html"><img alt="Hu Tao"
+                                                                src="../images/characters/Hu%20Tao_head.png"
+                                                                title="Hu Tao"></a>
+                <a class="aIcon" href="../html/itto.html"><img alt="Itto" src="../images/characters/Itto_head.png"
+                                                               title="Itto"></a>
+                <a class="aIcon" href="../html/jean.html"><img alt="Jean" src="../images/characters/Jean_head.png"
+                                                               title="Jean"></a>
+                <a class="aIcon" href="../html/kazuha.html"><img alt="Kaedehara Kazuha"
+                                                                 src="../images/characters/Kazuha_head.png"
+                                                                 title="Kaedehara Kazuha"></a>
+                <a class="aIcon" href="../html/kaeya.html"><img alt="Kaeya" src="../images/characters/Kaeya_head.png"
+                                                                title="Kaeya"></a>
+                <a class="aIcon" href="../html/ayaka.html"><img alt="Kamisato Ayaka"
+                                                                src="../images/characters/Ayaka_head.png"
+                                                                title="Kamisato Ayaka"></a>
+                <a class="aIcon" href="../html/keqing.html"><img alt="Keqing"
+                                                                 src="../images/characters/Keqing_head.png"
+                                                                 title="Keqing"></a>
+                <a class="aIcon" href="../html/klee.html"><img alt="Klee" src="../images/characters/Klee_head.png"
+                                                               title="Klee"></a>
+                <a class="aIcon" href="../html/sara.html"><img alt="Kujou Sara"
+                                                               src="../images/characters/Sara_head.png"
+                                                               title="Kujou Sara"></a>
+                <a class="aIcon" href="../html/lisa.html"><img alt="Lisa" src="../images/characters/Lisa_head.png"
+                                                               title="Lisa"></a>
+                <a class="aIcon" href="../html/mona.html"><img alt="Mona" src="../images/characters/Mona_head.png"
+                                                               title="Mona"></a>
+                <a class="aIcon" href="../html/ningguang.html"><img alt="Ningguang"
+                                                                    src="../images/characters/Ningguang_head.png"
+                                                                    title="Ningguang"></a>
+                <a class="aIcon" href="../html/noelle.html"><img alt="Noelle"
+                                                                 src="../images/characters/Noelle_head.png"
+                                                                 title="Noelle"></a>
+                <a class="aIcon" href="../html/qiqi.html"><img alt="Qiqi" src="../images/characters/Qiqi_head.png"
+                                                               title="Qiqi"></a>
+                <a class="aIcon" href="../html/raiden.html"><img alt="Raiden Shogun"
+                                                                 src="../images/characters/Raiden_head.png"
+                                                                 title="Raiden Shogun"></a>
+                <a class="aIcon" href="../html/razor.html"><img alt="Razor" src="../images/characters/Razor_head.png"
+                                                                title="Razor"></a>
+                <a class="aIcon" href="../html/rosaria.html"><img alt="Rosaria"
+                                                                  src="../images/characters/Rosaria_head.png"
+                                                                  title="Rosaria"></a>
+                <a class="aIcon" href="../html/kokomi.html"><img alt="Sangonomiya kokomi"
+                                                                 src="../images/characters/Kokomi_head.png"
+                                                                 title="Sangonomiya Kokomi"></a>
+                <a class="aIcon" href="../html/sayu.html"><img alt="Sayu" src="../images/characters/Sayu_head.png"
+                                                               title="Sayu"></a>
+                <a class="aIcon" href="../html/shenhe.html"><img alt="Shenhe"
+                                                                 src="../images/characters/Shenhe_head.png"
+                                                                 title="Shenhe"></a>
+                <a class="aIcon" href="../html/sucrose.html"><img alt="Sucrose"
+                                                                  src="../images/characters/Sucrose_head.png"
+                                                                  title="Sucrose"></a>
+                <a class="aIcon" href="../html/tartaglia.html"><img alt="Tartaglia"
+                                                                    src="../images/characters/Tartaglia_head.png"
+                                                                    title="Tartaglia"></a>
+                <a class="aIcon" href="../html/thoma.html"><img alt="Thoma" src="../images/characters/Thoma_head.png"
+                                                                title="Thoma"></a>
+                <a class="aIcon" href="../html/traveler.html"><img alt="Traveler"
+                                                                   src="../images/img-genshin/characters/traveler_geo.png"
+                                                                   title="Traveler"></a>
+                <!--                add element variation for traveler when click ("which element ? -electro/geo/anemo = new html)-->
+                <a class="aIcon" href="../html/venti.html"><img alt="Venti" src="../images/characters/Venti_head.png"
+                                                                title="Venti"></a>
+                <a class="aIcon" href="../html/xiangling.html"><img alt="Xiangling"
+                                                                    src="../images/characters/Xiangling_head.png"
+                                                                    title="Xiangling"></a>
+                <a class="aIcon" href="../html/xiao.html"><img alt="Xiao" src="../images/characters/Xiao_head.png"
+                                                               title="Xiao"></a>
+                <a class="aIcon" href="../html/xingqiu.html"><img alt="Xingqiu"
+                                                                  src="../images/characters/Xingqiu_head.png"
+                                                                  title="Xingqiu"></a>
+                <a class="aIcon" href="../html/xinyan.html"><img alt="Xinyan"
+                                                                 src="../images/characters/Xinyan_head.png"
+                                                                 title="Xinyan"></a>
+                <a class="aIcon" href="../html/yanfei.html"><img alt="Yanfei"
+                                                                 src="../images/characters/Yanfei_head.png"
+                                                                 title="Yanfei"></a>
+                <a class="aIcon" href="../html/yoimiya.html"><img alt="Yoimiya"
+                                                                  src="../images/characters/Yoimiya_head.png"
+                                                                  title="Yoimiya"></a>
+                <a class="aIcon" href="../html/yunjin.html"><img alt="Yun Jin"
+                                                                 src="../images/characters/Yun_jin_head.png"
+                                                                 title="Yun Jin"></a>
+                <a class="aIcon" href="../html/zhongli.html"><img alt="Zhongli"
+                                                                  src="../images/characters/Zhongli_head.png"
+                                                                  title="Zhongli"></a>
+            </div>
+        </div>
+        <li class="iconNavbar"><a
+                class="iconNavbar"
+                href="https://webstatic-sea.mihoyo.com/app/ys-map-sea/index.html?utm_source=hoyolab&lang=en-us#/map/2"
+                target="_blank"><img alt="Genshin map"
+                                     class="navIconHeader"
+                                     src="../images/icons/Icon_Inventory_Precious_Items.png" title="Map"></a></li>
+    </ul>
+</nav>
+
+<div id="fullpage">
+    <div class="section" id="section1">
+        <div class="background">
+        </div>
+
+        <div class="character">
+            <img alt="venti" src="../images/characters/big_venti.png">
+        </div>
+
+        <div id="content">
+            <div id="text">
+                <div class="lore">A bard that seems to have arrived on some unknown wind — sometimes sings songs as old
+                    as the hills, and other times sings poems fresh and new.<br>
+                    Likes apples and lively places but is not a fan of cheese or anything sticky.<br>
+                    When using his Anemo power to control the wind, it often appears as feathers, as he's fond of that
+                    which appears light and breezy.
+                </div>
+
+                <div class="weaponsContent">
+                    <div>
+                        <img alt="Elegy for the End" class="weapon rare5"
+                             src="../images/img-genshin/weapons/elegy_for_the_end.png">
+                        <div>
+                            <span class="weaponsName">Elegy for the End</span>
+                            <span class="weaponsText">Increases Elemental Mastery by <strong>60/75/90/105/120</strong>. When the Skills or Bursts hit opponents, the character gains a Sigil of Remembrance. This effect can be triggered once every 0.2s even if said character is not on the field. When you possess 4 Sigils of Remembrance, all of them will be consumed and all party members will obtain the "Millennial Movement: Farewell Song" effect for 12s (increases EM by <strong>100/125/150/175/200</strong> and ATK by <strong>/25/30/35/40%</strong>). Once triggered, you will not gain Sigils of Remembrance for 20s.</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="The Stringless" class="weapon rare4"
+                             src="../images/img-genshin/weapons/the_stringless.png">
+                        <div>
+                            <span class="weaponsName">The Stringless</span>
+                            <span class="weaponsText">Increases Elemental Skill and Elemental Burst DMG by <strong>24/30/36/42/48%</strong>.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artifacts">
+                    <div class="page">
+                        <img alt="Checked button" id="b1" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b2" src="../images/icons/page.png">
+                    </div>
+                    <div class="artifactsSet1">
+                        <div>
+                            <img alt="Viridescent Venerer"
+                                 class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/viridescent_venerer_flower.png">
+                            <div>
+                                <span class="artifactsName">Viridescent Venerer (x4)</span>
+                                <span class="artifactsText">- Gain a <strong>15%</strong> Anemo DMG Bonus.<br>
+                                <span class="artifactsText">- Increases Swirl DMG by <strong>60%</strong>. Decreases opponent's Elemental RES to the element infused in the Swirl by <strong>40%</strong> for 10s.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="artifactsSet2">
+                        NONE YET
+                    </div>
+                </div>
+
+                <div class="materials">
+                    <div class="page">
+                        <img alt="checked button" id="b3" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b4" src="../images/icons/page.png">
+                    </div>
+                    <span class="matName">Ascension</span>
+                    <div class="ascensionMats">
+                        <div>
+                            <img alt="Vayuda Turquoise Sliver" class="material rare2"
+                                 src="../images/img-genshin/items/vayuda_turquoise_sliver.png">
+                            <span class="materialsName">Vayuda Turquoise Sliver (x1)</span>
+                        </div>
+                        <div>
+                            <img alt="Vayuda Turquoise Fragment"
+                                 class="material rare3" src="../images/img-genshin/items/vayuda_turquoise_fragment.png">
+                            <span class="materialsName">Vayuda Turquoise Fragment (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Vayuda Turquoise Chunk" class="material rare4"
+                                 src="../images/img-genshin/items/vayuda_turquoise_chunk.png">
+                            <span class="materialsName">Vayuda Turquoise Chunk (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Vayuda Turquoise Gemstone"
+                                 class="material rare5" src="../images/img-genshin/items/vayuda_turquoise_gemstone.png">
+                            <span class="materialsName">Vayuda Turquoise Gemstone (x6)</span>
+                        </div>
+                        <div>
+                            <img alt="Hurricane Seed" class="material rare4"
+                                 src="../images/img-genshin/items/hurricane_seed.png">
+                            <span class="materialsName">Hurricane Seed (x46)</span>
+                        </div>
+                        <div>
+                            <img alt="Cecilia" class="material rare1" src="../images/img-genshin/items/cecilia.png">
+                            <span class="materialsName">Cecilia (x168)</span>
+                        </div>
+                        <div>
+                            <img alt="Slime Condensate" class="material rare1"
+                                 src="../images/img-genshin/items/slime_condensate.png">
+                            <span class="materialsName">Slime Condensate (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Slime Secretions" class="material rare2"
+                                 src="../images/img-genshin/items/slime_secretions.png">
+                            <span class="materialsName">Slime Secretions (x30)</span>
+                        </div>
+                        <div>
+                            <img alt="Slime Concentrate"
+                                 class="material rare3" src="../images/img-genshin/items/slime_concentrate.png">
+                            <span class="materialsName">Slime Concentrate (x36)</span>
+                        </div>
+                    </div>
+                    <div class="talentsMats">
+                        <div>
+                            <img alt="Teachings of Ballad" class="material rare2"
+                                 src="../images/img-genshin/items/teachings_of_ballad.png">
+                            <span class="materialsName">Teachings of Ballad (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Guide to Ballad" class="material rare3"
+                                 src="../images/img-genshin/items/guide_to_ballad.png">
+                            <span class="materialsName">Guide to Ballad (x63)</span>
+                        </div>
+                        <div>
+                            <img alt="Philosophies of Ballad"
+                                 class="material rare4" src="../images/img-genshin/items/philosophies_of_ballad.png">
+                            <span class="materialsName">Philosophies of Ballad (x114)</span>
+                        </div>
+                        <div>
+                            <img alt="Slime Condensate" class="material rare1"
+                                 src="../images/img-genshin/items/slime_condensate.png">
+                            <span class="materialsName">Slime Condensate (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Slime Secretions" class="material rare2"
+                                 src="../images/img-genshin/items/slime_secretions.png">
+                            <span class="materialsName">Slime Secretions (x66)</span>
+                        </div>
+                        <div>
+                            <img alt="Slime Concentrate"
+                                 class="material rare3" src="../images/img-genshin/items/slime_concentrate.png">
+                            <span class="materialsName">Slime Concentrate (x93)</span>
+                        </div>
+                        <div>
+                            <img alt="Tail of Boreas" class="material rare5"
+                                 src="../images/img-genshin/items/tail_of_boreas.png">
+                            <span class="materialsName">Tail of Boreas (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Crown of insight" class="material rare5"
+                                 src="../images/img-genshin/items/crown_of_insight.png">
+                            <span class="materialsName">Crown of Insight (x3)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talents">
+                    <div class="page">
+                        <img alt="Checked button" id="b5" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b6" src="../images/icons/page.png">
+                        <img alt="button" id="b7" src="../images/icons/page.png">
+                        <img alt="button" id="b8" src="../images/icons/page.png">
+                    </div>
+                    <div class="talent1">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/venti/talent_1.png">
+                            <span class="talentsName">Divine Marksmanship</span>
+                            <span>Normal Attack</span>
+                            <div>
+                                <span class="talentsType">Normal Attack</span>
+                                <span class="talentsContent">Performs up to 6 consecutive shots with a bow.</span>
+                                <span class="talentsType">Charged Attack</span>
+                                <span class="talentsContent">Perform a more precise Aimed Shot with increased DMG. While aiming, favorable winds will accumulate on the arrowhead. A fully charged arrow will deal Anemo DMG.</span>
+                                <span class="talentsType">Plunging Attack</span>
+                                <span class="talentsContent">Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.</span>
+                            </div>
+                        </div>
+                        <div class="talentGif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/venti/Talent_Divine_Marksmanship_Normal.gif">
+                        </div>
+                    </div>
+                    <div class="talent2">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/venti/talent_2.png">
+                            <span class="talentsName">Skyward Sonnet</span>
+                            <span>Elemental Skill</span>
+                            <div>
+                                <span class="talentsType">Press</span>
+                                <span class="talentsContent">Summons a Wind Domain at the enemy's location, dealing AoE Anemo DMG and launching enemies into the air.</span>
+                                <span class="talentsType">Hold</span>
+                                <span class="talentsContent">Summons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected enemies into the air. After unleashing the Hold version of this ability, Venti rides the wind into the air.</span>
+                                <span class="talentsContent">Enemies hit by Skyward Sonnet will fall to the ground slowly.</span>
+                            </div>
+                        </div>
+                        <div class="talentGif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/venti/Talent_Skyward_Sonnet_Press.gif">
+                        </div>
+                    </div>
+                    <div class="talent3">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/venti/talent_3.png">
+                            <span class="talentsName">Wind's Grand Ode</span>
+                            <span>Elemental Burst</span>
+                            <div>
+                                <span class="talentsContent">Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in objects and enemies along its path, dealing continuous Anemo DMG.</span>
+                                <span class="talentsType">Elemental Absorption</span>
+                                <span class="talentsContent">If the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro elements, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.</span>
+                            </div>
+                        </div>
+                        <div class="talentGif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/venti/Talent_Wind%2527s_Grand_Ode.gif">
+                        </div>
+                    </div>
+                    <div class="talentPass">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/venti/talent_4.png">
+                            <span class="talentsName">Embrace of Winds</span>
+                            <span>Unlocked at Ascension 1</span>
+                            <div>
+                                <span class="talentsContent">Holding Skyward Sonnet creates an upcurrent that lasts for 20s.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/venti/talent_5.png">
+                            <span class="talentsName">Stormeye</span>
+                            <span>Unlocked at Ascension 4</span>
+                            <div>
+                                <span class="talentsContent">Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end. If an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/venti/talent_6.png">
+                            <span class="talentsName">Windrider</span>
+                            <span>Unlocked Automatically</span>
+                            <div>
+                                <span class="talentsContent">Decreases all party member's gliding Stamina Consumption by 20%.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="constellations anemo">
+                    <div class="page">
+                        <img alt="checked button" id="b9" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b10" src="../images/icons/page.png">
+                        <img alt="button" id="b11" src="../images/icons/page.png">
+                        <img alt="button" id="b12" src="../images/icons/page.png">
+                        <img alt="button" id="b13" src="../images/icons/page.png">
+                        <img alt="button" id="b14" src="../images/icons/page.png">
+                    </div>
+                    <div class="constellation1">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/venti/constellation_1.png">
+                            <span class="constellationsName">Splitting Gales</span>
+                            <span>Constellation 1</span>
+                            <div>
+                                    <span class="constellationsDescription">
+                                        Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation2">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/venti/constellation_2.png">
+                            <span class="constellationsName">Breeze of Reminiscence</span>
+                            <span>Constellation 2</span>
+                            <div>
+                                    <span class="constellationsDescription">
+                                        Skyward Sonnet decreases enemy Anemo RES by 12% for 10s. Enemies launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES decrease while airborne.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation3">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/venti/constellation_3.png">
+                            <span class="constellationsName">Ode to Thousand Winds</span>
+                            <span>Constellation 3</span>
+                            <div>
+                                    <span class="constellationsDescription">
+                                        Increases the Level of Wind's Grand Ode by 3.
+                                        Maximum upgrade level is 15.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation4">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/venti/constellation_4.png">
+                            <span class="constellationsName">Hurricane of Freedom</span>
+                            <span>Constellation 4</span>
+                            <div>
+                                    <span class="constellationsDescription">
+                                        When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation5">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/venti/constellation_5.png">
+                            <span class="constellationsName">Concerto dal Cielo</span>
+                            <span>Constellation 5</span>
+                            <div>
+                                    <span class="constellationsDescription">
+                                        Increase the Level of Skyward Sonnet by 3.
+                                        Maximum upgrade level is 15.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation6">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/venti/constellation_6.png">
+                            <span class="constellationsName">Storm of Defiance</span>
+                            <span>Constellation 6</span>
+                            <div>
+                                    <span class="constellationsDescription">
+                                        Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%.
+                                        If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <script src="../script/charaNavBar.js"></script>
+        </div>
+
+        <div class="name">
+            <div class="element">
+                <img src="../images/img-genshin/elements/anemo.png">
+                <span>Venti</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section2">
+        <div class="video">
+            <div>
+                <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="thumbnails"
+                        frameborder="0" height="315"
+                        src="https://www.youtube.com/embed/TSsWsCdiiPI"
+                        title="YouTube video player" width="560"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="section fp-auto-height" id="section3">
+        <footer>
+            <div class="top">
+
+                <a href="https://discord.gg/sDv2BfsA7W" target="_blank"><img alt="Community server"
+                                                                             src="../images/icons/discord.png"
+                                                                             title="Community server"></a>
+                <a href="https://www.youtube.com/channel/UCiS882YPwZt1NfaM0gR0D9Q" target="_blank"><img
+                        alt="Youtube channel" src="../images/icons/youtube.png" title="Youtube channel"></a>
+                <a href="https://www.hoyolab.com/home" target="_blank"><img alt="Hoyolab"
+                                                                            src="../images/icons/hoyolab.png"
+                                                                            title="Hoyolab"></a>
+                <div class="underlineFooter">
+                </div>
+            </div>
+            <div class="bot">
+                <div class="logos">
+                    <a href="../index.html"><img alt="BuildMePaimon"
+                                                 src="../images/icons/Character_Paimon_Portrait.png"
+                                                 title="BuildMePaimon"></a>
+                    <a href="https://genshin.mihoyo.com/en/home" target="_blank"><img
+                            alt="Genshin Website" src="../images/img-genshin/genshin_logo.png" title="Genshin Website"></a>
+                </div>
+                <div class="links">
+                    <div>
+                        <a class="githubLinks" href="https://github.com/antaww" target="_blank">GitHub antaww</a>
+                        <a class="githubLinks" href="https://github.com/xhmyjae" target="_blank">GitHub xhmyjae</a>
+                        <a class="githubLinks" href="mailto: antoine.pizzetta@ynov.com">Contact Us</a>
+                    </div>
+                    <p><b>Build Me Paimon</b> is a site created by fans to help players build their Genshin's
+                        characters.
+                        It is not affiliated with miHoYo.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.extensions.min.js"
+        type="text/javascript"></script>
+
+<script defer>
+    var myFullpage = new fullpage('#fullpage', {
+        autoScrolling: true,
+        keyboardScrolling: true,
+
+    })
+</script>
+
+
+</body>

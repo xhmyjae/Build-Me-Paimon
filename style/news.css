@@ -1,0 +1,136 @@
+/* BACKGROUND */
+
+body {
+    background-image: url("../images/wallpaper/news_background.jpg");
+    background-attachment: fixed !important;
+    background-size: cover !important;
+}
+
+/* ARTICLES */
+
+.allArticles {
+    width: 70vw;
+    position: relative;
+    left: 10vw;
+    padding: 10vh 5vw;
+    background-color: #f0f0f0;
+}
+
+.singleArticles {
+    height: 7vw;
+    margin: 1vw 0;
+    padding: 1% 1.5%;
+}
+
+.singleArticles a {
+    position: relative;
+    height: 100%;
+    border-radius: 0.5vw;
+    padding: 1% 1.5%;
+    display: flex;
+    border: solid 3px rgba(57, 59, 64, 0);
+    transition: border-color 0.2s linear;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.singleArticles a:hover {
+    border-color: rgba(57, 59, 64, 0.15);
+}
+
+/* ALL THE ARTICLES IMAGES */
+.articlesImg1, .articlesImg2, .articlesImg3, .articlesImg4, .articlesImg5, .articlesImg6 {
+    width: 24%;
+    height: 100%;
+}
+
+.articlesImg1 {
+    background-image: url("../images/news/first.png");
+    background-size: cover;
+}
+
+.articlesImg2 {
+    background-image: url("../images/news/second.jpg");
+    background-size: cover;
+}
+
+.articlesImg3 {
+    background-image: url("../images/news/third.jpg");
+    background-size: cover;
+}
+
+.articlesImg4 {
+    background-image: url("../images/news/forth.jpg");
+    background-size: cover;
+}
+
+.articlesImg5 {
+    background-image: url("../images/news/fifth.jpg");
+    background-size: cover;
+}
+
+.articlesImg6 {
+    background-image: url("../images/news/sixth.jpg");
+    background-size: cover;
+}
+
+.articlesContent {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-family: 'Heebo', sans-serif;
+    text-shadow: None;
+    margin-left: 2%;
+}
+
+.articlesContent h2 {
+    margin: 0 0 1.5% 0;
+    color: #393b40;
+    font-size: 1.5vw;
+}
+
+.articlesContent p {
+    margin: 0;
+    color: #7d7d7d;
+    font-size: 80%;
+}
+
+/* SINGLE ARTICLE PAGES */
+
+.backgroundArticles {
+    background-color: #f0f0f0;
+    position: relative;
+    width: 70%;
+    left: 7.5%;
+    display: flex;
+    flex-direction: column;
+    padding: 9% 5%;
+    border-left: #e8cba7 solid 6px;
+    border-right: #e8cba7 solid 6px;
+    text-shadow: none;
+}
+
+.articles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #7d7d7d;
+}
+
+.articles span {
+    margin: 5% 0;
+    width: 100%;
+}
+
+.headerArticles {
+    color: #333;
+    font-size: 3vw;
+}
+
+.dateArticles {
+    color: #999;
+    margin-top: 2%;
+}

@@ -1,0 +1,207 @@
+@media only screen and (max-width: 600px) {
+
+    .character {
+        left: 40vw;
+        top: 100vw;
+    }
+
+    .character img {
+        opacity: 0.5;
+        height: 50%;
+    }
+
+    #content {
+        top: 25vw;
+        width: 90%;
+    }
+
+    .lore {
+        font-size: 290%;
+        max-height: none;
+    }
+
+    .iconNavchara img {
+        width: 13vw;
+    }
+
+    .artifactsSet1 div:not(.page) div, .artifactsSet2 div:not(.page) div, .weaponsContent div div {
+        font-size: 250%;
+    }
+
+    .weapon, .artifact {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 7vw;
+        margin-right: 2vw;
+    }
+
+    .weaponsName, .artifactsName, .constellationsName {
+        font-size: 143%;
+    }
+
+    .artifactsSet2 div, .artifactsSet1 div, .weaponsContent div {
+        margin-bottom: 5vw;
+    }
+
+    .page {
+        top: 90vw;
+    }
+
+    .page img {
+        height: 6vw;
+        margin: 20px;
+    }
+
+    .ascensionMats, .talentsMats {
+        columns: 2;
+        width: 100%;
+        top: 4vw;
+        position: absolute;
+    }
+
+    .material {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .materials div div {
+        height: 18vw;
+    }
+
+    .materials div div span, .matName {
+        margin: 2vw;
+        font-size: 250%;
+    }
+
+    .talents div div:not(.page):not(.talentGif) img, .constellations div:not(.page) img {
+        width: 10vw;
+        margin-bottom: 2vw;
+    }
+
+    .talentsName, .constellationsName {
+        font-size: 310%;
+    }
+
+    .talentsName + span, .talents div div div, .constellationsName + span {
+        font-size: 4vw;
+    }
+
+    .talents div div div span, .constellationsDescription {
+        font-size: 3.5vw;
+    }
+
+    .talentPass div {
+        max-width: 27vw;
+    }
+
+    .talentGif {
+        left: auto;
+        top: 170vw;
+    }
+
+    .talentGif img {
+        width: 75vw;
+    }
+
+    .video {
+        height: 70vh;
+    }
+
+    .video div {
+        width: 87vw;
+        height: 49.5vw;
+    }
+
+    .thumbnails {
+        width: 87vw;
+        height: 49vw;
+    }
+
+    footer {
+        height: 35vw;
+    }
+
+    .top img {
+        height: 7vw;
+        padding: 0 1.5vw;
+    }
+
+    .logos {
+        justify-content: center;
+    }
+
+    .logos a:first-child img {
+        width: 12vw;
+    }
+
+    .logos a img {
+        width: 24vw;
+    }
+
+    .bot {
+        bottom: 9%;
+    }
+
+    .links {
+        font-size: 225%;
+    }
+
+    .underlineFooter {
+        width: 60%;
+    }
+
+    .listArticles {
+        height: 100vh;
+        top: 76vw;
+    }
+
+    .listArticles > div {
+        flex-direction: column;
+    }
+
+    .articles {
+        width: 90%;
+        margin-bottom: 1vw;
+        height: 73vw;
+    }
+
+    .articles > a {
+        width: 90%;
+    }
+
+    .newArticlesContent h2 {
+        font-size: 240%;
+    }
+
+    .newArticlesContent span {
+        font-size: 200%;
+    }
+
+    .listArticles > div {
+        height: 130%;
+    }
+
+    .listNewCharacters {
+        top: 64vw;
+    }
+
+    .listNewCharacters > div span {
+        font-size: 5vw;
+    }
+
+    .listNewCharacters > div img {
+        width: 100vw;
+        position: absolute;
+        top: 6vw;
+        opacity: 0.7;
+    }
+
+    .listNewCharacters > div > div > div {;
+        z-index: 1;
+    }
+
+    .listNewCharacters > div > div {
+        font-size: 3vw;
+    }
+
+}

@@ -1,0 +1,78 @@
+body {
+    background-image: url("../images/wallpaper/global_background.png");
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    overflow-x: hidden;
+}
+
+.background {
+    background-image: url("../images/wallpaper/mid_bar.jpg");
+    filter: brightness(0.7);
+    width: 102vw;
+    position: absolute;
+    background-size: cover;
+    right: 0;
+    left: -1%;
+    top: 9vw;
+    bottom: 5vw;
+    border: #efd5a3 0.5vw solid;
+}
+
+.character img {
+    height: 100vh;
+}
+
+.character {
+    bottom: 1px;
+    width: 97.5vw;
+    height: 97vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    left: -29vw;
+}
+
+.name {
+    width: 97.5vw;
+    height: 97vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-family: 'zh-cn';
+    filter: opacity(0.3);
+    font-size: 5vw;
+}
+
+@font-face {
+    font-family: 'zh-cn';
+    src: url('zh-cn.ttf') format('truetype');
+}
+
+
+/* VIDEO */
+
+.video {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    top: 101%;
+    left: 0;
+}
+
+.video div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    height: 33vw;
+    border: 0.2vw solid #fff;
+    background: #6b6b6b center/cover no-repeat;
+    cursor: pointer;
+}
+
+.thumbnails {
+    width: 60vw;
+    height: 33vw;
+}

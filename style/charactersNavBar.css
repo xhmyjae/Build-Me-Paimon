@@ -1,0 +1,54 @@
+#content {
+    position: absolute;
+    top: 10vw;
+    right: 5%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 43%;
+    z-index: 1;
+}
+
+.iconNavchara {
+    filter: brightness(0.6);
+    list-style: none;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin: 0 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerNavchara {
+    position: relative;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 3.5% 0;
+    background-image: url("../images/icons/header-ending.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    filter: drop-shadow(0 0 1.5rem black);
+}
+
+.iconNavchara img {
+    width: 4vw;
+}
+
+.iconNavchara:hover {
+    transform: scale(1.04) !important;
+    filter: brightness(1.1) !important;
+}
+
+#text {
+    position: relative;
+}
+
