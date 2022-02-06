@@ -25,7 +25,7 @@ footer {
     width: 100%;
 }
 
-.underline_footer {
+.underlineFooter {
     content: "";
     position: absolute;
     top: 100%;
