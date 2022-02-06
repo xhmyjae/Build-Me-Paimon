@@ -14,8 +14,8 @@ function switchInContent() {
     let b13 = document.getElementById("b13");
     let b14 = document.getElementById("b14");
 
-    let b1Cont = document.getElementsByClassName("artifacts_set1")[0];
-    let b2Cont = document.getElementsByClassName("artifacts_set2")[0];
+    let b1Cont = document.getElementsByClassName("artifactsSet1")[0];
+    let b2Cont = document.getElementsByClassName("artifactsSet2")[0];
     let b3Cont = document.getElementsByClassName("ascensionMats")[0];
     let b4Cont = document.getElementsByClassName("talentsMats")[0];
     let b5Cont = document.getElementsByClassName("talent1")[0];
@@ -108,8 +108,8 @@ function changeArtButtons() {
     let b1 = document.getElementById("b1");
     let b2 = document.getElementById("b2");
 
-    let b1Cont = document.getElementsByClassName("artifacts_set1")[0];
-    let b2Cont = document.getElementsByClassName("artifacts_set2")[0];
+    let b1Cont = document.getElementsByClassName("artifactsSet1")[0];
+    let b2Cont = document.getElementsByClassName("artifactsSet2")[0];
 
     b1.src = "../images/icons/page.png";
     b2.src = "../images/icons/page.png";

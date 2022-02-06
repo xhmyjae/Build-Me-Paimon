@@ -9,7 +9,7 @@
     z-index: 1;
 }
 
-.icon_navchara {
+.iconNavchara {
     filter: brightness(0.6);
     list-style: none;
     position: relative;
@@ -24,7 +24,7 @@
     align-items: center;
 }
 
-.header_navchara {
+.headerNavchara {
     position: relative;
     top: 0;
     display: flex;
@@ -39,11 +39,11 @@
     filter: drop-shadow(0 0 1.5rem black);
 }
 
-.icon_navchara img {
+.iconNavchara img {
     width: 4vw;
 }
 
-.icon_navchara:hover {
+.iconNavchara:hover {
     transform: scale(1.04) !important;
     filter: brightness(1.1) !important;
 }

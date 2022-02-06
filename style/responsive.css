@@ -20,11 +20,11 @@
         max-height: none;
     }
 
-    .icon_navchara img {
+    .iconNavchara img {
         width: 13vw;
     }
 
-    .artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div {
+    .artifactsSet1 div:not(.page) div, .artifactsSet2 div:not(.page) div, .weaponsContent div div {
         font-size: 250%;
     }
 
@@ -39,7 +39,7 @@
         font-size: 143%;
     }
 
-    .artifacts_set2 div, .artifacts_set1 div, .weaponsContent div {
+    .artifactsSet2 div, .artifactsSet1 div, .weaponsContent div {
         margin-bottom: 5vw;
     }
 
@@ -73,7 +73,7 @@
         font-size: 250%;
     }
 
-    .talents div div:not(.page):not(.talent_gif) img, .constellations div:not(.page) img {
+    .talents div div:not(.page):not(.talentGif) img, .constellations div:not(.page) img {
         width: 10vw;
         margin-bottom: 2vw;
     }
@@ -94,12 +94,12 @@
         max-width: 27vw;
     }
 
-    .talent_gif {
+    .talentGif {
         left: auto;
         top: 170vw;
     }
 
-    .talent_gif img {
+    .talentGif img {
         width: 75vw;
     }
 
@@ -150,12 +150,12 @@
         width: 60%;
     }
 
-    .list_articles {
+    .listArticles {
         height: 100vh;
         top: 76vw;
     }
 
-    .list_articles > div {
+    .listArticles > div {
         flex-direction: column;
     }
 
@@ -169,38 +169,38 @@
         width: 90%;
     }
 
-    .new_articles_content h2 {
+    .newArticlesContent h2 {
         font-size: 240%;
     }
 
-    .new_articles_content span {
+    .newArticlesContent span {
         font-size: 200%;
     }
 
-    .list_articles > div {
+    .listArticles > div {
         height: 130%;
     }
 
-    .list_new_characters {
+    .listNewCharacters {
         top: 64vw;
     }
 
-    .list_new_characters > div span {
+    .listNewCharacters > div span {
         font-size: 5vw;
     }
 
-    .list_new_characters > div img {
+    .listNewCharacters > div img {
         width: 100vw;
         position: absolute;
         top: 6vw;
         opacity: 0.7;
     }
 
-    .list_new_characters > div > div > div {;
+    .listNewCharacters > div > div > div {;
         z-index: 1;
     }
 
-    .list_new_characters > div > div {
+    .listNewCharacters > div > div {
         font-size: 3vw;
     }
 

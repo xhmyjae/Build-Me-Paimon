@@ -76,7 +76,7 @@
 }
 
 
-.artifacts_set1 div:not(.page) div, .artifacts_set2 div:not(.page) div, .weaponsContent div div {
+.artifactsSet1 div:not(.page) div, .artifactsSet2 div:not(.page) div, .weaponsContent div div {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -115,7 +115,7 @@
     transition: all 0.3s;
 }
 
-.weapon, .artifact, .talentimg, .constellationimg {
+.weapon, .artifact, .talentImg, .constellationImg {
     transition: all 0.3s;
 }
 
@@ -123,21 +123,21 @@ strong {
     color: #7ee4e3;
 }
 
-.material:hover, .weapon:hover, .artifact:hover, .talentimg:hover, .constellationimg:hover {
+.material:hover, .weapon:hover, .artifact:hover, .talentImg:hover, .constellationImg:hover {
     transform: translateY(-4%) !important;
     filter: brightness(1.1) !important;
 }
 
-.artifacts_set1, .artifacts_set2, .weaponsContent div, .ascensionContent {
+.artifactsSet1, .artifactsSet2, .weaponsContent div, .ascensionContent {
     display: flex;
 }
 
-.artifacts_set2, .artifacts_set1 {
+.artifactsSet2, .artifactsSet1 {
     display: none;
     flex-flow: column;
 }
 
-.artifacts_set2 div, .artifacts_set1 div, .weaponsContent div {
+.artifactsSet2 div, .artifactsSet1 div, .weaponsContent div {
     display: flex;
     flex-flow: row;
     margin-bottom: 2vw;
@@ -182,7 +182,7 @@ strong {
     margin: 0 0.5vw;
 }
 
-.talents div div:not(.page):not(.talent_gif) img, .constellations div:not(.page) img {
+.talents div div:not(.page):not(.talentGif) img, .constellations div:not(.page) img {
     width: 3.5vw;
     background: linear-gradient(rgb(88, 94, 106), rgb(132, 142, 155));
     border-radius: 50%;
@@ -233,12 +233,12 @@ strong {
     max-width: 14vw;
 }
 
-.talent_gif {
+.talentGif {
     position: absolute;
     left: -43vw;
 }
 
-.talent_gif img {
+.talentGif img {
     width: 35vw;
     box-shadow: 1vw 1vw #9999;
 }
@@ -315,7 +315,7 @@ strong {
     margin: auto;
 }
 
-.table-image-count {
+.tableImageCount {
     position: absolute;
     right: 10px;
     bottom: 0;

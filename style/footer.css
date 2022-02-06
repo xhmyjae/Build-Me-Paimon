@@ -13,10 +13,6 @@ footer {
     left: 0;
 }
 
-/*#section3 {*/
-/*    max-height: 20vw;*/
-/*}*/
-
 .top {
     left: 0;
     position: absolute;
@@ -90,12 +86,12 @@ footer {
     font-size: 1vw;
 }
 
-.github_links {
+.githubLinks {
     opacity: 0.5;
     transition: all 0.3s;
 }
 
-.github_links:hover {
+.githubLinks:hover {
     opacity: 1;
 }
 

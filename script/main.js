@@ -1,6 +1,6 @@
 function showCharacters() {
     const ctn = document.querySelector('.characters');
-    ctn.classList.toggle('open-characters');
+    ctn.classList.toggle('openCharacters');
 }
 
 function disableScrolling() {
@@ -21,8 +21,8 @@ window.addEventListener('load', () => {
     window.scrollTo(0, 0); //scroll to top when reload
     disableScrolling()
     const waiting = 0.5; //time waiting AFTER window is loaded to display
-    const loader = document.querySelector('.loader-wrapper');
-    loader.classList.add('fondu-out');
+    const loader = document.querySelector('.loaderWrapper');
+    loader.classList.add('fonduOut');
     setTimeout(function () {
         loader.style.zIndex = "0";
         enableScrolling()

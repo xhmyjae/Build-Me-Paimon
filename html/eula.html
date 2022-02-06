@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,122 +5,597 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="antaww/xhmyjae" name="author">
     <meta content="Eula's complete build" name="description">
-    <title>Eula le sang</title>
+    <title>Eula Build</title>
 
     <link href="../style/characters.css" rel="stylesheet" type="text/css"/>
     <link href="../style/main.css" rel="stylesheet" type="text/css">
     <link href="../style/charactersNavBar.css" rel="stylesheet" type="text/css"/>
     <link href="../style/content.css" rel="stylesheet" type="text/css"/>
+    <link href="../style/footer.css" rel="stylesheet" type="text/css"/>
+    <link href="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.css" rel="stylesheet">
     <link href="../images/icons/Character_Paimon_Portrait.png" rel="icon" type="text/css">
+    <script src="../script/main.js"></script>
     <script src="../script/charaNavBar.js"></script>
-
+    <script src="../script/switchContent.js"></script>
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css"
+          integrity="sha512-TD/aL30dNLN0VaHVoh9voFlNi7ZuWQYtV4bkIJv2ulZ8mEEkZJ7IyGvDthMKvIUwzLmPONnjQlAi55HTERVXpw=="
+          referrerpolicy="no-referrer" rel="stylesheet"/>
 </head>
 
 <body class="eula">
-
 <nav class="navigation">
+    <a class="bmpLogo" href="../index.html"><img alt="BuildMePaimon"
+                                                 src="../images/icons/logo_transparent.png"
+                                                 title="BuildMePaimon"></a>
     <ul class="header">
-        <li class="icon_navbar"><a class="icon_navbar" href="../index.html"><img
-                src="../images/icons/Icon_Inventory_Furnishings.png" title="Home"></a></li>
-        <li class="icon_navbar char_icon"><a class="icon_navbar" href=""><img
-                src="../images/icons/Icon_Inventory_Character_Development_Items.png" title="Characters"></a></li>
-        <div class="characters">
-            <a class="a_icon" href="../html/albedo.html"><img src="../images/characters/Albedo_head.png" title="Albedo"></a>
-            <a class="a_icon" href="../html/aloy.html"><img src="../images/characters/Aloy_head.png" title="Aloy"></a>
-            <a class="a_icon" href="../html/amber.html"><img src="../images/characters/Amber_head.png"
-                                                             title="Amber"></a>
-            <a class="a_icon" href="../html/barbara.html"><img src="../images/characters/Barbara_head.png"
-                                                               title="Barbara"></a>
-            <a class="a_icon" href="../html/beidou.html"><img src="../images/characters/Beidou_head.png" title="Beidou"></a>
-            <a class="a_icon" href="../html/bennett.html"><img src="../images/characters/Bennett_head.png"
-                                                               title="Bennett"></a>
-            <a class="a_icon" href="../html/chongyun.html"><img src="../images/characters/Chongyun_head.png"
-                                                                title="Chongyun"></a>
-            <a class="a_icon" href="../html/diluc.html"><img src="../images/characters/Diluc_head.png"
-                                                             title="Diluc"></a>
-            <a class="a_icon" href="../html/diona.html"><img src="../images/characters/Diona_head.png"
-                                                             title="Diona"></a>
-            <a class="a_icon" href="../html/eula.html"><img src="../images/characters/Eula_head.png" title="Eula"></a>
-            <a class="a_icon" href="../html/fischl.html"><img src="../images/characters/Fischl_head.png" title="Fischl"></a>
-            <a class="a_icon" href="../html/ganyu.html"><img src="../images/characters/Ganyu_head.png"
-                                                             title="Ganyu"></a>
-            <a class="a_icon" href="../html/hutao.html"><img src="../images/characters/Hu%20Tao_head.png"
-                                                             title="Hu Tao"></a>
-            <a class="a_icon" href="../html/jean.html"><img src="../images/characters/Jean_head.png" title="Jean"></a>
-            <a class="a_icon" href="../html/kazuha.html"><img src="../images/characters/Kazuha_head.png"
-                                                              title="Kaedehara Kazuha"></a>
-            <a class="a_icon" href="../html/kaeya.html"><img src="../images/characters/Kaeya_head.png"
-                                                             title="Kaeya"></a>
-            <a class="a_icon" href="../html/ayaka.html"><img src="../images/characters/Ayaka_head.png"
-                                                             title="Kamisato Ayaka"></a>
-            <a class="a_icon" href="../html/keqing.html"><img src="../images/characters/Keqing_head.png" title="Keqing"></a>
-            <a class="a_icon" href="../html/klee.html"><img src="../images/characters/Klee_head.png" title="Klee"></a>
-            <a class="a_icon" href="../html/sara.html"><img src="../images/characters/Sara_head.png" title="Kujou Sara"></a>
-            <a class="a_icon" href="../html/lisa.html"><img src="../images/characters/Lisa_head.png" title="Lisa"></a>
-            <a class="a_icon" href="../html/mona.html"><img src="../images/characters/Mona_head.png" title="Mona"></a>
-            <a class="a_icon" href="../html/ningguang.html"><img src="../images/characters/Ningguang_head.png"
-                                                                 title="Ningguang"></a>
-            <a class="a_icon" href="../html/noelle.html"><img src="../images/characters/Noelle_head.png" title="Noelle"></a>
-            <a class="a_icon" href="../html/qiqi.html"><img src="../images/characters/Qiqi_head.png" title="Qiqi"></a>
-            <a class="a_icon" href="../html/raiden.html"><img src="../images/characters/Raiden_head.png"
-                                                              title="Raiden Shogun"></a>
-            <a class="a_icon" href="../html/razor.html"><img src="../images/characters/Razor_head.png"
-                                                             title="Razor"></a>
-            <a class="a_icon" href="../html/rosaria.html"><img src="../images/characters/Rosaria_head.png"
-                                                               title="Rosaria"></a>
-            <a class="a_icon" href="../html/kokomi.html"><img src="../images/characters/Kokomi_head.png"
-                                                              title="Sangonomiya Kokomi"></a>
-            <a class="a_icon" href="../html/sayu.html"><img src="../images/characters/Sayu_head.png" title="Sayu"></a>
-            <a class="a_icon" href="../html/sucrose.html"><img src="../images/characters/Sucrose_head.png"
-                                                               title="Sucrose"></a>
-            <a class="a_icon" href="../html/tartaglia.html"><img src="../images/characters/Tartaglia_head.png"
-                                                                 title="Tartaglia"></a>
-            <a class="a_icon" href="../html/thoma.html"><img src="../images/characters/Thoma_head.png"
-                                                             title="Thoma"></a>
-            <a class="a_icon" href="../html/traveler.html"><img src="../images/characters/Traveler%20(Electro)_head.png"
-                                                                title="Traveler"></a>
-            <!--                add element variation for traveler when click ("which element ? -electro/geo/anemo = new html)-->
-            <a class="a_icon" href="../html/venti.html"><img src="../images/characters/Venti_head.png"
-                                                             title="Venti"></a>
-            <a class="a_icon" href="../html/xiangling.html"><img src="../images/characters/Xiangling_head.png"
-                                                                 title="Xiangling"></a>
-            <a class="a_icon" href="../html/xiao.html"><img src="../images/characters/Xiao_head.png" title="Xiao"></a>
-            <a class="a_icon" href="../html/xingqiu.html"><img src="../images/characters/Xingqiu_head.png"
-                                                               title="Xingqiu"></a>
-            <a class="a_icon" href="../html/xinyan.html"><img src="../images/characters/Xinyan_head.png" title="Xinyan"></a>
-            <a class="a_icon" href="../html/yanfei.html"><img src="../images/characters/Yanfei_head.png" title="Yanfei"></a>
-            <a class="a_icon" href="../html/yoimiya.html"><img src="../images/characters/Yoimiya_head.png"
-                                                               title="Yoimiya"></a>
-            <a class="a_icon" href="../html/zhongli.html"><img src="../images/characters/Zhongli_head.png"
-                                                               title="Zhongli"></a>
+        <li class="iconNavbar"><a class="iconNavbar" href="../html/news.html"><img alt="News icon"
+                                                                                   class="navIconHeader"
+                                                                                   src="../images/icons/Icon_Inventory_Quest.png"
+                                                                                   title="News"></a></li>
+        <div class="dropdown">
+
+            <li class="iconNavbar charIcon" onclick="showCharacters()"><a class="iconNavbar"><img
+                    alt="Characters icon" class="navIconHeader"
+                    src="../images/icons/Icon_Inventory_Character_Development_Items.png" title="Characters"></a></li>
+            <div class="characters">
+                <a class="aIcon" href="../html/albedo.html"><img alt="Albedo"
+                                                                 src="../images/characters/Albedo_head.png"
+                                                                 title="Albedo"></a>
+                <a class="aIcon" href="../html/aloy.html"><img alt="Aloy" src="../images/characters/Aloy_head.png"
+                                                               title="Aloy"></a>
+                <a class="aIcon" href="../html/amber.html"><img alt="Amber" src="../images/characters/Amber_head.png"
+                                                                title="Amber"></a>
+                <a class="aIcon" href="../html/barbara.html"><img alt="Barbara"
+                                                                  src="../images/characters/Barbara_head.png"
+                                                                  title="Barbara"></a>
+                <a class="aIcon" href="../html/beidou.html"><img alt="Beidou"
+                                                                 src="../images/characters/Beidou_head.png"
+                                                                 title="Beidou"></a>
+                <a class="aIcon" href="../html/bennett.html"><img alt="Bennett"
+                                                                  src="../images/characters/Bennett_head.png"
+                                                                  title="Bennett"></a>
+                <a class="aIcon" href="../html/chongyun.html"><img alt="Chongyun"
+                                                                   src="../images/characters/Chongyun_head.png"
+                                                                   title="Chongyun"></a>
+                <a class="aIcon" href="../html/diluc.html"><img alt="Diluc" src="../images/characters/Diluc_head.png"
+                                                                title="Diluc"></a>
+                <a class="aIcon" href="../html/diona.html"><img alt="Diona" src="../images/characters/Diona_head.png"
+                                                                title="Diona"></a>
+                <a class="aIcon" href="../html/eula.html"><img alt="Eula" src="../images/characters/Eula_head.png"
+                                                               title="Eula"></a>
+                <a class="aIcon" href="../html/fischl.html"><img alt="Fischl"
+                                                                 src="../images/characters/Fischl_head.png"
+                                                                 title="Fischl"></a>
+                <a class="aIcon" href="../html/ganyu.html"><img alt="Ganyu" src="../images/characters/Ganyu_head.png"
+                                                                title="Ganyu"></a>
+                <a class="aIcon" href="../html/gorou.html"><img alt="Gorou" src="../images/characters/Gorou_head.png"
+                                                                title="Gorou"></a>
+                <a class="aIcon" href="../html/hutao.html"><img alt="Hu Tao"
+                                                                src="../images/characters/Hu%20Tao_head.png"
+                                                                title="Hu Tao"></a>
+                <a class="aIcon" href="../html/itto.html"><img alt="Itto" src="../images/characters/Itto_head.png"
+                                                               title="Itto"></a>
+                <a class="aIcon" href="../html/jean.html"><img alt="Jean" src="../images/characters/Jean_head.png"
+                                                               title="Jean"></a>
+                <a class="aIcon" href="../html/kazuha.html"><img alt="Kaedehara Kazuha"
+                                                                 src="../images/characters/Kazuha_head.png"
+                                                                 title="Kaedehara Kazuha"></a>
+                <a class="aIcon" href="../html/kaeya.html"><img alt="Kaeya" src="../images/characters/Kaeya_head.png"
+                                                                title="Kaeya"></a>
+                <a class="aIcon" href="../html/ayaka.html"><img alt="Kamisato Ayaka"
+                                                                src="../images/characters/Ayaka_head.png"
+                                                                title="Kamisato Ayaka"></a>
+                <a class="aIcon" href="../html/keqing.html"><img alt="Keqing"
+                                                                 src="../images/characters/Keqing_head.png"
+                                                                 title="Keqing"></a>
+                <a class="aIcon" href="../html/klee.html"><img alt="Klee" src="../images/characters/Klee_head.png"
+                                                               title="Klee"></a>
+                <a class="aIcon" href="../html/sara.html"><img alt="Kujou Sara"
+                                                               src="../images/characters/Sara_head.png"
+                                                               title="Kujou Sara"></a>
+                <a class="aIcon" href="../html/lisa.html"><img alt="Lisa" src="../images/characters/Lisa_head.png"
+                                                               title="Lisa"></a>
+                <a class="aIcon" href="../html/mona.html"><img alt="Mona" src="../images/characters/Mona_head.png"
+                                                               title="Mona"></a>
+                <a class="aIcon" href="../html/ningguang.html"><img alt="Ningguang"
+                                                                    src="../images/characters/Ningguang_head.png"
+                                                                    title="Ningguang"></a>
+                <a class="aIcon" href="../html/noelle.html"><img alt="Noelle"
+                                                                 src="../images/characters/Noelle_head.png"
+                                                                 title="Noelle"></a>
+                <a class="aIcon" href="../html/qiqi.html"><img alt="Qiqi" src="../images/characters/Qiqi_head.png"
+                                                               title="Qiqi"></a>
+                <a class="aIcon" href="../html/raiden.html"><img alt="Raiden Shogun"
+                                                                 src="../images/characters/Raiden_head.png"
+                                                                 title="Raiden Shogun"></a>
+                <a class="aIcon" href="../html/razor.html"><img alt="Razor" src="../images/characters/Razor_head.png"
+                                                                title="Razor"></a>
+                <a class="aIcon" href="../html/rosaria.html"><img alt="Rosaria"
+                                                                  src="../images/characters/Rosaria_head.png"
+                                                                  title="Rosaria"></a>
+                <a class="aIcon" href="../html/kokomi.html"><img alt="Sangonomiya kokomi"
+                                                                 src="../images/characters/Kokomi_head.png"
+                                                                 title="Sangonomiya Kokomi"></a>
+                <a class="aIcon" href="../html/sayu.html"><img alt="Sayu" src="../images/characters/Sayu_head.png"
+                                                               title="Sayu"></a>
+                <a class="aIcon" href="../html/shenhe.html"><img alt="Shenhe"
+                                                                 src="../images/characters/Shenhe_head.png"
+                                                                 title="Shenhe"></a>
+                <a class="aIcon" href="../html/sucrose.html"><img alt="Sucrose"
+                                                                  src="../images/characters/Sucrose_head.png"
+                                                                  title="Sucrose"></a>
+                <a class="aIcon" href="../html/tartaglia.html"><img alt="Tartaglia"
+                                                                    src="../images/characters/Tartaglia_head.png"
+                                                                    title="Tartaglia"></a>
+                <a class="aIcon" href="../html/thoma.html"><img alt="Thoma" src="../images/characters/Thoma_head.png"
+                                                                title="Thoma"></a>
+                <a class="aIcon" href="../html/traveler.html"><img alt="Traveler"
+                                                                   src="../images/img-genshin/characters/traveler_geo.png"
+                                                                   title="Traveler"></a>
+                <!--                add element variation for traveler when click ("which element ? -electro/geo/anemo = new html)-->
+                <a class="aIcon" href="../html/venti.html"><img alt="Venti" src="../images/characters/Venti_head.png"
+                                                                title="Venti"></a>
+                <a class="aIcon" href="../html/xiangling.html"><img alt="Xiangling"
+                                                                    src="../images/characters/Xiangling_head.png"
+                                                                    title="Xiangling"></a>
+                <a class="aIcon" href="../html/xiao.html"><img alt="Xiao" src="../images/characters/Xiao_head.png"
+                                                               title="Xiao"></a>
+                <a class="aIcon" href="../html/xingqiu.html"><img alt="Xingqiu"
+                                                                  src="../images/characters/Xingqiu_head.png"
+                                                                  title="Xingqiu"></a>
+                <a class="aIcon" href="../html/xinyan.html"><img alt="Xinyan"
+                                                                 src="../images/characters/Xinyan_head.png"
+                                                                 title="Xinyan"></a>
+                <a class="aIcon" href="../html/yanfei.html"><img alt="Yanfei"
+                                                                 src="../images/characters/Yanfei_head.png"
+                                                                 title="Yanfei"></a>
+                <a class="aIcon" href="../html/yoimiya.html"><img alt="Yoimiya"
+                                                                  src="../images/characters/Yoimiya_head.png"
+                                                                  title="Yoimiya"></a>
+                <a class="aIcon" href="../html/yunjin.html"><img alt="Yun Jin"
+                                                                 src="../images/characters/Yun_jin_head.png"
+                                                                 title="Yun Jin"></a>
+                <a class="aIcon" href="../html/zhongli.html"><img alt="Zhongli"
+                                                                  src="../images/characters/Zhongli_head.png"
+                                                                  title="Zhongli"></a>
+            </div>
         </div>
-        <li class="icon_navbar"><a class="icon_navbar" href=""><img src="../images/icons/Icon_Inventory_Quest.png"
-                                                                    title="Constellations"></a></li>
+        <li class="iconNavbar"><a
+                class="iconNavbar"
+                href="https://webstatic-sea.mihoyo.com/app/ys-map-sea/index.html?utm_source=hoyolab&lang=en-us#/map/2"
+                target="_blank"><img alt="Genshin map"
+                                     class="navIconHeader"
+                                     src="../images/icons/Icon_Inventory_Precious_Items.png" title="Map"></a></li>
     </ul>
 </nav>
 
-<div class="background">
-</div>
-
-<div class="character">
-    <img src="../images/characters/big_eula.png">
-</div>
-
-<div id="content">
-    <div id="text">
-        <div class="lore">a<br>
-            b
+<div id="fullpage">
+    <div class="section" id="section1">
+        <div class="background">
         </div>
-        <div class="weapons"></div>
-        <div class="artefacts"></div>
-        <div class="materials"></div>
-        <div class="talents"></div>
-        <div class="constellations"></div>
+
+        <div class="character">
+            <img alt="Eula" src="../images/characters/big_eula.png">
+        </div>
+
+        <div id="content">
+            <div id="text">
+                <div class="lore">A rebellious descendant of the old aristocracy who is always out on the battlefield.
+                    As one born into the old aristocracy, carrying the bloodline of sinners, Eula has needed a unique
+                    approach to the world to navigate the towering walls of prejudice peacefully. Of course, this did
+                    not prevent her from severing ties with her clan. As the outstanding Spindrift Knight, she hunts
+                    down Mondstadt's enemies in the wild to exact her unique "vengeance."
+                </div>
+
+                <div class="weaponsContent">
+                    <div>
+                        <img alt="Song of Broken Pines" class="weapon rare5"
+                             src="../images/img-genshin/weapons/song_of_broken_pines.png">
+                        <div>
+                            <span class="weaponsName">Song of Broken Pines</span>
+                            <span class="weaponsText">Increases ATK by <strong>16/20/24/28/32%</strong>, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. "Millennial Movement: Banner-Hymn" increases Normal ATK SPD by <strong>12/15/18/21/24%</strong> and increases ATK by <strong>20/25/30/35/40%</strong>.
+Once this effect is triggered, you will not gain Sigils of Whispers for 20s.</span>
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="Serpent Spine" class="weapon rare4"
+                             src="../images/img-genshin/weapons/serpent_spine.png">
+                        <div>
+                            <span class="weaponsName">Serpent Spine</span>
+                            <span class="weaponsText">Every 4s a character is on the field, they will deal <strong>6/7/8/9/10%</strong> more DMG and take <strong>3/2.7/2.4/2.1/1.8%</strong> more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be cleared when the character takes DMG.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="artifacts">
+                    <div class="page">
+                        <img alt="Checked button" id="b1" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b2" src="../images/icons/page.png">
+                    </div>
+                    <div class="artifactsSet1">
+                        <div>
+                            <img alt="Pale Flame"
+                                 class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/pale_flame_flower.png">
+                            <div>
+                                <span class="artifactsName">Pale Flame (x4)</span>
+                                <span class="artifactsText">- Physical DMG <strong>+25%</strong>
+                                    <br>- When an Elemental Skill hits an opponent, ATK is increased by <strong>9%</strong> for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by <strong>100%</strong>.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="artifactsSet2">
+                        <div>
+                            <img alt="Bloodstained Chivalry" class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/bloodstained_chivalry_flower.png">
+                            <div>
+                                <span class="artifactsName">Bloodstained Chivalry (x2)</span>
+                                <span class="artifactsText">- Physical DMG <strong>+25%</strong></span>
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="Pale Flame" class="artifact rare5"
+                                 src="../images/img-genshin/artifacts/pale_flame_flower.png">
+                            <div>
+                                <span class="artifactsName">Pale Flame (x2)</span>
+                                <span class="artifactsText">- Physical DMG <strong>+25%</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="materials">
+                    <div class="page">
+                        <img alt="checked button" id="b3" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b4" src="../images/icons/page.png">
+                    </div>
+                    <span class="matName">Ascension</span>
+                    <div class="ascensionMats">
+                        <div>
+                            <img alt="Shivada Jade Sliver" class="material rare2"
+                                 src="../images/img-genshin/items/shivada_jade_sliver.png">
+                            <span class="materialsName">Shivada Jade Sliver (x1)</span>
+                        </div>
+                        <div>
+                            <img alt="Shivada Jade Fragment"
+                                 class="material rare3" src="../images/img-genshin/items/shivada_jade_fragment.png">
+                            <span class="materialsName">Shivada Jade Fragment (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Shivada Jade Chunk" class="material rare4"
+                                 src="../images/img-genshin/items/shivada_jade_chunk.png">
+                            <span class="materialsName">Shivada Jade Chunk (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Shivada Jade Gemstone"
+                                 class="material rare5" src="../images/img-genshin/items/shivada_jade_gemstone.png">
+                            <span class="materialsName">Shivada Jade Gemstone (x6)</span>
+                        </div>
+                        <div>
+                            <img alt="Crystalline Bloom" class="material rare4"
+                                 src="../images/img-genshin/items/crystalline_bloom.png">
+                            <span class="materialsName">Crystalline Bloom (x46)</span>
+                        </div>
+                        <div>
+                            <img alt="Dandelion Seed" class="material rare1"
+                                 src="../images/img-genshin/items/dandelion_seed.png">
+                            <span class="materialsName">Dandelion Seed (x168)</span>
+                        </div>
+                        <div>
+                            <img alt="Damaged Mask" class="material rare1"
+                                 src="../images/img-genshin/items/damaged_mask.png">
+                            <span class="materialsName">Damaged Mask (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Stained Mask" class="material rare2"
+                                 src="../images/img-genshin/items/stained_mask.png">
+                            <span class="materialsName">Stained Mask (x30)</span>
+                        </div>
+                        <div>
+                            <img alt="Ominous Mask"
+                                 class="material rare3" src="../images/img-genshin/items/ominous_mask.png">
+                            <span class="materialsName">Ominous Mask (x36)</span>
+                        </div>
+                    </div>
+                    <div class="talentsMats">
+                        <div>
+                            <img alt="Teachings of Resistance" class="material rare2"
+                                 src="../images/img-genshin/items/teachings_of_resistance.png">
+                            <span class="materialsName">Teachings of Resistance (x9)</span>
+                        </div>
+                        <div>
+                            <img alt="Guide to Resistance" class="material rare3"
+                                 src="../images/img-genshin/items/guide_to_resistance.png">
+                            <span class="materialsName">Guide to Resistance (x63)</span>
+                        </div>
+                        <div>
+                            <img alt="Philosophies of Resistance"
+                                 class="material rare4"
+                                 src="../images/img-genshin/items/philosophies_of_resistance.png">
+                            <span class="materialsName">Philosophies of Resistance (x114)</span>
+                        </div>
+                        <div>
+                            <img alt="Damaged Mask" class="material rare1"
+                                 src="../images/img-genshin/items/damaged_mask.png">
+                            <span class="materialsName">Damaged Mask (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Stained Mask" class="material rare2"
+                                 src="../images/img-genshin/items/stained_mask.png">
+                            <span class="materialsName">Stained Mask (x66)</span>
+                        </div>
+                        <div>
+                            <img alt="Ominous Mask"
+                                 class="material rare3" src="../images/img-genshin/items/ominous_mask.png">
+                            <span class="materialsName">Ominous Mask (x93)</span>
+                        </div>
+                        <div>
+                            <img alt="Dragon Lord’s Crown" class="material rare5"
+                                 src="../images/img-genshin/items/dragon_lords_crown.png">
+                            <span class="materialsName">Dragon Lord’s Crown (x18)</span>
+                        </div>
+                        <div>
+                            <img alt="Crown of insight" class="material rare5"
+                                 src="../images/img-genshin/items/crown_of_insight.png">
+                            <span class="materialsName">Crown of Insight (x3)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="talents">
+                    <div class="page">
+                        <img alt="Checked button" id="b5" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b6" src="../images/icons/page.png">
+                        <img alt="button" id="b7" src="../images/icons/page.png">
+                        <img alt="button" id="b8" src="../images/icons/page.png">
+                    </div>
+                    <div class="talent1">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/eula/talent_1.png">
+                            <span class="talentsName">Favonius Bladework - Edel</span>
+                            <span>Normal Attack</span>
+                            <div>
+                                <span class="talentsType">Normal Attack</span>
+                                <span class="talentsContent">Perform up to five consecutive strikes.</span>
+                                <span class="talentsType">Charged Attack</span>
+                                <span class="talentsContent">Drains Stamina over time to perform continuous slashes. At the end of the sequence, perform a more powerful slash.</span>
+                                <span class="talentsType">Plunging Attack</span>
+                                <span class="talentsContent">Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.</span>
+                            </div>
+                        </div>
+                        <div class="talentGif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/eula/Talent_Favonius_Bladework_-_Edel_Normal.gif">
+                        </div>
+                    </div>
+                    <div class="talent2">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/eula/talent_2.png">
+                            <span class="talentsName">Icetide Vortex</span>
+                            <span>Elemental Skill</span>
+                            <div>
+                                <span class="talentsType">Press</span>
+                                <span class="talentsContent">Slashes swiftly, dealing Cryo DMG. When it hits an opponent, Eula gains a stack of Grimheart that stacks up to two times. These stats can only be gained once every 0.3s.</span>
+                                <span class="talentsType">Grimheart</span>
+                                <span class="talentsContent">Increases Eula's resistance to interruption and DEF.</span>
+                                <span class="talentsType">Hold</span>
+                                <span class="talentsContent">Wielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing AoE Cryo DMG to opponents in front of her.
+If Grimheart stacks are consumed, surrounding opponents will have their Physical RES and Cryo RES decreased.
+Each consumed stack of Grimheart will be converted into an Icewhirl Brand that deals Cryo DMG to nearby opponents. </span>
+
+                            </div>
+                        </div>
+                        <div class="talentGif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/eula/Talent_Icetide_Vortex_Press.gif">
+                        </div>
+                    </div>
+                    <div class="talent3">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/eula/talent_3.png">
+                            <span class="talentsName">Glacial Illumination</span>
+                            <span>Elemental Burst</span>
+                            <div>
+                                <span class="talentsContent">Brandishes her greatsword, dealing Cryo DMG to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.
+
+While present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.
+Once its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.
+This DMG scales on the number of energy stacks the Lightfall Sword has accumulated. If Eula leaves the field, the Lightfall Sword will immediately explode.</span>
+                            </div>
+                        </div>
+                        <div class="talentGif">
+                            <img alt="talent gif"
+                                 src="../images/talents-gif/eula/Talent_Glacial_Illumination.gif">
+                        </div>
+                    </div>
+                    <div class="talentPass">
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/eula/talent_4.png">
+                            <span class="talentsName">Roiling Rime</span>
+                            <span>Unlocked at Ascension 1</span>
+                            <div>
+                                <span class="talentsContent">If 2 stacks of Grimheart are consumed upon unleashing the Holding Mode of Icetide Vortex, a Shattered Lightfall Sword will be created that will explode immediately, dealing 50% of the basic Physical DMG dealt by a Lightfall Sword created by Glacial Illumination.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/eula/talent_5.png">
+                            <span class="talentsName">Wellspring of War-Lust</span>
+                            <span>Unlocked at Ascension 4</span>
+                            <div>
+                                <span class="talentsContent">When Glacial Illumination is cast, the CD of Icetide Vortex is reset and Eula gains 1 stack of Grimheart.</span>
+                            </div>
+                        </div>
+                        <div>
+                            <img alt="talent" class="talentImg" src="../images/img-genshin/skills/eula/talent_6.png">
+                            <span class="talentsName">Aristocratic Introspection</span>
+                            <span>Unlocked Automatically</span>
+                            <div>
+                                <span class="talentsContent">When Eula crafts Character Talent Materials, she has a 10% chance to receive double the product.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="constellations cryo">
+                    <div class="page">
+                        <img alt="checked button" id="b9" src="../images/icons/page_checked.png">
+                        <img alt="button" id="b10" src="../images/icons/page.png">
+                        <img alt="button" id="b11" src="../images/icons/page.png">
+                        <img alt="button" id="b12" src="../images/icons/page.png">
+                        <img alt="button" id="b13" src="../images/icons/page.png">
+                        <img alt="button" id="b14" src="../images/icons/page.png">
+                    </div>
+                    <div class="constellation1">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/eula/constellation_1.png">
+                            <span class="constellationsName">Tidal Illusion</span>
+                            <span>Constellation 1</span>
+                            <div>
+                                <span class="constellationsDescription">Every time Icetide Vortex's Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.
+Each stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation2">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/eula/constellation_2.png">
+                            <span class="constellationsName">Lady of Seafoam</span>
+                            <span>Constellation 2</span>
+                            <div>
+                                    <span class="constellationsDescription">
+Decreases the CD of Icetide Vortex's Holding Mode, rendering it identical to Tapping CD.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation3">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/eula/constellation_3.png">
+                            <span class="constellationsName">Lawrence Pedigree</span>
+                            <span>Constellation 3</span>
+                            <div>
+                                    <span class="constellationsDescription">Increases the Level of Glacial Illumination by 3.
+Maximum upgrade level is 15.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation4">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/eula/constellation_4.png">
+                            <span class="constellationsName">The Obstinacy of One's Inferiors</span>
+                            <span>Constellation 4</span>
+                            <div>
+                                    <span class="constellationsDescription">
+Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation5">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/eula/constellation_5.png">
+                            <span class="constellationsName">Chivalric Quality</span>
+                            <span>Constellation 5</span>
+                            <div>
+                                    <span class="constellationsDescription">Increases the Level of Icetide Vortex by 3.
+Maximum upgrade level is 15.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="constellation6">
+                        <div>
+                            <img alt="constellation" class="constellationImg"
+                                 src="../images/img-genshin/skills/eula/constellation_6.png">
+                            <span class="constellationsName">Noble Obligation</span>
+                            <span>Constellation 6</span>
+                            <div>
+                                <span class="constellationsDescription">Lightfall Swords created by Glacial Illumination start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightning Sword an additional stack of energy.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <script src="../script/charaNavBar.js"></script>
+        </div>
+
+        <div class="name">
+            <div class="element">
+                <img src="../images/img-genshin/elements/cryo.png">
+                <span>Eula</span>
+            </div>
+        </div>
     </div>
-    <script src="../script/charaNavBar.js"></script>
+
+    <div class="section" id="section2">
+        <div class="video">
+            <div>
+                <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="thumbnails"
+                        frameborder="0" height="315"
+                        src="https://www.youtube.com/embed/Go7SeJ-yOL4"
+                        title="YouTube video player" width="560"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="section fp-auto-height" id="section3">
+        <footer>
+            <div class="top">
+
+                <a href="https://discord.gg/sDv2BfsA7W" target="_blank"><img alt="Community server"
+                                                                             src="../images/icons/discord.png"
+                                                                             title="Community server"></a>
+                <a href="https://www.youtube.com/channel/UCiS882YPwZt1NfaM0gR0D9Q" target="_blank"><img
+                        alt="Youtube channel" src="../images/icons/youtube.png" title="Youtube channel"></a>
+                <a href="https://www.hoyolab.com/home" target="_blank"><img alt="Hoyolab"
+                                                                            src="../images/icons/hoyolab.png"
+                                                                            title="Hoyolab"></a>
+                <div class="underlineFooter">
+                </div>
+            </div>
+            <div class="bot">
+                <div class="logos">
+                    <a href="../index.html" target="_blank"><img alt="BuildMePaimon"
+                                                                 src="../images/icons/Character_Paimon_Portrait.png"
+                                                                 title="BuildMePaimon"></a>
+                    <a href="https://genshin.mihoyo.com/en/home" target="_blank"><img
+                            alt="Genshin Website" src="../images/img-genshin/genshin_logo.png" title="Genshin Website"></a>
+                </div>
+                <div class="links">
+                    <div>
+                        <a class="githubLinks" href="https://github.com/antaww" target="_blank">GitHub antaww</a>
+                        <a class="githubLinks" href="https://github.com/xhmyjae" target="_blank">GitHub xhmyjae</a>
+                        <a class="githubLinks" href="mailto: antoine.pizzetta@ynov.com">Contact Us</a>
+                    </div>
+                    <p><b>Build Me Paimon</b> is a site created by fans to help players build their Genshin's
+                        characters.
+                        It is not affiliated with miHoYo.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
 </div>
 
-<div class="name"><span>Eula</span></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.extensions.min.js"
+        type="text/javascript"></script>
+
+<script defer>
+    var myFullpage = new fullpage('#fullpage', {
+        autoScrolling: true,
+        keyboardScrolling: true,
+
+    })
+</script>
+
 
 </body>
 </html>

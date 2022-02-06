@@ -8,7 +8,7 @@ body {
 
 /* ARTICLES */
 
-.all_articles {
+.allArticles {
     width: 70vw;
     position: relative;
     left: 10vw;
@@ -16,13 +16,13 @@ body {
     background-color: #f0f0f0;
 }
 
-.single_articles {
+.singleArticles {
     height: 7vw;
     margin: 1vw 0;
     padding: 1% 1.5%;
 }
 
-.single_articles a {
+.singleArticles a {
     position: relative;
     height: 100%;
     border-radius: 0.5vw;
@@ -30,53 +30,52 @@ body {
     display: flex;
     border: solid 3px rgba(57, 59, 64, 0);
     transition: border-color 0.2s linear;
-
     background-color: white;
     cursor: pointer;
     text-decoration: none;
 }
 
-.single_articles a:hover {
+.singleArticles a:hover {
     border-color: rgba(57, 59, 64, 0.15);
 }
 
 /* ALL THE ARTICLES IMAGES */
-.articles_img1, .articles_img2, .articles_img3, .articles_img4, .articles_img5, .articles_img6 {
+.articlesImg1, .articlesImg2, .articlesImg3, .articlesImg4, .articlesImg5, .articlesImg6 {
     width: 24%;
     height: 100%;
 }
 
-.articles_img1 {
+.articlesImg1 {
     background-image: url("../images/news/first.png");
     background-size: cover;
 }
 
-.articles_img2 {
+.articlesImg2 {
     background-image: url("../images/news/second.jpg");
     background-size: cover;
 }
 
-.articles_img3 {
+.articlesImg3 {
     background-image: url("../images/news/third.jpg");
     background-size: cover;
 }
 
-.articles_img4 {
+.articlesImg4 {
     background-image: url("../images/news/forth.jpg");
     background-size: cover;
 }
 
-.articles_img5 {
+.articlesImg5 {
     background-image: url("../images/news/fifth.jpg");
     background-size: cover;
 }
 
-.articles_img6 {
+.articlesImg6 {
     background-image: url("../images/news/sixth.jpg");
     background-size: cover;
 }
 
-.articles_content {
+.articlesContent {
     width: 70%;
     height: 100%;
     display: flex;
@@ -87,13 +86,13 @@ body {
     margin-left: 2%;
 }
 
-.articles_content h2 {
+.articlesContent h2 {
     margin: 0 0 1.5% 0;
     color: #393b40;
     font-size: 1.5vw;
 }
 
-.articles_content p {
+.articlesContent p {
     margin: 0;
     color: #7d7d7d;
     font-size: 80%;
@@ -101,7 +100,7 @@ body {
 
 /* SINGLE ARTICLE PAGES */
 
-.background_articles {
+.backgroundArticles {
     background-color: #f0f0f0;
     position: relative;
     width: 70%;
@@ -126,12 +125,12 @@ body {
     width: 100%;
 }
 
-.header_articles {
+.headerArticles {
     color: #333;
     font-size: 3vw;
 }
 
-.date_articles {
+.dateArticles {
     color: #999;
     margin-top: 2%;
 }

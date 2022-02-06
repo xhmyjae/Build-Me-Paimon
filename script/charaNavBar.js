@@ -1,13 +1,13 @@
 function charaNavBar() {
     let nav = document.createElement("ul");
-    nav.setAttribute("class", "header_navchara");
+    nav.setAttribute("class", "headerNavchara");
 
     const charaIcons = ["Lore", "Weapons", "Artifacts", "Materials", "Talents", "Constellations"];
     const linksIcons = ["Icon_Inventory_Quest.png", "Icon_Inventory_Weapons.png", "Icon_Inventory_Artifacts.png", "Icon_Inventory_Materials.png", "Icon_Inventory_Gadget.png", "Icon_Inventory_Precious_Items.png"];
 
     for (let i = 0; i < charaIcons.length; i++) {
         let icons = document.createElement("li");
-        icons.setAttribute("class", "icon_navchara");
+        icons.setAttribute("class", "iconNavchara");
         icons.setAttribute("id", charaIcons[i]);
 
         let img = document.createElement("img");
@@ -41,7 +41,7 @@ function switchContent() {
     let constellationsCont = document.getElementsByClassName("constellations")[0];
 
     let b1 = document.getElementById("b1");
-    let b1Cont = document.getElementsByClassName("artifacts_set1")[0];
+    let b1Cont = document.getElementsByClassName("artifactsSet1")[0];
 
     let b3 = document.getElementById("b3");
     let b3Cont = document.getElementsByClassName("ascensionMats")[0];
