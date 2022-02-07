@@ -296,3 +296,5 @@ a.iconNavbar:hover:after {
     height: 100%;
     filter: drop-shadow(0 0 1rem black) opacity(80%) grayscale(0.5);
 }
+
+/*commits fix: previous commits deleted --> refactor css variables*/
