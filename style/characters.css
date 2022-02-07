@@ -76,3 +76,7 @@ body {
     width: 60vw;
     height: 33vw;
 }
+
+#textUnavailable {
+    font-size: x-large;
+}
